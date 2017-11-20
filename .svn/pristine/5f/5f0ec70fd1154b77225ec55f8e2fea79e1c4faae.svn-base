@@ -1,0 +1,536 @@
+﻿Imports SIGLOGICA
+Imports DevExpress.XtraReports.UserDesigner
+Imports DevExpress.XtraGrid.Views.Base
+Imports DevExpress.XtraGrid.Columns
+Imports DevExpress.XtraGrid.Views.Grid
+
+Public Class frmregmuestreo
+
+    Public datcom As New DataTable
+    Public tbl As New DataTable()
+
+    Sub creardtbl()
+
+        tbl.Columns.Add("COMPANIA", GetType(String))
+        tbl.Columns.Add("UNIDAD", GetType(String))
+        tbl.Columns.Add("PROGRAMA", GetType(String))
+        tbl.Columns.Add("REPORTE", GetType(String))
+        tbl.Columns.Add("MUESTRA", GetType(String))
+        tbl.Columns.Add("UBICACION", GetType(String))
+        tbl.Columns.Add("LONGITUD", GetType(String))
+        tbl.Columns.Add("SISTEMA_MUESTREO", GetType(String))
+        tbl.Columns.Add("RESPONSABLE", GetType(String))
+        tbl.Columns.Add("OBSERVACION", GetType(String))
+        tbl.Columns.Add("TIPO_MUESTREO", GetType(String))
+        tbl.Columns.Add("AZIMUT", GetType(String))
+        tbl.Columns.Add("INCLINACION", GetType(String))
+        tbl.Columns.Add("QAQC", GetType(String))
+        tbl.Columns.Add("LITOLOGIA", GetType(String))
+        tbl.Columns.Add("MINERALIZACION", GetType(String))
+        tbl.Columns.Add("ORDEN_LABORATORIO", GetType(String))
+        tbl.Columns.Add("FECHA_ENTREGA", GetType(String))
+        tbl.Columns.Add("RESPONSABLE_ENTREGA", GetType(String))
+        tbl.Columns.Add("AYUDANTE", GetType(String))
+        tbl.Columns.Add("PROYECTO", GetType(String))
+        tbl.Columns.Add("MUESTRA_QAQC", GetType(String))
+        tbl.Columns.Add("PILA", GetType(String))
+        tbl.Columns.Add("SONDAJE", GetType(String))
+        tbl.Columns.Add("METRAJE_FROM", GetType(String))
+        tbl.Columns.Add("METRAJE_TO", GetType(String))
+        tbl.Columns.Add("TIPO_CANAL", GetType(String))
+        tbl.Columns.Add("MUESTREO_EN", GetType(String))
+        tbl.Columns.Add("MANTO", GetType(String))
+        tbl.Columns.Add("CALICATA", GetType(String))
+        tbl.Columns.Add("CC_ANCHO", GetType(String))
+        tbl.Columns.Add("CC_LARGO", GetType(String))
+        tbl.Columns.Add("LOGUEO", GetType(String))
+        tbl.Columns.Add("ZMUESTRA", GetType(String))
+        tbl.Columns.Add("REFERENCIAM", GetType(String))
+        tbl.Columns.Add("PRIORIDAD", GetType(String))
+
+    End Sub
+
+    'Sub agregadtbl(ByVal conif As String, ByVal circbt As String, ByVal nivten As String, ByVal coin13 As String, ByVal nrocaf As String, ByVal codest As String, ByVal matest As String, ByVal tipest As String, ByVal matcon As String, ByVal tipcond As String, ByVal seccon As String, ByVal lonvan As String, ByVal tipais As String, ByVal canais As String, ByVal cadiac As String, ByVal pastrl As String, ByVal luminr As String, ByVal tpotenc As String, ByVal vpotenc As String, ByVal reteni As String, ByVal putrra As String, ByVal estado As String, ByVal situacion As String, ByVal codnifp As String)
+    Sub agregadtbl(COMPANIA As String, UNIDAD As String, PROGRAMA As String, REPORTE As String, MUESTRA As String, UBICACION As String, LONGITUD As String, SISTEMA_MUESTREO As String, RESPONSABLE As String, OBSERVACION As String, TIPO_MUESTREO As String, AZIMUT As String, INCLINACION As String, QAQC As String, LITOLOGIA As String, MINERALIZACION As String, ORDEN_LABORATORIO As String, FECHA_ENTREGA As String, RESPONSABLE_ENTREGA As String, AYUDANTE As String, PROYECTO As String, MUESTRA_QAQC As String, PILA As String, SONDAJE As String, METRAJE_FROM As String, METRAJE_TO As String, TIPO_CANAL As String, MUESTREO_EN As String, MANTO As String, CALICATA As String, CC_ANCHO As String, CC_LARGO As String, LOGUEO As String, ZMUESTRA As String, REFERENCIAM As String, PRIORIDAD As String)
+
+        'tbl.Rows.Add(conif, circbt, nivten, coin13, nrocaf, codest, matest, tipest, matcon, tipcond, seccon, lonvan, tipais, canais, cadiac, pastrl, luminr, tpotenc, vpotenc, reteni, putrra, estado, situacion, codnifp)
+        tbl.Rows.Add(COMPANIA, UNIDAD, PROGRAMA, REPORTE, MUESTRA, UBICACION, LONGITUD, SISTEMA_MUESTREO, RESPONSABLE, OBSERVACION, TIPO_MUESTREO, AZIMUT, INCLINACION, QAQC, LITOLOGIA, MINERALIZACION, ORDEN_LABORATORIO, FECHA_ENTREGA, RESPONSABLE_ENTREGA, AYUDANTE, PROYECTO, MUESTRA_QAQC, PILA, SONDAJE, METRAJE_FROM, METRAJE_TO, TIPO_CANAL, MUESTREO_EN, MANTO, CALICATA, CC_ANCHO, CC_LARGO, LOGUEO, ZMUESTRA, REFERENCIAM, PRIORIDAD)
+        grddetalle.DataSource = tbl
+
+    End Sub
+
+    Private Sub frmregmuestreo_Load(sender As Object, e As System.EventArgs) Handles Me.Load
+
+        deshabilitado()
+
+        creardtbl()
+
+        'Dim tranz As New clsmuestreol
+
+        'creardtbl()
+
+        'datcom = tranz.consultamuestral(TextBox2.Text)
+
+        'If datcom.Rows.Count > 0 Then
+
+        '    'txtnif.Text = datcom.Rows(0).Item("codnif")
+        '    'txtsed.Text = datcom.Rows(0).Item("nrosed")
+        '    'txtcirali.Text = datcom.Rows(0).Item("ciralim")
+        '    'txtcentra.Text = datcom.Rows(0).Item("centra")
+        '    'txtdispro.Text = datcom.Rows(0).Item("dispro")
+        '    'txtres.Text = datcom.Rows(0).Item("usuario")
+        '    'txtcodigo.Text = datcom.Rows(0).Item("codigo")
+        '    'txtfecha.Text = datcom.Rows(0).Item("fecinv")
+
+        '    For i = 0 To datcom.Rows.Count - 1
+
+        '        agregadtbl(datcom.Rows(i).Item("muestra"))
+        '        ''datcom.Rows(i).Item("circt"), _
+        '        'datcom.Rows(i).Item("nivten"), _
+        '        'datcom.Rows(i).Item("codinv2013"), _
+        '        'datcom.Rows(i).Item("nrocaf"), _
+        '        'datcom.Rows(i).Item("CODESTR"), _
+        '        'datcom.Rows(i).Item("MATESTR"), _
+        '        'datcom.Rows(i).Item("TIPESTR"), _
+        '        'datcom.Rows(i).Item("MATCOND"), _
+        '        'datcom.Rows(i).Item("TIPCOND"), _
+        '        'datcom.Rows(i).Item("SECCOND"), _
+        '        'datcom.Rows(i).Item("LONGVAN"), _
+        '        'datcom.Rows(i).Item("TIPAIS"), _
+        '        'datcom.Rows(i).Item("CANAIS"), _
+        '        'datcom.Rows(i).Item("CAJDIS"), _
+        '        'datcom.Rows(i).Item("PASTR"), _
+        '        'datcom.Rows(i).Item("LUMINR"), _
+        '        'datcom.Rows(i).Item("POTENCI"), _
+        '        'datcom.Rows(i).Item("VPOTENCI"), _
+        '        'datcom.Rows(i).Item("RETEN"), _
+        '        'datcom.Rows(i).Item("PTIER"), _
+        '        'datcom.Rows(i).Item("estado"), _
+        '        'datcom.Rows(i).Item("situacion"), _
+        '        'datcom.Rows(i).Item("codnif"))
+
+        '        'tbl.Rows.Add(conif, circbt, nivten, coin13, nrocaf, codest, matest, tipest, matcon, seccon, lonvan, tipais, canais, pastrl, luminr, tpotenc, vpotenc, reteni, putrra, estado, situacion, codnifp)
+
+        '    Next
+
+        'End If
+    End Sub
+
+
+    Private Sub DateTimePicker3_ValueChanged(sender As System.Object, e As System.EventArgs) Handles dtfecha.ValueChanged
+
+        ' 26/10/2014 7:40
+
+        'TextBox1.Text = Mid(DateTimePicker3.Text, 7, 4) & "-" & Mid(DateTimePicker3.Text, 4, 2) & "-" & Mid(DateTimePicker3.Text, 1, 2)
+
+        'Dim tranz As New clsmuestreol
+
+        ''GridLookUpEdit1.DataBindings.Add("EditValue", tranz.programas(DateTimePicker3.Text), "PROGRAMA")
+
+        '' Prevent columns from being automatically created when a data source is assigned.
+        ''GridLookUpEdit1.Properties.View.OptionsBehavior.AutoPopulateColumns = False
+
+        'If tranz.programas(dtfecha.Text).Rows.Count > 0 Then
+        '    grdprograma.Properties.DataSource = tranz.programas(dtfecha.Text)
+
+        '    grdprograma.Properties.DisplayMember = "PROGRAMA"
+        '    ' The field matching the edit value.
+        '    grdprograma.Properties.ValueMember = "REPORTE"
+
+        '    grdprograma.ShowPopup()
+
+
+
+        'Else
+        '    MsgBox("No se encontraon registros en esta fecha", MsgBoxStyle.Critical, "SISTEMA DE INFORMACION GEOLOGICA")
+        'End If
+
+    End Sub
+
+    Sub carga_programas()
+
+        Dim tranz As New clsmuestreol
+
+        grdprograma.Properties.DataSource = tranz.consultaprograma("EX")
+        grdprograma.Properties.DisplayMember = "PROGRAMA"
+        ' The field matching the edit value.
+        grdprograma.Properties.ValueMember = "PROGRAMA"
+
+
+        RepositoryItemGridLookUpEdit2.DataSource = tranz.stipo_muestreo
+        RepositoryItemGridLookUpEdit2.DisplayMember = "NOMBRE"
+        RepositoryItemGridLookUpEdit2.ValueMember = "TIPO"
+
+        RepositoryItemGridLookUpEdit1.DataSource = tranz.usuarios_contrata
+        RepositoryItemGridLookUpEdit1.DisplayMember = "USUARIO_NOMBRE"
+        RepositoryItemGridLookUpEdit1.ValueMember = "USUARIO_CODIGO"
+
+
+        RepositoryItemGridLookUpEdit3.DataSource = tranz.usuarios_contrata
+        RepositoryItemGridLookUpEdit3.DisplayMember = "USUARIO_NOMBRE"
+        RepositoryItemGridLookUpEdit3.ValueMember = "USUARIO_CODIGO"
+
+        RepositoryItemGridLookUpEdit4.DataSource = tranz.usuarios_contrata
+        RepositoryItemGridLookUpEdit4.DisplayMember = "USUARIO_NOMBRE"
+        RepositoryItemGridLookUpEdit4.ValueMember = "USUARIO_CODIGO"
+
+
+        RepositoryItemLookUpEdit4.DataSource = tranz.sistema_muestreo
+        RepositoryItemLookUpEdit4.DisplayMember = "NOMBRE"
+        RepositoryItemLookUpEdit4.ValueMember = "CODIGO"
+
+        RepositoryItemLookUpEdit5.DataSource = tranz.tipo_canal
+        RepositoryItemLookUpEdit5.DisplayMember = "NOMBRE"
+        RepositoryItemLookUpEdit5.ValueMember = "CODIGO"
+
+        RepositoryItemLookUpEdit6.DataSource = tranz.sistema_muestreoen
+        RepositoryItemLookUpEdit6.DisplayMember = "NOMBRE"
+        RepositoryItemLookUpEdit6.ValueMember = "CODIGO"
+
+        RepositoryItemLookUpEdit7.DataSource = tranz.tipo_qaqc
+        RepositoryItemLookUpEdit7.DisplayMember = "NOMBRE"
+        RepositoryItemLookUpEdit7.ValueMember = "CODIGO"
+
+
+        RepositoryItemSearchLookUpEdit1.DataSource = tranz.consulta_labor
+        RepositoryItemSearchLookUpEdit1.DisplayMember = "NOMBRE"
+        RepositoryItemSearchLookUpEdit1.ValueMember = "ID"
+
+        RepositoryItemLookUpEdit8.DataSource = tranz.tipo_ubicacion
+        RepositoryItemLookUpEdit8.DisplayMember = "NOMBRE"
+        RepositoryItemLookUpEdit8.ValueMember = "CODIGO"
+
+        grdreporta.Properties.DataSource = tranz.usuarios_contrata
+        grdreporta.Properties.DisplayMember = "USUARIO_NOMBRE"
+        grdreporta.Properties.ValueMember = "USUARIO_CODIGO"
+
+        grdsupervisor.Properties.DataSource = tranz.usuarios_contrata
+        grdsupervisor.Properties.DisplayMember = "USUARIO_NOMBRE"
+        grdsupervisor.Properties.ValueMember = "USUARIO_CODIGO"
+
+        RepositoryItemGridLookUpEdit6.DataSource = tranz.consulta_sondajes
+        RepositoryItemGridLookUpEdit6.DisplayMember = "NOMBRE"
+        RepositoryItemGridLookUpEdit6.ValueMember = "ID"
+
+    End Sub
+
+    Private Sub GridLookUpEdit1_EditValueChanged(sender As Object, e As System.EventArgs) Handles grdprograma.EditValueChanged
+
+        Dim tranz As New clsmuestreol
+
+        grdlabor.Properties.DataSource = tranz.slabores(grdprograma.EditValue)
+        grdlabor.Properties.DisplayMember = "NOMBRE"
+        grdlabor.Properties.ValueMember = "ID"
+
+    End Sub
+
+    Private Sub btnagregar_Click(sender As System.Object, e As System.EventArgs) Handles btnagregar.Click
+
+        agregadtbl("01", "000001", "", 0, "", "", "", "", "", "", "", 0, 0, "", "", "", "", "", "", "", "", "", 0, "", 0, 0, "", "", 0, "", 0, 0, "", "", "", "")
+
+        ' "000001", _
+        ' "", _
+        ' 0, _
+        ' "", _
+        ' 0, _
+        ' "", _
+        ' "", _
+        ' "", _
+        ' "", _
+        ' 0, _
+        ' 0, _
+        '"", _
+        '0, _
+        '0, _
+        '0, _
+        '0, _
+        '0, _
+        '0, _
+        '0, _
+        '0, _
+        '0, _
+        '0, _
+        '0, _
+        '"", _
+        '"", _
+        '"", _
+        '"", _
+        '"", _
+        '"", _
+        '"", _
+        '"", _
+        '"", _
+        '"", _
+        '"")
+    End Sub
+
+
+    Private Sub Userboton2_cancelar() Handles Userboton2.cancelar
+        deshabilitado()
+    End Sub
+
+
+    Private Sub Userboton2_guardar() Handles Userboton2.guardar
+        Dim trans As New clsmuestreol
+
+        Dim err As Integer
+
+        If Len(txtproyecto.Text) = 0 Then
+            ErrorProvider1.SetError(txtproyecto, "Ingrese Proyecto")
+            err = 1
+        Else
+            ErrorProvider1.SetError(txtproyecto, "")
+            err = 0
+        End If
+
+
+        If err = 0 And Validar() = 1 Then
+
+            trans.fninserta_reporte_muestreo("01", "000001", grdprograma.EditValue, txtreporte.Text, grdreporta.EditValue, grdsupervisor.EditValue, CType(txtfecha.Text, Date), grdlabor.EditValue, txtobserva.Text, "", "1990-01-01", "", 0, "", CType(Now, Date), "", CType(Now, Date))
+
+
+            For i = 0 To AdvBandedGridView1.RowCount - 1
+
+                Try
+
+                    trans.fninserta_repmuestreob(
+                    "01", "000001",
+                                    grdprograma.EditValue, _
+                                    txtreporte.Text,
+                                    CType(AdvBandedGridView1.GetRowCellValue(i, "MUESTRA"), String), _
+                                   CType(AdvBandedGridView1.GetRowCellValue(i, "LONGITUD"), Double), _
+                                    CType(AdvBandedGridView1.GetRowCellValue(i, "SISTEMA_MUESTREO"), String), _
+                                   CType(AdvBandedGridView1.GetRowCellValue(i, "RESPONSABLE"), String), _
+                                   CType(AdvBandedGridView1.GetRowCellValue(i, "OBSERVACION"), String), _
+                                   CType(AdvBandedGridView1.GetRowCellValue(i, "TIPO_MUESTREO"), String), _
+                                   CType(AdvBandedGridView1.GetRowCellValue(i, "AZIMUT"), Double), _
+                                   CType(AdvBandedGridView1.GetRowCellValue(i, "INCLINACION"), Double), _
+                                   CType(AdvBandedGridView1.GetRowCellValue(i, "QAQC"), String), _
+                    0, _
+                    0, _
+                    0, _
+                    0, _
+                    0, _
+                    0, _
+                    0, _
+                    0, _
+                    0, _
+                    0, _
+                    0, _
+                                   "1", _
+                                   "2", _
+                                   "3", _
+                                   CType(AdvBandedGridView1.GetRowCellValue(i, "ORDEN_LABORATORIO"), String), _
+                                   CType(AdvBandedGridView1.GetRowCellValue(i, "FECHA_ENTREGA"), String), _
+                                   CType(AdvBandedGridView1.GetRowCellValue(i, "RESPONSABLE_ENTREGA"), String), _
+                                   "6", _
+                                   "7", _
+                                   CType(AdvBandedGridView1.GetRowCellValue(i, "REFERENCIAM"), String), _
+                                   "2014-11-10", _
+                                   "9", _
+                                   0, _
+                                   0, _
+                                   "10", _
+                                   "11", _
+                                   "12", _
+                                   "13", _
+                                   "14", _
+                                   "15", _
+                                   0, _
+                                   0, _
+                                   CType(AdvBandedGridView1.GetRowCellValue(i, "TIPO_CANAL"), String), _
+                                   CType(AdvBandedGridView1.GetRowCellValue(i, "MUESTREO_EN"), String), _
+                                   CType(AdvBandedGridView1.GetRowCellValue(i, "MANTO"), String), _
+                                   CType(AdvBandedGridView1.GetRowCellValue(i, "CALICATA"), String), _
+                                   CType(AdvBandedGridView1.GetRowCellValue(i, "CC_ANCHO"), Double), _
+                                   CType(AdvBandedGridView1.GetRowCellValue(i, "CC_LARGO"), Double), _
+                                   CType(AdvBandedGridView1.GetRowCellValue(i, "UBICACION"), String), _
+                                   CType(AdvBandedGridView1.GetRowCellValue(i, "LOGUEO"), String), _
+                                   CType(AdvBandedGridView1.GetRowCellValue(i, "REFERENCIAM"), String), _
+                                   "16", _
+                                   "17", _
+                                   "18", _
+                                   0, _
+                                   0, _
+                                   0, _
+                                   "19", _
+                                   "20", _
+                                   "21", _
+                                   "22", _
+                                   "23", _
+                                   "24", _
+                                   "25", _
+                                   "26", _
+                                   "27", _
+                                   "28", _
+                                   puser, _
+                                   "", _
+                                   puser, _
+                                   "")
+
+
+                Catch ex As Exception
+                    MsgBox(ex.Message)
+                    MsgBox(ex.InnerException)
+
+                End Try
+
+                'CType(AdvBandedGridView1.GetRowCellValue(i, "MANTO"), Double), _
+
+            Next
+            deshabilitado()
+        End If
+
+    End Sub
+
+    Function Validar() As Integer
+
+        Dim valida As Integer
+
+        valida = 1
+
+        For i = 0 To AdvBandedGridView1.RowCount - 1
+
+            If Len(CType(AdvBandedGridView1.GetRowCellValue(i, "TIPO_MUESTREO"), String)) = 0 Then
+                MsgBox("No ha ingresado correctamente tipo de muestreo", MsgBoxStyle.Critical, "SIG")
+                valida = 0
+                Exit For
+            End If
+
+            If Len(CType(AdvBandedGridView1.GetRowCellValue(i, "MUESTRA"), String)) = 0 Then
+                MsgBox("No ha ingresado correctamente el nombre de las muestras", MsgBoxStyle.Critical, "SIG")
+                valida = 0
+                Exit For
+            End If
+
+            If Len(CType(AdvBandedGridView1.GetRowCellValue(i, "LONGITUD"), String)) = 0 Then
+                MsgBox("No ha ingresado correctamente la longitud", MsgBoxStyle.Critical, "SIG")
+                valida = 0
+                Exit For
+            End If
+
+            If Len(CType(AdvBandedGridView1.GetRowCellValue(i, "SISTEMA_MUESTREO"), String)) = 0 Then
+                MsgBox("No ha ingresado correctamente sistema de muestreo", MsgBoxStyle.Critical, "SIG")
+                valida = 0
+                Exit For
+            End If
+
+            If Len(CType(AdvBandedGridView1.GetRowCellValue(i, "RESPONSABLE"), String)) = 0 Then
+                MsgBox("No ha ingresado correctamente responsable", MsgBoxStyle.Critical, "SIG")
+                valida = 0
+                Exit For
+            End If
+
+        
+
+            If Len(CType(AdvBandedGridView1.GetRowCellValue(i, "MUESTREO_EN"), String)) = 0 Then
+                MsgBox("No ha ingresado correctamente tipo de muestreo en :", MsgBoxStyle.Critical, "SIG")
+                valida = 0
+                Exit For
+            End If
+
+            If Len(CType(AdvBandedGridView1.GetRowCellValue(i, "LOGUEO"), String)) = 0 Then
+                MsgBox("No ha ingresado correctamente logueo", MsgBoxStyle.Critical, "SIG")
+                valida = 0
+                Exit For
+            End If
+
+
+        Next
+
+        Return valida
+    End Function
+
+
+    Private Sub Userboton2_nuevo() Handles Userboton2.nuevo
+
+        grdprograma.Enabled = True
+        grdreporta.Enabled = True
+        grdlabor.Enabled = True
+        txtreporte.Enabled = True
+        grdsupervisor.Enabled = True
+        txtfecha.Enabled = True
+        txtproyecto.Enabled = True
+        txtobserva.Enabled = True
+        btnagregar.Enabled = True
+        grddetalle.Enabled = True
+
+        tbl.Clear()
+
+        Userboton2.btnguardar.Enabled = True
+        Userboton2.btnactualizar.Enabled = False
+        Userboton2.btncancelar.Enabled = True
+        Userboton2.btnborrar.Enabled = False
+        Userboton2.btnimprimir.Enabled = False
+        Userboton2.btnmensaje.Enabled = False
+
+        grddetalle.DataSource = Nothing
+        GridView1.Columns.Clear()
+
+
+        carga_programas()
+
+        txtreporte.Text = Year(Now) & Month(Now) & Now.Day & "-" & Hour(Now) & Second(Now)
+
+    End Sub
+
+
+    Sub deshabilitado()
+
+        grddetalle.DataSource = Nothing
+        GridView1.Columns.Clear()
+
+
+        grdprograma.Text = ""
+        grdreporta.Text = ""
+        grdlabor.Text = ""
+        txtreporte.Text = ""
+        grdsupervisor.Text = ""
+        txtfecha.Text = ""
+        txtproyecto.Text = ""
+        txtobserva.Text = ""
+
+        grdprograma.Enabled = False
+        grdreporta.Enabled = False
+        grdlabor.Enabled = False
+        txtreporte.Enabled = False
+        grdsupervisor.Enabled = False
+        txtfecha.Enabled = False
+        txtproyecto.Enabled = False
+        txtobserva.Enabled = False
+        btnagregar.Enabled = False
+
+
+
+        Userboton2.btnguardar.Enabled = False
+        Userboton2.btnactualizar.Enabled = False
+        Userboton2.btncancelar.Enabled = False
+        Userboton2.btnborrar.Enabled = False
+        Userboton2.btncancelar.Enabled = False
+        Userboton2.btnimprimir.Enabled = False
+        Userboton2.btnmensaje.Enabled = False
+
+    End Sub
+
+    'Private Sub grdlabor_EditValueChanged(sender As System.Object, e As System.EventArgs) Handles grdlabor.EditValueChanged
+    '    txtnromst.Text = grdlabor.EditValue
+    'End Sub
+
+    Private Sub btnclonar_Click(sender As System.Object, e As System.EventArgs) Handles btnclonar.Click
+
+        If AdvBandedGridView1.RowCount > 0 Then
+
+            For i = 1 To CType(txtnromst.Text, Integer) - 1
+                agregadtbl("01", "000001", "", "", AdvBandedGridView1.GetRowCellValue(AdvBandedGridView1.FocusedRowHandle, "MUESTRA") + i, "", AdvBandedGridView1.GetRowCellValue(0, "LONGITUD"), AdvBandedGridView1.GetRowCellValue(0, "SISTEMA_MUESTREO"), AdvBandedGridView1.GetRowCellValue(0, "RESPONSABLE"), AdvBandedGridView1.GetRowCellValue(0, "OBSERVACION"), AdvBandedGridView1.GetRowCellValue(0, "TIPO_MUESTREO"), AdvBandedGridView1.GetRowCellValue(0, "AZIMUT"), AdvBandedGridView1.GetRowCellValue(0, "INCLINACION"), AdvBandedGridView1.GetRowCellValue(0, "QAQC"), "", "", AdvBandedGridView1.GetRowCellValue(0, "ORDEN_LABORATORIO"), AdvBandedGridView1.GetRowCellValue(0, "FECHA_ENTREGA"), AdvBandedGridView1.GetRowCellValue(0, "RESPONSABLE_ENTREGA"), AdvBandedGridView1.GetRowCellValue(0, "AYUDANTE"), "", "", 0, "", 0, 0, AdvBandedGridView1.GetRowCellValue(0, "TIPO_CANAL"), AdvBandedGridView1.GetRowCellValue(0, "MUESTREO_EN"), 0, "", 0, 0, "", "", "", AdvBandedGridView1.GetRowCellValue(0, "PRIORIDAD"))
+            Next
+
+        Else
+
+            MsgBox("Para Clonar debe agregar informacion en la primera fila", MsgBoxStyle.Exclamation, "SIG")
+
+        End If
+
+    End Sub
+
+
+End Class

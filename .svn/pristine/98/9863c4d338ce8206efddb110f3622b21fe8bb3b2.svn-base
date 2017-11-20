@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<rpt1>
+  <reporte></reporte>
+  <fecha_reporte></fecha_reporte>
+  <muestra_original></muestra_original>
+  <ley_original></ley_original>
+  <muestra_duplicada></muestra_duplicada>
+  <ley_duplicada></ley_duplicada>
+  <dif></dif>
+  <porerror></porerror>
+  <revisar></revisar>
+ </rpt1>

@@ -1,0 +1,80 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SIGDATA
+</name>
+</assembly>
+<members>
+<member name="M:SIGDATA.SIGDATAEntities.#ctor">
+	<summary>
+Inicializa un nuevo objeto SIGDATAEntities usando la cadena de conexión encontrada en la sección 'SIGDATAEntities' del archivo de configuración de la aplicación.
+</summary>
+</member><member name="M:SIGDATA.SIGDATAEntities.#ctor(System.String)">
+	<summary>
+Inicializar un nuevo objeto SIGDATAEntities.
+</summary>
+</member><member name="M:SIGDATA.SIGDATAEntities.#ctor(System.Data.EntityClient.EntityConnection)">
+	<summary>
+Inicializar un nuevo objeto SIGDATAEntities.
+</summary>
+</member><member name="P:SIGDATA.SIGDATAEntities.ge_rep_muestreo_detalle">
+	<summary>
+No hay ningún comentario para ge_rep_muestreo_detalle en el esquema.
+</summary>
+</member><member name="M:SIGDATA.SIGDATAEntities.AddToge_rep_muestreo_detalle(SIGDATA.ge_rep_muestreo_detalle)">
+	<summary>
+No hay ningún comentario para ge_rep_muestreo_detalle en el esquema.
+</summary>
+</member><member name="T:SIGDATA.SIGDATAEntities">
+	<summary>
+No hay ningún comentario para SIGDATAEntities en el esquema.
+</summary>
+</member><member name="M:SIGDATA.ge_rep_muestreo_detalle.Createge_rep_muestreo_detalle(System.Int64)">
+	<summary>
+Crear un nuevo objeto ge_rep_muestreo_detalle.
+</summary>
+	<param name="id">Valor inicial de ID.</param>
+</member><member name="P:SIGDATA.ge_rep_muestreo_detalle.ID">
+	<summary>
+No hay ningún comentario para la propiedad ID en el esquema.
+</summary>
+</member><member name="P:SIGDATA.ge_rep_muestreo_detalle.MUESTRA">
+	<summary>
+No hay ningún comentario para la propiedad MUESTRA en el esquema.
+</summary>
+</member><member name="P:SIGDATA.ge_rep_muestreo_detalle.X">
+	<summary>
+No hay ningún comentario para la propiedad X en el esquema.
+</summary>
+</member><member name="P:SIGDATA.ge_rep_muestreo_detalle.Y">
+	<summary>
+No hay ningún comentario para la propiedad Y en el esquema.
+</summary>
+</member><member name="P:SIGDATA.ge_rep_muestreo_detalle.Z">
+	<summary>
+No hay ningún comentario para la propiedad Z en el esquema.
+</summary>
+</member><member name="T:SIGDATA.ge_rep_muestreo_detalle">
+	<summary>
+No hay ningún comentario para SIGDATAModel.ge_rep_muestreo_detalle en el esquema.
+</summary>
+	<KeyProperties>
+ID
+</KeyProperties>
+</member><member name="P:SIGDATA.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:SIGDATA.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:SIGDATA.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

@@ -1,0 +1,56 @@
+﻿Imports SIGLOGICA
+Imports DevExpress.XtraCharts
+
+
+Public Class rptqaqc
+
+    Private Sub rptqaqc_BeforePrint(sender As System.Object, e As System.Drawing.Printing.PrintEventArgs) Handles MyBase.BeforePrint
+
+        Dim cqaqc As New clsqaqcl
+
+        'XrChart1.Series.Add("pqaqc", DevExpress.XtraCharts.ViewType.Point)
+        'XrChart1.Series.Item("pqaqc").DataSource = cqaqc.consulta_qaqc("dd")
+        'XrChart1.Series.Item("pqaqc").ArgumentDataMember = "ley_original"
+
+
+        'XrChart1.Series.Item("pqaqc").ValueDataMembers.AddRange(New String() {"ley_duplicada"})
+
+        'XrChart1.Series.Item("pqaqc").SeriesPointsSortingKey = DevExpress.XtraCharts.SeriesPointKey.Value_1
+
+        'XrChart1.Series.Item("pqaqc").ShowInLegend = False
+
+        'XrChart1.Series.Item("pqaqc").Label.Visible = False
+
+
+        ' Create a bar series and add points to it.
+        Dim series1 As New Series("Series 1", ViewType.Point)
+
+        For i = 0 To cqaqc.consulta_qaqc("dd").Rows.Count - 1
+
+            series1.Points.Add(New SeriesPoint(CType(cqaqc.consulta_qaqc("dd").Rows(i).Item("ley_original"), Double), New Double() {CType(cqaqc.consulta_qaqc("dd").Rows(i).Item("ley_duplicada"), Double)}))
+
+        Next
+
+        ' Add the series to the chart.
+        XrChart1.Series.Add(series1)
+
+        ' Cast the chart's diagram to the XYDiagram type, to access its axes.
+        Dim diagram As XYDiagram = CType(XrChart1.Diagram, XYDiagram)
+
+        diagram.AxisX.Range.MaxValue = 30
+        diagram.AxisX.Range.MinValue = 0
+
+        'diagram.AxisY.Range.MaxValue = 10
+        'diagram.AxisY.Range.MinValue = 0
+
+        diagram.AxisX.Range.SideMarginsEnabled = True
+        'diagram.AxisY.Range.SideMarginsEnabled = True
+
+        diagram.AxisX.GridSpacing = 5
+
+        'diagram.AxisY.GridSpacing = 1
+
+    End Sub
+
+
+End Class

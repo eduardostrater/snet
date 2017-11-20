@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SIGDATAModel" Alias="Self" xmlns="http://schemas.microsoft.com/ado/2006/04/edm">
+  <EntityContainer Name="SIGDATAEntities">
+    <EntitySet Name="ge_rep_muestreo_detalle" EntityType="SIGDATAModel.ge_rep_muestreo_detalle" />
+  </EntityContainer>
+  <EntityType Name="ge_rep_muestreo_detalle">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int64" Name="ID" Nullable="false" />
+    <Property Type="String" Name="MUESTRA" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Type="String" Name="X" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Type="String" Name="Y" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Type="String" Name="Z" MaxLength="10" FixedLength="true" Unicode="true" />
+  </EntityType>
+</Schema>

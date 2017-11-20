@@ -1,0 +1,75 @@
+﻿Imports System.IO
+Imports System.Data.OleDb
+Imports SIGLOGICA
+
+
+Public Class frmtopografia
+
+    Public Shared Function OpenFile(ByVal fileName As String) As Object
+
+        If (Not File.Exists(fileName)) Then
+            System.Windows.Forms.MessageBox.Show("Archivo")
+            Return Nothing
+        End If
+            Dim connectionString As String = String.Format("Provider=Microsoft.Jet.OLEDB.4.0; data source={0}; Extended Properties=Excel 8.0;", fileName)
+        Dim adapter = New OleDbDataAdapter("select * from [IMPORTAR$]", connectionString)
+            Dim ds = New DataSet()
+            Dim tableName As String = "excelData"
+            adapter.Fill(ds, tableName)
+            Dim data As DataTable = ds.Tables(tableName)
+            Return data
+
+    End Function
+
+    Private Sub Button1_Click(sender As System.Object, e As System.EventArgs) Handles Button1.Click
+
+        Try
+
+            If OpenFileDialog1.ShowDialog <> Windows.Forms.DialogResult.Cancel Then
+                grddetalle.DataSource = OpenFile(OpenFileDialog1.FileName)
+            End If
+
+        Catch ex As Exception
+
+            MsgBox("El formato de archivo no es el correcto", MsgBoxStyle.Exclamation, "SIG")
+
+        End Try
+        
+    End Sub
+
+    Private Sub btnimportar_Click(sender As System.Object, e As System.EventArgs) Handles btnimportar.Click
+
+        If MsgBox("Revise bien el formato a importar. Desea continuar?", MsgBoxStyle.YesNo, "SIG") = MsgBoxResult.Yes Then
+
+            Try
+
+                Dim trans As New clsmuestreol
+
+                For i = 0 To GridView1.RowCount - 1
+                    trans.actualiza_topoghrafia(CType(GridView1.GetRowCellValue(i, "REPORTE"), String), _
+                    CType(GridView1.GetRowCellValue(i, "MUESTRA"), String), _
+                    CType(GridView1.GetRowCellValue(i, "TOPOGRAFIAX"), Double), _
+                    CType(GridView1.GetRowCellValue(i, "TOPOGRAFIAY"), Double), _
+                    CType(GridView1.GetRowCellValue(i, "TOPOGRAFIAZ"), Double), _
+                    CType(GridView1.GetRowCellValue(i, "AZIMUT"), Double), _
+                    CType(GridView1.GetRowCellValue(i, "INCLINACION"), Double))
+                Next
+
+                MsgBox("Proceso finalizado...", MsgBoxStyle.Information, "SIG.NET")
+
+            Catch ex As Exception
+                MsgBox(ex.Message)
+            End Try
+
+        Else
+            Me.Close()
+        End If
+
+    End Sub
+
+
+    Private Sub btncancelar_Click(sender As System.Object, e As System.EventArgs) Handles btncancelar.Click
+        Me.Close()
+    End Sub
+
+End Class

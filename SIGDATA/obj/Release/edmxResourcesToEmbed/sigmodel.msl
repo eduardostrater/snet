@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="urn:schemas-microsoft-com:windows:storage:mapping:CS">
+  <EntityContainerMapping StorageEntityContainer="SIGDATAModelStoreContainer" CdmEntityContainer="SIGDATAEntities">
+    <EntitySetMapping Name="ge_rep_muestreo_detalle">
+      <EntityTypeMapping TypeName="SIGDATAModel.ge_rep_muestreo_detalle">
+        <MappingFragment StoreEntitySet="ge_rep_muestreo_detalle">
+          <ScalarProperty Name="Z" ColumnName="Z" />
+          <ScalarProperty Name="Y" ColumnName="Y" />
+          <ScalarProperty Name="X" ColumnName="X" />
+          <ScalarProperty Name="MUESTRA" ColumnName="MUESTRA" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

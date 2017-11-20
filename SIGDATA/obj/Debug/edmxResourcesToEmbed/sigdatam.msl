@@ -1,0 +1,1229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="urn:schemas-microsoft-com:windows:storage:mapping:CS">
+  <EntityContainerMapping StorageEntityContainer="SIGDATAModel1StoreContainer" CdmEntityContainer="SIGDATAEntities1">
+    <EntitySetMapping Name="GE_AUTORIAZACIONES_CODIGOS">
+      <EntityTypeMapping TypeName="SIGDATAModel1.GE_AUTORIAZACIONES_CODIGOS">
+        <MappingFragment StoreEntitySet="GE_AUTORIAZACIONES_CODIGOS">
+          <ScalarProperty Name="COMPANIA" ColumnName="COMPANIA" />
+          <ScalarProperty Name="UNIDAD" ColumnName="UNIDAD" />
+          <ScalarProperty Name="CODIGO" ColumnName="CODIGO" />
+          <ScalarProperty Name="TIPO" ColumnName="TIPO" />
+          <ScalarProperty Name="PROCESO" ColumnName="PROCESO" />
+          <ScalarProperty Name="SUBPROCESO" ColumnName="SUBPROCESO" />
+          <ScalarProperty Name="ACTIVIDAD" ColumnName="ACTIVIDAD" />
+          <ScalarProperty Name="USUARIOMODIFICO" ColumnName="USUARIOMODIFICO" />
+          <ScalarProperty Name="FECHAMODIFICO" ColumnName="FECHAMODIFICO" />
+          <ScalarProperty Name="VENCE" ColumnName="VENCE" />
+          <ScalarProperty Name="USUARIOUTILIZO" ColumnName="USUARIOUTILIZO" />
+          <ScalarProperty Name="FECHAUTILIZO" ColumnName="FECHAUTILIZO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GE_BLENDING">
+      <EntityTypeMapping TypeName="SIGDATAModel1.GE_BLENDING">
+        <MappingFragment StoreEntitySet="GE_BLENDING">
+          <ScalarProperty Name="COMPANIA" ColumnName="COMPANIA" />
+          <ScalarProperty Name="UNIDAD" ColumnName="UNIDAD" />
+          <ScalarProperty Name="PERIODO" ColumnName="PERIODO" />
+          <ScalarProperty Name="BLENDING" ColumnName="BLENDING" />
+          <ScalarProperty Name="FECHA" ColumnName="FECHA" />
+          <ScalarProperty Name="TURNO" ColumnName="TURNO" />
+          <ScalarProperty Name="ORE_CONTROL" ColumnName="ORE_CONTROL" />
+          <ScalarProperty Name="SUPERVISOR" ColumnName="SUPERVISOR" />
+          <ScalarProperty Name="TMH_PROGRAMADO" ColumnName="TMH_PROGRAMADO" />
+          <ScalarProperty Name="LEY_PROGRAMADA" ColumnName="LEY_PROGRAMADA" />
+          <ScalarProperty Name="CREADOPOR" ColumnName="CREADOPOR" />
+          <ScalarProperty Name="CREADOEL" ColumnName="CREADOEL" />
+          <ScalarProperty Name="ESTADO" ColumnName="ESTADO" />
+          <ScalarProperty Name="TMH_TOLVA" ColumnName="TMH_TOLVA" />
+          <ScalarProperty Name="TMH_SALDO" ColumnName="TMH_SALDO" />
+          <ScalarProperty Name="PRIORIDAD" ColumnName="PRIORIDAD" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GE_BLENDING_DETALLE">
+      <EntityTypeMapping TypeName="SIGDATAModel1.GE_BLENDING_DETALLE">
+        <MappingFragment StoreEntitySet="GE_BLENDING_DETALLE">
+          <ScalarProperty Name="COMPANIA" ColumnName="COMPANIA" />
+          <ScalarProperty Name="UNIDAD" ColumnName="UNIDAD" />
+          <ScalarProperty Name="PERIODO" ColumnName="PERIODO" />
+          <ScalarProperty Name="BLENDING" ColumnName="BLENDING" />
+          <ScalarProperty Name="SECTOR" ColumnName="SECTOR" />
+          <ScalarProperty Name="AREA" ColumnName="AREA" />
+          <ScalarProperty Name="POLIGONO" ColumnName="POLIGONO" />
+          <ScalarProperty Name="CARGA" ColumnName="CARGA" />
+          <ScalarProperty Name="CARGA_DETALLE" ColumnName="CARGA_DETALLE" />
+          <ScalarProperty Name="CARGA_TIPO" ColumnName="CARGA_TIPO" />
+          <ScalarProperty Name="TMH_PROGRAMADO" ColumnName="TMH_PROGRAMADO" />
+          <ScalarProperty Name="LEY_PROGRAMADO" ColumnName="LEY_PROGRAMADO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GE_BLENDING_RESULTADO">
+      <EntityTypeMapping TypeName="SIGDATAModel1.GE_BLENDING_RESULTADO">
+        <MappingFragment StoreEntitySet="GE_BLENDING_RESULTADO">
+          <ScalarProperty Name="COMPANIA" ColumnName="COMPANIA" />
+          <ScalarProperty Name="UNIDAD" ColumnName="UNIDAD" />
+          <ScalarProperty Name="PERIODO" ColumnName="PERIODO" />
+          <ScalarProperty Name="FECHA_PROCESO" ColumnName="FECHA_PROCESO" />
+          <ScalarProperty Name="REPORTE" ColumnName="REPORTE" />
+          <ScalarProperty Name="SUPERVISOR" ColumnName="SUPERVISOR" />
+          <ScalarProperty Name="TMH_PROCESADO" ColumnName="TMH_PROCESADO" />
+          <ScalarProperty Name="LEY_CABEZA" ColumnName="LEY_CABEZA" />
+          <ScalarProperty Name="FINOS" ColumnName="FINOS" />
+          <ScalarProperty Name="CREADOPOR" ColumnName="CREADOPOR" />
+          <ScalarProperty Name="CREADOEL" ColumnName="CREADOEL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GE_BLENDING_SALDOS">
+      <EntityTypeMapping TypeName="SIGDATAModel1.GE_BLENDING_SALDOS">
+        <MappingFragment StoreEntitySet="GE_BLENDING_SALDOS">
+          <ScalarProperty Name="COMPANIA" ColumnName="COMPANIA" />
+          <ScalarProperty Name="UNIDAD" ColumnName="UNIDAD" />
+          <ScalarProperty Name="PERIODO" ColumnName="PERIODO" />
+          <ScalarProperty Name="BLENDING" ColumnName="BLENDING" />
+          <ScalarProperty Name="TMH_SALDO" ColumnName="TMH_SALDO" />
+          <ScalarProperty Name="LEY_SALDO" ColumnName="LEY_SALDO" />
+          <ScalarProperty Name="CREADOPOR" ColumnName="CREADOPOR" />
+          <ScalarProperty Name="CREADOEL" ColumnName="CREADOEL" />
+          <ScalarProperty Name="SECTOR" ColumnName="SECTOR" />
+          <ScalarProperty Name="AREA" ColumnName="AREA" />
+          <ScalarProperty Name="POLIGONO" ColumnName="POLIGONO" />
+          <ScalarProperty Name="ORDEN" ColumnName="ORDEN" />
+          <ScalarProperty Name="ESTADO" ColumnName="ESTADO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GE_CONTRATA_EQUIPOS">
+      <EntityTypeMapping TypeName="SIGDATAModel1.GE_CONTRATA_EQUIPOS">
+        <MappingFragment StoreEntitySet="GE_CONTRATA_EQUIPOS">
+          <ScalarProperty Name="CONTRATA" ColumnName="CONTRATA" />
+          <ScalarProperty Name="CODIGO" ColumnName="CODIGO" />
+          <ScalarProperty Name="MODELO" ColumnName="MODELO" />
+          <ScalarProperty Name="DESCRIPCION" ColumnName="DESCRIPCION" />
+          <ScalarProperty Name="SERIE_EQUIPO" ColumnName="SERIE_EQUIPO" />
+          <ScalarProperty Name="COMPANIA" ColumnName="COMPANIA" />
+          <ScalarProperty Name="UNIDAD" ColumnName="UNIDAD" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GE_DOCUMENTO_MAIL">
+      <EntityTypeMapping TypeName="SIGDATAModel1.GE_DOCUMENTO_MAIL">
+        <MappingFragment StoreEntitySet="GE_DOCUMENTO_MAIL">
+          <ScalarProperty Name="COMPANIA" ColumnName="COMPANIA" />
+          <ScalarProperty Name="UNIDAD" ColumnName="UNIDAD" />
+          <ScalarProperty Name="TIPO_DOC" ColumnName="TIPO_DOC" />
+          <ScalarProperty Name="NUMERO" ColumnName="NUMERO" />
+          <ScalarProperty Name="FECHA" ColumnName="FECHA" />
+          <ScalarProperty Name="USUARIO" ColumnName="USUARIO" />
+          <ScalarProperty Name="NRO_ENVIOS" ColumnName="NRO_ENVIOS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GE_DW_COLUMNAS">
+      <EntityTypeMapping TypeName="SIGDATAModel1.GE_DW_COLUMNAS">
+        <MappingFragment StoreEntitySet="GE_DW_COLUMNAS">
+          <ScalarProperty Name="USUARIO" ColumnName="USUARIO" />
+          <ScalarProperty Name="FECHA" ColumnName="FECHA" />
+          <ScalarProperty Name="VENTANA" ColumnName="VENTANA" />
+          <ScalarProperty Name="DATAWINDOW" ColumnName="DATAWINDOW" />
+          <ScalarProperty Name="COLUMNA" ColumnName="COLUMNA" />
+          <ScalarProperty Name="ACTIVA" ColumnName="ACTIVA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GE_METODO_CASTIGO_LEY">
+      <EntityTypeMapping TypeName="SIGDATAModel1.GE_METODO_CASTIGO_LEY">
+        <MappingFragment StoreEntitySet="GE_METODO_CASTIGO_LEY">
+          <ScalarProperty Name="COMPANIA" ColumnName="COMPANIA" />
+          <ScalarProperty Name="UNIDAD" ColumnName="UNIDAD" />
+          <ScalarProperty Name="METODO" ColumnName="METODO" />
+          <ScalarProperty Name="DESCRIPCION" ColumnName="DESCRIPCION" />
+          <ScalarProperty Name="SALTO_ERRATICO" ColumnName="SALTO_ERRATICO" />
+          <ScalarProperty Name="DETALLE_METODO" ColumnName="DETALLE_METODO" />
+          <ScalarProperty Name="TIPO" ColumnName="TIPO" />
+          <ScalarProperty Name="NUMERO_DESVIACIONES" ColumnName="NUMERO_DESVIACIONES" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GE_METODO_CASTIGO_LEY_DET">
+      <EntityTypeMapping TypeName="SIGDATAModel1.GE_METODO_CASTIGO_LEY_DET">
+        <MappingFragment StoreEntitySet="GE_METODO_CASTIGO_LEY_DET">
+          <ScalarProperty Name="COMPANIA" ColumnName="COMPANIA" />
+          <ScalarProperty Name="UNIDAD" ColumnName="UNIDAD" />
+          <ScalarProperty Name="METODO" ColumnName="METODO" />
+          <ScalarProperty Name="RANGO" ColumnName="RANGO" />
+          <ScalarProperty Name="VALOR_DE_INI" ColumnName="VALOR_DE_INI" />
+          <ScalarProperty Name="VALOR_DE_FIN" ColumnName="VALOR_DE_FIN" />
+          <ScalarProperty Name="NRO_DE" ColumnName="NRO_DE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GE_MODELO_ACTIVIDAD">
+      <EntityTypeMapping TypeName="SIGDATAModel1.GE_MODELO_ACTIVIDAD">
+        <MappingFragment StoreEntitySet="GE_MODELO_ACTIVIDAD">
+          <ScalarProperty Name="COMPANIA" ColumnName="COMPANIA" />
+          <ScalarProperty Name="UNIDAD" ColumnName="UNIDAD" />
+          <ScalarProperty Name="PROCESO" ColumnName="PROCESO" />
+          <ScalarProperty Name="SUBPROCESO" ColumnName="SUBPROCESO" />
+          <ScalarProperty Name="ACTIVIDAD" ColumnName="ACTIVIDAD" />
+          <ScalarProperty Name="DESCRIPCION" ColumnName="DESCRIPCION" />
+          <ScalarProperty Name="W_OBJ" ColumnName="W_OBJ" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GE_MODELO_PROCESO">
+      <EntityTypeMapping TypeName="SIGDATAModel1.GE_MODELO_PROCESO">
+        <MappingFragment StoreEntitySet="GE_MODELO_PROCESO">
+          <ScalarProperty Name="COMPANIA" ColumnName="COMPANIA" />
+          <ScalarProperty Name="UNIDAD" ColumnName="UNIDAD" />
+          <ScalarProperty Name="PROCESO" ColumnName="PROCESO" />
+          <ScalarProperty Name="DESCRIPCION" ColumnName="DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GE_MODELO_SUBPROCESO">
+      <EntityTypeMapping TypeName="SIGDATAModel1.GE_MODELO_SUBPROCESO">
+        <MappingFragment StoreEntitySet="GE_MODELO_SUBPROCESO">
+          <ScalarProperty Name="COMPANIA" ColumnName="COMPANIA" />
+          <ScalarProperty Name="UNIDAD" ColumnName="UNIDAD" />
+          <ScalarProperty Name="PROCESO" ColumnName="PROCESO" />
+          <ScalarProperty Name="SUBPROCESO" ColumnName="SUBPROCESO" />
+          <ScalarProperty Name="DESCRIPCION" ColumnName="DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GE_MOVIMIENTOS_MINERAL">
+      <EntityTypeMapping TypeName="SIGDATAModel1.GE_MOVIMIENTOS_MINERAL">
+        <MappingFragment StoreEntitySet="GE_MOVIMIENTOS_MINERAL">
+          <ScalarProperty Name="COMPANIA" ColumnName="COMPANIA" />
+          <ScalarProperty Name="UNIDAD" ColumnName="UNIDAD" />
+          <ScalarProperty Name="PERIODO" ColumnName="PERIODO" />
+          <ScalarProperty Name="MOVIMIENTO" ColumnName="MOVIMIENTO" />
+          <ScalarProperty Name="FECHA" ColumnName="FECHA" />
+          <ScalarProperty Name="LABOR_ORIGEN" ColumnName="LABOR_ORIGEN" />
+          <ScalarProperty Name="LABOR_DESTINO" ColumnName="LABOR_DESTINO" />
+          <ScalarProperty Name="TONELAJE" ColumnName="TONELAJE" />
+          <ScalarProperty Name="LEY" ColumnName="LEY" />
+          <ScalarProperty Name="SITUACION_MINERAL" ColumnName="SITUACION_MINERAL" />
+          <ScalarProperty Name="TRANSACCION" ColumnName="TRANSACCION" />
+          <ScalarProperty Name="FECHA_CUBICACION" ColumnName="FECHA_CUBICACION" />
+          <ScalarProperty Name="MODIFICADOEL" ColumnName="MODIFICADOEL" />
+          <ScalarProperty Name="MODIFICADOPOR" ColumnName="MODIFICADOPOR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GE_MT_COMPANIA">
+      <EntityTypeMapping TypeName="SIGDATAModel1.GE_MT_COMPANIA">
+        <MappingFragment StoreEntitySet="GE_MT_COMPANIA">
+          <ScalarProperty Name="COMPANIA" ColumnName="COMPANIA" />
+          <ScalarProperty Name="DESCRIPCION" ColumnName="DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GE_MT_COMPANIA_UNIDAD">
+      <EntityTypeMapping TypeName="SIGDATAModel1.GE_MT_COMPANIA_UNIDAD">
+        <MappingFragment StoreEntitySet="GE_MT_COMPANIA_UNIDAD">
+          <ScalarProperty Name="COMPANIA" ColumnName="COMPANIA" />
+          <ScalarProperty Name="UNIDAD" ColumnName="UNIDAD" />
+          <ScalarProperty Name="DESCRIPCION" ColumnName="DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GE_MT_LITOLOGIA">
+      <EntityTypeMapping TypeName="SIGDATAModel1.GE_MT_LITOLOGIA">
+        <MappingFragment StoreEntitySet="GE_MT_LITOLOGIA">
+          <ScalarProperty Name="LITOLOGIA" ColumnName="LITOLOGIA" />
+          <ScalarProperty Name="DESCRIPCION" ColumnName="DESCRIPCION" />
+          <ScalarProperty Name="LIT_ABR" ColumnName="LIT_ABR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GE_MT_MINERALIZACION">
+      <EntityTypeMapping TypeName="SIGDATAModel1.GE_MT_MINERALIZACION">
+        <MappingFragment StoreEntitySet="GE_MT_MINERALIZACION">
+          <ScalarProperty Name="MINERALIZACION" ColumnName="MINERALIZACION" />
+          <ScalarProperty Name="DESCRIPCION" ColumnName="DESCRIPCION" />
+          <ScalarProperty Name="MIN_ABR" ColumnName="MIN_ABR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GE_MT_TIPO_MUESTREO">
+      <EntityTypeMapping TypeName="SIGDATAModel1.GE_MT_TIPO_MUESTREO">
+        <MappingFragment StoreEntitySet="GE_MT_TIPO_MUESTREO">
+          <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
+          <ScalarProperty Name="DESCRIPCION" ColumnName="DESCRIPCION" />
+          <ScalarProperty Name="PREFIJO_MUESTRA" ColumnName="PREFIJO_MUESTRA" />
+          <ScalarProperty Name="ESTADO" ColumnName="ESTADO" />
+          <ScalarProperty Name="TIPO" ColumnName="TIPO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GE_MT_TRANSACCIONES">
+      <EntityTypeMapping TypeName="SIGDATAModel1.GE_MT_TRANSACCIONES">
+        <MappingFragment StoreEntitySet="GE_MT_TRANSACCIONES">
+          <ScalarProperty Name="TRANSACCION" ColumnName="TRANSACCION" />
+          <ScalarProperty Name="DESCRIPCION" ColumnName="DESCRIPCION" />
+          <ScalarProperty Name="TIPO" ColumnName="TIPO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GE_ORDEN_TRABAJO_LAB">
+      <EntityTypeMapping TypeName="SIGDATAModel1.GE_ORDEN_TRABAJO_LAB">
+        <MappingFragment StoreEntitySet="GE_ORDEN_TRABAJO_LAB">
+          <ScalarProperty Name="COMPANIA" ColumnName="COMPANIA" />
+          <ScalarProperty Name="UNIDAD" ColumnName="UNIDAD" />
+          <ScalarProperty Name="ORDEN" ColumnName="ORDEN" />
+          <ScalarProperty Name="FECHA_ORDEN" ColumnName="FECHA_ORDEN" />
+          <ScalarProperty Name="FECHA_LABORATORIO" ColumnName="FECHA_LABORATORIO" />
+          <ScalarProperty Name="RESPOBSABLE_ENTREGA" ColumnName="RESPOBSABLE_ENTREGA" />
+          <ScalarProperty Name="OBSERVACION" ColumnName="OBSERVACION" />
+          <ScalarProperty Name="MODIFICADOPOR" ColumnName="MODIFICADOPOR" />
+          <ScalarProperty Name="MODIFICADOEL" ColumnName="MODIFICADOEL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GE_ORDEN_TRABAJO_LAB_DET">
+      <EntityTypeMapping TypeName="SIGDATAModel1.GE_ORDEN_TRABAJO_LAB_DET">
+        <MappingFragment StoreEntitySet="GE_ORDEN_TRABAJO_LAB_DET">
+          <ScalarProperty Name="COMPANIA" ColumnName="COMPANIA" />
+          <ScalarProperty Name="UNIDAD" ColumnName="UNIDAD" />
+          <ScalarProperty Name="ORDEN" ColumnName="ORDEN" />
+          <ScalarProperty Name="MUESTRA" ColumnName="MUESTRA" />
+          <ScalarProperty Name="OBSERVACION" ColumnName="OBSERVACION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GE_PARAMETROS">
+      <EntityTypeMapping TypeName="SIGDATAModel1.GE_PARAMETROS">
+        <MappingFragment StoreEntitySet="GE_PARAMETROS">
+          <ScalarProperty Name="PARAMETRO" ColumnName="PARAMETRO" />
+          <ScalarProperty Name="DESCRIPCION" ColumnName="DESCRIPCION" />
+          <ScalarProperty Name="DETALLE" ColumnName="DETALLE" />
+          <ScalarProperty Name="COMPANIA" ColumnName="COMPANIA" />
+          <ScalarProperty Name="UNIDAD" ColumnName="UNIDAD" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GE_PERIODOS">
+      <EntityTypeMapping TypeName="SIGDATAModel1.GE_PERIODOS">
+        <MappingFragment StoreEntitySet="GE_PERIODOS">
+          <ScalarProperty Name="COMPANIA" ColumnName="COMPANIA" />
+          <ScalarProperty Name="UNIDAD" ColumnName="UNIDAD" />
+          <ScalarProperty Name="PERIODO" ColumnName="PERIODO" />
+          <ScalarProperty Name="MES" ColumnName="MES" />
+          <ScalarProperty Name="DESDE" ColumnName="DESDE" />
+          <ScalarProperty Name="HASTA" ColumnName="HASTA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GE_POLIGONO_CAB">
+      <EntityTypeMapping TypeName="SIGDATAModel1.GE_POLIGONO_CAB">
+        <MappingFragment StoreEntitySet="GE_POLIGONO_CAB">
+          <ScalarProperty Name="COMPANIA" ColumnName="COMPANIA" />
+          <ScalarProperty Name="UNIDAD" ColumnName="UNIDAD" />
+          <ScalarProperty Name="POLIGONO" ColumnName="POLIGONO" />
+          <ScalarProperty Name="REFERENCIA" ColumnName="REFERENCIA" />
+          <ScalarProperty Name="NRO_MUESTRAS" ColumnName="NRO_MUESTRAS" />
+          <ScalarProperty Name="MEDIA_LAB" ColumnName="MEDIA_LAB" />
+          <ScalarProperty Name="MEDIA_GEO" ColumnName="MEDIA_GEO" />
+          <ScalarProperty Name="DESVIACION_ESTANDAR" ColumnName="DESVIACION_ESTANDAR" />
+          <ScalarProperty Name="ALTO_ERRATICO" ColumnName="ALTO_ERRATICO" />
+          <ScalarProperty Name="ALTOS_ERRATICOS" ColumnName="ALTOS_ERRATICOS" />
+          <ScalarProperty Name="LABOR" ColumnName="LABOR" />
+          <ScalarProperty Name="METODO" ColumnName="METODO" />
+          <ScalarProperty Name="FECHACREA" ColumnName="FECHACREA" />
+          <ScalarProperty Name="USUARIOCREA" ColumnName="USUARIOCREA" />
+          <ScalarProperty Name="ESTADO" ColumnName="ESTADO" />
+          <ScalarProperty Name="AREA" ColumnName="AREA" />
+          <ScalarProperty Name="DENSIDAD" ColumnName="DENSIDAD" />
+          <ScalarProperty Name="POTENCIA" ColumnName="POTENCIA" />
+          <ScalarProperty Name="TONELAJE" ColumnName="TONELAJE" />
+          <ScalarProperty Name="TONELAJE_PESADO" ColumnName="TONELAJE_PESADO" />
+          <ScalarProperty Name="FECHACR" ColumnName="FECHACR" />
+          <ScalarProperty Name="USUARIOCR" ColumnName="USUARIOCR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GE_PROGRAMA_MUESTREO">
+      <EntityTypeMapping TypeName="SIGDATAModel1.GE_PROGRAMA_MUESTREO">
+        <MappingFragment StoreEntitySet="GE_PROGRAMA_MUESTREO">
+          <ScalarProperty Name="COMPANIA" ColumnName="COMPANIA" />
+          <ScalarProperty Name="UNIDAD" ColumnName="UNIDAD" />
+          <ScalarProperty Name="PROGRAMA" ColumnName="PROGRAMA" />
+          <ScalarProperty Name="OBSERVACION" ColumnName="OBSERVACION" />
+          <ScalarProperty Name="FECHA" ColumnName="FECHA" />
+          <ScalarProperty Name="MODIFICADOPOR" ColumnName="MODIFICADOPOR" />
+          <ScalarProperty Name="MODIFICADOEL" ColumnName="MODIFICADOEL" />
+          <ScalarProperty Name="TURNO" ColumnName="TURNO" />
+          <ScalarProperty Name="MUESTRAS_OBJETIVO" ColumnName="MUESTRAS_OBJETIVO" />
+          <ScalarProperty Name="MUESTRAS_REAL" ColumnName="MUESTRAS_REAL" />
+          <ScalarProperty Name="ESTADO" ColumnName="ESTADO" />
+          <ScalarProperty Name="TIPO" ColumnName="TIPO" />
+          <ScalarProperty Name="PROYECTO_CODIGO" ColumnName="PROYECTO_CODIGO" />
+          <ScalarProperty Name="PROYECTO_DESCRIPCION" ColumnName="PROYECTO_DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GE_PROGRAMA_MUESTREO_PERSONAL">
+      <EntityTypeMapping TypeName="SIGDATAModel1.GE_PROGRAMA_MUESTREO_PERSONAL">
+        <MappingFragment StoreEntitySet="GE_PROGRAMA_MUESTREO_PERSONAL">
+          <ScalarProperty Name="COMPANIA" ColumnName="COMPANIA" />
+          <ScalarProperty Name="UNIDAD" ColumnName="UNIDAD" />
+          <ScalarProperty Name="PROGRAMA" ColumnName="PROGRAMA" />
+          <ScalarProperty Name="LABOR" ColumnName="LABOR" />
+          <ScalarProperty Name="PERSONAL" ColumnName="PERSONAL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GE_PROYECTO_PRF">
+      <EntityTypeMapping TypeName="SIGDATAModel1.GE_PROYECTO_PRF">
+        <MappingFragment StoreEntitySet="GE_PROYECTO_PRF">
+          <ScalarProperty Name="COMPANIA" ColumnName="COMPANIA" />
+          <ScalarProperty Name="UNIDAD" ColumnName="UNIDAD" />
+          <ScalarProperty Name="PROYECTO" ColumnName="PROYECTO" />
+          <ScalarProperty Name="OBJETIVO" ColumnName="OBJETIVO" />
+          <ScalarProperty Name="FECHA" ColumnName="FECHA" />
+          <ScalarProperty Name="RESUMEN" ColumnName="RESUMEN" />
+          <ScalarProperty Name="FECHACREA" ColumnName="FECHACREA" />
+          <ScalarProperty Name="USUARCREA" ColumnName="USUARCREA" />
+          <ScalarProperty Name="CORDENADAE" ColumnName="CORDENADAE" />
+          <ScalarProperty Name="CORDENADAN" ColumnName="CORDENADAN" />
+          <ScalarProperty Name="COTA" ColumnName="COTA" />
+          <ScalarProperty Name="AZIMUT" ColumnName="AZIMUT" />
+          <ScalarProperty Name="INCLINACION" ColumnName="INCLINACION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GE_RECURSOS_AREA">
+      <EntityTypeMapping TypeName="SIGDATAModel1.GE_RECURSOS_AREA">
+        <MappingFragment StoreEntitySet="GE_RECURSOS_AREA">
+          <ScalarProperty Name="COMPANIA" ColumnName="COMPANIA" />
+          <ScalarProperty Name="UNIDAD" ColumnName="UNIDAD" />
+          <ScalarProperty Name="SECTOR" ColumnName="SECTOR" />
+          <ScalarProperty Name="AREA" ColumnName="AREA" />
+          <ScalarProperty Name="TIPO_AREA" ColumnName="TIPO_AREA" />
+          <ScalarProperty Name="SECTOR_PADRE" ColumnName="SECTOR_PADRE" />
+          <ScalarProperty Name="AREA_PADRE" ColumnName="AREA_PADRE" />
+          <ScalarProperty Name="TIPO_LEY" ColumnName="TIPO_LEY" />
+          <ScalarProperty Name="TIPO_MEDICION" ColumnName="TIPO_MEDICION" />
+          <ScalarProperty Name="DESTINO_BLENDING" ColumnName="DESTINO_BLENDING" />
+          <ScalarProperty Name="PERIODO" ColumnName="PERIODO" />
+          <ScalarProperty Name="MODIFICADOEL" ColumnName="MODIFICADOEL" />
+          <ScalarProperty Name="MODIFICADOPOR" ColumnName="MODIFICADOPOR" />
+          <ScalarProperty Name="TIPO_BALANCE" ColumnName="TIPO_BALANCE" />
+          <ScalarProperty Name="CATEGORIA" ColumnName="CATEGORIA" />
+          <ScalarProperty Name="DENSIDAD" ColumnName="DENSIDAD" />
+          <ScalarProperty Name="TITULAR" ColumnName="TITULAR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GE_RECURSOS_AREA_MOVIMIENTOS">
+      <EntityTypeMapping TypeName="SIGDATAModel1.GE_RECURSOS_AREA_MOVIMIENTOS">
+        <MappingFragment StoreEntitySet="GE_RECURSOS_AREA_MOVIMIENTOS">
+          <ScalarProperty Name="COMPANIA" ColumnName="COMPANIA" />
+          <ScalarProperty Name="UNIDAD" ColumnName="UNIDAD" />
+          <ScalarProperty Name="SECTOR" ColumnName="SECTOR" />
+          <ScalarProperty Name="AREA" ColumnName="AREA" />
+          <ScalarProperty Name="PERIODO" ColumnName="PERIODO" />
+          <ScalarProperty Name="FECHA_MOV" ColumnName="FECHA_MOV" />
+          <ScalarProperty Name="TRANSACCION" ColumnName="TRANSACCION" />
+          <ScalarProperty Name="TONELAJE" ColumnName="TONELAJE" />
+          <ScalarProperty Name="SECTOR_ORIGEN" ColumnName="SECTOR_ORIGEN" />
+          <ScalarProperty Name="AREA_ORIGEN" ColumnName="AREA_ORIGEN" />
+          <ScalarProperty Name="LEY" ColumnName="LEY" />
+          <ScalarProperty Name="MOVIMIENTO" ColumnName="MOVIMIENTO" />
+          <ScalarProperty Name="MEDICION_TOPOGRAFIA_ID" ColumnName="MEDICION_TOPOGRAFIA_ID" />
+          <ScalarProperty Name="MEDICION_MODELO_ID" ColumnName="MEDICION_MODELO_ID" />
+          <ScalarProperty Name="MEDICION_PESAJE_ID" ColumnName="MEDICION_PESAJE_ID" />
+          <ScalarProperty Name="POLIGONO" ColumnName="POLIGONO" />
+          <ScalarProperty Name="LABOR" ColumnName="LABOR" />
+          <ScalarProperty Name="BLENDING" ColumnName="BLENDING" />
+          <ScalarProperty Name="MIGRACION" ColumnName="MIGRACION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GE_RECURSOS_AREA_PERIODO">
+      <EntityTypeMapping TypeName="SIGDATAModel1.GE_RECURSOS_AREA_PERIODO">
+        <MappingFragment StoreEntitySet="GE_RECURSOS_AREA_PERIODO">
+          <ScalarProperty Name="COMPANIA" ColumnName="COMPANIA" />
+          <ScalarProperty Name="UNIDAD" ColumnName="UNIDAD" />
+          <ScalarProperty Name="SECTOR" ColumnName="SECTOR" />
+          <ScalarProperty Name="AREA" ColumnName="AREA" />
+          <ScalarProperty Name="PERIODO" ColumnName="PERIODO" />
+          <ScalarProperty Name="FECHA" ColumnName="FECHA" />
+          <ScalarProperty Name="RECURSO_MEDIDIO" ColumnName="RECURSO_MEDIDIO" />
+          <ScalarProperty Name="RECURSO_INDICADO" ColumnName="RECURSO_INDICADO" />
+          <ScalarProperty Name="RECURSO_INFERIDO" ColumnName="RECURSO_INFERIDO" />
+          <ScalarProperty Name="CORTE" ColumnName="CORTE" />
+          <ScalarProperty Name="LEY_MEDIDO" ColumnName="LEY_MEDIDO" />
+          <ScalarProperty Name="LEY_INDICADO" ColumnName="LEY_INDICADO" />
+          <ScalarProperty Name="LEY_INFERIDO" ColumnName="LEY_INFERIDO" />
+          <ScalarProperty Name="CATOFF" ColumnName="CATOFF" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GE_RECURSOS_CATEGORIA_CAMBIO">
+      <EntityTypeMapping TypeName="SIGDATAModel1.GE_RECURSOS_CATEGORIA_CAMBIO">
+        <MappingFragment StoreEntitySet="GE_RECURSOS_CATEGORIA_CAMBIO">
+          <ScalarProperty Name="COMPANIA" ColumnName="COMPANIA" />
+          <ScalarProperty Name="UNIDAD" ColumnName="UNIDAD" />
+          <ScalarProperty Name="SECTOR" ColumnName="SECTOR" />
+          <ScalarProperty Name="AREA" ColumnName="AREA" />
+          <ScalarProperty Name="PERIODO" ColumnName="PERIODO" />
+          <ScalarProperty Name="CORTE" ColumnName="CORTE" />
+          <ScalarProperty Name="MOVIMIENTO" ColumnName="MOVIMIENTO" />
+          <ScalarProperty Name="TRANSACCION" ColumnName="TRANSACCION" />
+          <ScalarProperty Name="FECHA" ColumnName="FECHA" />
+          <ScalarProperty Name="TMH" ColumnName="TMH" />
+          <ScalarProperty Name="LEY" ColumnName="LEY" />
+          <ScalarProperty Name="CREADOPOR" ColumnName="CREADOPOR" />
+          <ScalarProperty Name="CREADOEL" ColumnName="CREADOEL" />
+          <ScalarProperty Name="SUSTENTO" ColumnName="SUSTENTO" />
+          <ScalarProperty Name="DETALLE_CAMBIO" ColumnName="DETALLE_CAMBIO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GE_RECURSOS_CLASIFICACION">
+      <EntityTypeMapping TypeName="SIGDATAModel1.GE_RECURSOS_CLASIFICACION">
+        <MappingFragment StoreEntitySet="GE_RECURSOS_CLASIFICACION">
+          <ScalarProperty Name="CATEGORIA" ColumnName="CATEGORIA" />
+          <ScalarProperty Name="DESCRIPCION" ColumnName="DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GE_RECURSOS_LEVANTAMIENTO_TOPO">
+      <EntityTypeMapping TypeName="SIGDATAModel1.GE_RECURSOS_LEVANTAMIENTO_TOPO">
+        <MappingFragment StoreEntitySet="GE_RECURSOS_LEVANTAMIENTO_TOPO">
+          <ScalarProperty Name="COMPANIA" ColumnName="COMPANIA" />
+          <ScalarProperty Name="UNIDAD" ColumnName="UNIDAD" />
+          <ScalarProperty Name="MEDICION" ColumnName="MEDICION" />
+          <ScalarProperty Name="PERIODO" ColumnName="PERIODO" />
+          <ScalarProperty Name="FECHA" ColumnName="FECHA" />
+          <ScalarProperty Name="SECTOR" ColumnName="SECTOR" />
+          <ScalarProperty Name="AREA" ColumnName="AREA" />
+          <ScalarProperty Name="LEY" ColumnName="LEY" />
+          <ScalarProperty Name="METROS_CUBICOS" ColumnName="METROS_CUBICOS" />
+          <ScalarProperty Name="DENSIDAD" ColumnName="DENSIDAD" />
+          <ScalarProperty Name="CONTRATA" ColumnName="CONTRATA" />
+          <ScalarProperty Name="TOPOGRAFO" ColumnName="TOPOGRAFO" />
+          <ScalarProperty Name="OBSERVACION" ColumnName="OBSERVACION" />
+          <ScalarProperty Name="PESO_TMH" ColumnName="PESO_TMH" />
+          <ScalarProperty Name="GENERA_MOVIMIENTO" ColumnName="GENERA_MOVIMIENTO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GE_RECURSOS_PILAS">
+      <EntityTypeMapping TypeName="SIGDATAModel1.GE_RECURSOS_PILAS">
+        <MappingFragment StoreEntitySet="GE_RECURSOS_PILAS">
+          <ScalarProperty Name="COMPANIA" ColumnName="COMPANIA" />
+          <ScalarProperty Name="UNIDAD" ColumnName="UNIDAD" />
+          <ScalarProperty Name="PILA" ColumnName="PILA" />
+          <ScalarProperty Name="SECTOR" ColumnName="SECTOR" />
+          <ScalarProperty Name="AREA" ColumnName="AREA" />
+          <ScalarProperty Name="POLIGONO" ColumnName="POLIGONO" />
+          <ScalarProperty Name="LEY" ColumnName="LEY" />
+          <ScalarProperty Name="TONELAJE_SALDO" ColumnName="TONELAJE_SALDO" />
+          <ScalarProperty Name="ESTADO" ColumnName="ESTADO" />
+          <ScalarProperty Name="CUADRICULA" ColumnName="CUADRICULA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GE_RECURSOS_TRANSACCIONES">
+      <EntityTypeMapping TypeName="SIGDATAModel1.GE_RECURSOS_TRANSACCIONES">
+        <MappingFragment StoreEntitySet="GE_RECURSOS_TRANSACCIONES">
+          <ScalarProperty Name="COMPANIA" ColumnName="COMPANIA" />
+          <ScalarProperty Name="UNIDAD" ColumnName="UNIDAD" />
+          <ScalarProperty Name="TRANSACCION" ColumnName="TRANSACCION" />
+          <ScalarProperty Name="DESCRIPCION" ColumnName="DESCRIPCION" />
+          <ScalarProperty Name="SUSTENTO" ColumnName="SUSTENTO" />
+          <ScalarProperty Name="SECTOR_DESTINO" ColumnName="SECTOR_DESTINO" />
+          <ScalarProperty Name="AREA_DESTINO" ColumnName="AREA_DESTINO" />
+          <ScalarProperty Name="TIPO_OPERACION" ColumnName="TIPO_OPERACION" />
+          <ScalarProperty Name="TIPO_AREA" ColumnName="TIPO_AREA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GE_REGISTRO_POLIGONO">
+      <EntityTypeMapping TypeName="SIGDATAModel1.GE_REGISTRO_POLIGONO">
+        <MappingFragment StoreEntitySet="GE_REGISTRO_POLIGONO">
+          <ScalarProperty Name="COMPANIA" ColumnName="COMPANIA" />
+          <ScalarProperty Name="UNIDAD" ColumnName="UNIDAD" />
+          <ScalarProperty Name="POLIGONO" ColumnName="POLIGONO" />
+          <ScalarProperty Name="COMENTARIO" ColumnName="COMENTARIO" />
+          <ScalarProperty Name="LABOR" ColumnName="LABOR" />
+          <ScalarProperty Name="METODO" ColumnName="METODO" />
+          <ScalarProperty Name="NUMERO_MUESTRAS" ColumnName="NUMERO_MUESTRAS" />
+          <ScalarProperty Name="MEDIA_PONDERADA_LAB" ColumnName="MEDIA_PONDERADA_LAB" />
+          <ScalarProperty Name="MEDIA_PONDERADA_GEO" ColumnName="MEDIA_PONDERADA_GEO" />
+          <ScalarProperty Name="DESVIACION_ESTANDAR" ColumnName="DESVIACION_ESTANDAR" />
+          <ScalarProperty Name="SALTO_ERRATICO_MAYOR_A" ColumnName="SALTO_ERRATICO_MAYOR_A" />
+          <ScalarProperty Name="NUMERO_SALTOS_ERRATICOS" ColumnName="NUMERO_SALTOS_ERRATICOS" />
+          <ScalarProperty Name="USUARIOMODIFICO" ColumnName="USUARIOMODIFICO" />
+          <ScalarProperty Name="FECHAMODIFICO" ColumnName="FECHAMODIFICO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GE_REP_BALANZA">
+      <EntityTypeMapping TypeName="SIGDATAModel1.GE_REP_BALANZA">
+        <MappingFragment StoreEntitySet="GE_REP_BALANZA">
+          <ScalarProperty Name="CANO_ID" ColumnName="CANO_ID" />
+          <ScalarProperty Name="CMES_ID" ColumnName="CMES_ID" />
+          <ScalarProperty Name="CBALANZA_ITEM" ColumnName="CBALANZA_ITEM" />
+          <ScalarProperty Name="DBALANZA_FECHA" ColumnName="DBALANZA_FECHA" />
+          <ScalarProperty Name="CACTIVOS_FIJOS_ID" ColumnName="CACTIVOS_FIJOS_ID" />
+          <ScalarProperty Name="CACTIVOS_FIJOS_DESC" ColumnName="CACTIVOS_FIJOS_DESC" />
+          <ScalarProperty Name="CCARGA_ID" ColumnName="CCARGA_ID" />
+          <ScalarProperty Name="VCARGA_DESCRIPCION" ColumnName="VCARGA_DESCRIPCION" />
+          <ScalarProperty Name="CTURNO_ID" ColumnName="CTURNO_ID" />
+          <ScalarProperty Name="VTURNO_NOMBRE" ColumnName="VTURNO_NOMBRE" />
+          <ScalarProperty Name="CMINA_ID" ColumnName="CMINA_ID" />
+          <ScalarProperty Name="VMINA_DESCRIPCION" ColumnName="VMINA_DESCRIPCION" />
+          <ScalarProperty Name="CVETA_ID" ColumnName="CVETA_ID" />
+          <ScalarProperty Name="VVETA_DESCRIPCION" ColumnName="VVETA_DESCRIPCION" />
+          <ScalarProperty Name="DFECHA_INICIAL" ColumnName="DFECHA_INICIAL" />
+          <ScalarProperty Name="NTONELAJE_INICIAL" ColumnName="NTONELAJE_INICIAL" />
+          <ScalarProperty Name="DFECHA_FINAL" ColumnName="DFECHA_FINAL" />
+          <ScalarProperty Name="NTONELAJE_FINAL" ColumnName="NTONELAJE_FINAL" />
+          <ScalarProperty Name="NPESO_NETO" ColumnName="NPESO_NETO" />
+          <ScalarProperty Name="CTOLVA_ID" ColumnName="CTOLVA_ID" />
+          <ScalarProperty Name="VTOLVA_DESCRIPCION" ColumnName="VTOLVA_DESCRIPCION" />
+          <ScalarProperty Name="COPERADOR_ID" ColumnName="COPERADOR_ID" />
+          <ScalarProperty Name="CCHOFER" ColumnName="CCHOFER" />
+          <ScalarProperty Name="CUSUARIOMODIFICA_ID" ColumnName="CUSUARIOMODIFICA_ID" />
+          <ScalarProperty Name="POLIGONO" ColumnName="POLIGONO" />
+          <ScalarProperty Name="LABOR_ORIGEN" ColumnName="LABOR_ORIGEN" />
+          <ScalarProperty Name="LABOR_DESTINO" ColumnName="LABOR_DESTINO" />
+          <ScalarProperty Name="TIPO_MINERAL" ColumnName="TIPO_MINERAL" />
+          <ScalarProperty Name="APILAR_EN" ColumnName="APILAR_EN" />
+          <ScalarProperty Name="UBICACION_PILA" ColumnName="UBICACION_PILA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GE_REPORTE_LABORATORIO">
+      <EntityTypeMapping TypeName="SIGDATAModel1.GE_REPORTE_LABORATORIO">
+        <MappingFragment StoreEntitySet="GE_REPORTE_LABORATORIO">
+          <ScalarProperty Name="COMPANIA" ColumnName="COMPANIA" />
+          <ScalarProperty Name="UNIDAD" ColumnName="UNIDAD" />
+          <ScalarProperty Name="PROGRAMA" ColumnName="PROGRAMA" />
+          <ScalarProperty Name="REPORTE" ColumnName="REPORTE" />
+          <ScalarProperty Name="CONTRATA" ColumnName="CONTRATA" />
+          <ScalarProperty Name="REPORTA" ColumnName="REPORTA" />
+          <ScalarProperty Name="SUPERVISOR" ColumnName="SUPERVISOR" />
+          <ScalarProperty Name="FECHA_REPORTE" ColumnName="FECHA_REPORTE" />
+          <ScalarProperty Name="OBSERVACIONES" ColumnName="OBSERVACIONES" />
+          <ScalarProperty Name="ORDEN_TRABAJO" ColumnName="ORDEN_TRABAJO" />
+          <ScalarProperty Name="FECHA_RECEPCION_OT" ColumnName="FECHA_RECEPCION_OT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GE_REPORTE_MUESTREO">
+      <EntityTypeMapping TypeName="SIGDATAModel1.GE_REPORTE_MUESTREO">
+        <MappingFragment StoreEntitySet="GE_REPORTE_MUESTREO">
+          <ScalarProperty Name="COMPANIA" ColumnName="COMPANIA" />
+          <ScalarProperty Name="UNIDAD" ColumnName="UNIDAD" />
+          <ScalarProperty Name="PROGRAMA" ColumnName="PROGRAMA" />
+          <ScalarProperty Name="REPORTE" ColumnName="REPORTE" />
+          <ScalarProperty Name="REPORTA" ColumnName="REPORTA" />
+          <ScalarProperty Name="SUPERVISOR" ColumnName="SUPERVISOR" />
+          <ScalarProperty Name="FECHA_REPORTE" ColumnName="FECHA_REPORTE" />
+          <ScalarProperty Name="LABOR" ColumnName="LABOR" />
+          <ScalarProperty Name="OBSERVACION" ColumnName="OBSERVACION" />
+          <ScalarProperty Name="ORDEN_LABORATORIO" ColumnName="ORDEN_LABORATORIO" />
+          <ScalarProperty Name="FECHA_ENTREGA" ColumnName="FECHA_ENTREGA" />
+          <ScalarProperty Name="RESPONSABLE_ENTREGA" ColumnName="RESPONSABLE_ENTREGA" />
+          <ScalarProperty Name="MUESTRAS_ENTREGADAS" ColumnName="MUESTRAS_ENTREGADAS" />
+          <ScalarProperty Name="USRCRE" ColumnName="USRCRE" />
+          <ScalarProperty Name="FECCRE" ColumnName="FECCRE" />
+          <ScalarProperty Name="USRMOD" ColumnName="USRMOD" />
+          <ScalarProperty Name="FECMOD" ColumnName="FECMOD" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GE_REPORTE_MUESTREO_DETALLE">
+      <EntityTypeMapping TypeName="SIGDATAModel1.GE_REPORTE_MUESTREO_DETALLE">
+        <MappingFragment StoreEntitySet="GE_REPORTE_MUESTREO_DETALLE">
+          <ScalarProperty Name="COMPANIA" ColumnName="COMPANIA" />
+          <ScalarProperty Name="UNIDAD" ColumnName="UNIDAD" />
+          <ScalarProperty Name="PROGRAMA" ColumnName="PROGRAMA" />
+          <ScalarProperty Name="REPORTE" ColumnName="REPORTE" />
+          <ScalarProperty Name="MUESTRA" ColumnName="MUESTRA" />
+          <ScalarProperty Name="LONGITUD" ColumnName="LONGITUD" />
+          <ScalarProperty Name="SISTEMA_MUESTREO" ColumnName="SISTEMA_MUESTREO" />
+          <ScalarProperty Name="RESPONSABLE" ColumnName="RESPONSABLE" />
+          <ScalarProperty Name="OBSERVACION" ColumnName="OBSERVACION" />
+          <ScalarProperty Name="TIPO_MUESTREO" ColumnName="TIPO_MUESTREO" />
+          <ScalarProperty Name="AZIMUT" ColumnName="AZIMUT" />
+          <ScalarProperty Name="INCLINACION" ColumnName="INCLINACION" />
+          <ScalarProperty Name="QAQC" ColumnName="QAQC" />
+          <ScalarProperty Name="TOPOGRAFIA_X" ColumnName="TOPOGRAFIA_X" />
+          <ScalarProperty Name="TOPOGRAFIA_Y" ColumnName="TOPOGRAFIA_Y" />
+          <ScalarProperty Name="TOPOGRAFIA_Z" ColumnName="TOPOGRAFIA_Z" />
+          <ScalarProperty Name="REPORTE_TOPOGRAFIA" ColumnName="REPORTE_TOPOGRAFIA" />
+          <ScalarProperty Name="REPORTE_LABORATORIO" ColumnName="REPORTE_LABORATORIO" />
+          <ScalarProperty Name="LABORATORIO_LOCAL_LEY" ColumnName="LABORATORIO_LOCAL_LEY" />
+          <ScalarProperty Name="LABORATORIO_LOCAL_HUMEDAD" ColumnName="LABORATORIO_LOCAL_HUMEDAD" />
+          <ScalarProperty Name="LABORATORIO_EXT01_LEY" ColumnName="LABORATORIO_EXT01_LEY" />
+          <ScalarProperty Name="LABORATORIO_EXT01_HUMEDAD" ColumnName="LABORATORIO_EXT01_HUMEDAD" />
+          <ScalarProperty Name="LABORATORIO_EXT02_LEY" ColumnName="LABORATORIO_EXT02_LEY" />
+          <ScalarProperty Name="LABORATORIO_EXT02_HUMEDAD" ColumnName="LABORATORIO_EXT02_HUMEDAD" />
+          <ScalarProperty Name="LITOLOGIA" ColumnName="LITOLOGIA" />
+          <ScalarProperty Name="MINERALIZACION" ColumnName="MINERALIZACION" />
+          <ScalarProperty Name="POLIGONO" ColumnName="POLIGONO" />
+          <ScalarProperty Name="ORDEN_LABORATORIO" ColumnName="ORDEN_LABORATORIO" />
+          <ScalarProperty Name="FECHA_ENTREGA" ColumnName="FECHA_ENTREGA" />
+          <ScalarProperty Name="RESPONSABLE_ENTREGA" ColumnName="RESPONSABLE_ENTREGA" />
+          <ScalarProperty Name="AYUDANTE" ColumnName="AYUDANTE" />
+          <ScalarProperty Name="PROYECTO" ColumnName="PROYECTO" />
+          <ScalarProperty Name="MUESTRA_QAQC" ColumnName="MUESTRA_QAQC" />
+          <ScalarProperty Name="LABORATORIO_APROBACION_FEC" ColumnName="LABORATORIO_APROBACION_FEC" />
+          <ScalarProperty Name="LABORATORIO_APROBACION_USU" ColumnName="LABORATORIO_APROBACION_USU" />
+          <ScalarProperty Name="LEY_GEOLOGIA" ColumnName="LEY_GEOLOGIA" />
+          <ScalarProperty Name="PILA" ColumnName="PILA" />
+          <ScalarProperty Name="POLIGONO_REFERENCIA" ColumnName="POLIGONO_REFERENCIA" />
+          <ScalarProperty Name="LABORATORIO_LEY_ESTADO" ColumnName="LABORATORIO_LEY_ESTADO" />
+          <ScalarProperty Name="LABORATORIO_LEY_OBS" ColumnName="LABORATORIO_LEY_OBS" />
+          <ScalarProperty Name="TITULAR" ColumnName="TITULAR" />
+          <ScalarProperty Name="LABOR" ColumnName="LABOR" />
+          <ScalarProperty Name="SONDAJE" ColumnName="SONDAJE" />
+          <ScalarProperty Name="METRAJE_FROM" ColumnName="METRAJE_FROM" />
+          <ScalarProperty Name="METRAJE_TO" ColumnName="METRAJE_TO" />
+          <ScalarProperty Name="TIPO_CANAL" ColumnName="TIPO_CANAL" />
+          <ScalarProperty Name="MUESTREO_EN" ColumnName="MUESTREO_EN" />
+          <ScalarProperty Name="MANTO" ColumnName="MANTO" />
+          <ScalarProperty Name="CALICATA" ColumnName="CALICATA" />
+          <ScalarProperty Name="CC_ANCHO" ColumnName="CC_ANCHO" />
+          <ScalarProperty Name="CC_LARGO" ColumnName="CC_LARGO" />
+          <ScalarProperty Name="ZMUESTRA" ColumnName="ZMUESTRA" />
+          <ScalarProperty Name="LOGUEO" ColumnName="LOGUEO" />
+          <ScalarProperty Name="REFERENCIAM" ColumnName="REFERENCIAM" />
+          <ScalarProperty Name="GEMMUESTRA" ColumnName="GEMMUESTRA" />
+          <ScalarProperty Name="RECMUESTRA" ColumnName="RECMUESTRA" />
+          <ScalarProperty Name="DUPMUESTRA" ColumnName="DUPMUESTRA" />
+          <ScalarProperty Name="LEYGEMMUESTRA" ColumnName="LEYGEMMUESTRA" />
+          <ScalarProperty Name="LEYRECMUESTRA" ColumnName="LEYRECMUESTRA" />
+          <ScalarProperty Name="LEYDUPMUESTRA" ColumnName="LEYDUPMUESTRA" />
+          <ScalarProperty Name="PRIORIDAD" ColumnName="PRIORIDAD" />
+          <ScalarProperty Name="CLITOLOGIA" ColumnName="CLITOLOGIA" />
+          <ScalarProperty Name="CDLITOLOGIA" ColumnName="CDLITOLOGIA" />
+          <ScalarProperty Name="CALTERACION" ColumnName="CALTERACION" />
+          <ScalarProperty Name="CDALTERACION" ColumnName="CDALTERACION" />
+          <ScalarProperty Name="CESTRUCTURAS" ColumnName="CESTRUCTURAS" />
+          <ScalarProperty Name="CDESTRUCTURAS" ColumnName="CDESTRUCTURAS" />
+          <ScalarProperty Name="CMINERALIZACION" ColumnName="CMINERALIZACION" />
+          <ScalarProperty Name="CDMINERALIZACION" ColumnName="CDMINERALIZACION" />
+          <ScalarProperty Name="PULMUESTRA" ColumnName="PULMUESTRA" />
+          <ScalarProperty Name="USRCRE" ColumnName="USRCRE" />
+          <ScalarProperty Name="FECCRE" ColumnName="FECCRE" />
+          <ScalarProperty Name="USRMOD" ColumnName="USRMOD" />
+          <ScalarProperty Name="FECMOD" ColumnName="FECMOD" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GE_REPORTE_MUESTREO_DETALLE1">
+      <EntityTypeMapping TypeName="SIGDATAModel1.GE_REPORTE_MUESTREO_DETALLE1">
+        <MappingFragment StoreEntitySet="GE_REPORTE_MUESTREO_DETALLE1">
+          <ScalarProperty Name="COMPANIA" ColumnName="COMPANIA" />
+          <ScalarProperty Name="UNIDAD" ColumnName="UNIDAD" />
+          <ScalarProperty Name="PROGRAMA" ColumnName="PROGRAMA" />
+          <ScalarProperty Name="REPORTE" ColumnName="REPORTE" />
+          <ScalarProperty Name="MUESTRA" ColumnName="MUESTRA" />
+          <ScalarProperty Name="LONGITUD" ColumnName="LONGITUD" />
+          <ScalarProperty Name="SISTEMA_MUESTREO" ColumnName="SISTEMA_MUESTREO" />
+          <ScalarProperty Name="RESPONSABLE" ColumnName="RESPONSABLE" />
+          <ScalarProperty Name="OBSERVACION" ColumnName="OBSERVACION" />
+          <ScalarProperty Name="TIPO_MUESTREO" ColumnName="TIPO_MUESTREO" />
+          <ScalarProperty Name="AZIMUT" ColumnName="AZIMUT" />
+          <ScalarProperty Name="INCLINACION" ColumnName="INCLINACION" />
+          <ScalarProperty Name="QAQC" ColumnName="QAQC" />
+          <ScalarProperty Name="TOPOGRAFIA_X" ColumnName="TOPOGRAFIA_X" />
+          <ScalarProperty Name="TOPOGRAFIA_Y" ColumnName="TOPOGRAFIA_Y" />
+          <ScalarProperty Name="TOPOGRAFIA_Z" ColumnName="TOPOGRAFIA_Z" />
+          <ScalarProperty Name="REPORTE_TOPOGRAFIA" ColumnName="REPORTE_TOPOGRAFIA" />
+          <ScalarProperty Name="REPORTE_LABORATORIO" ColumnName="REPORTE_LABORATORIO" />
+          <ScalarProperty Name="LABORATORIO_LOCAL_LEY" ColumnName="LABORATORIO_LOCAL_LEY" />
+          <ScalarProperty Name="LABORATORIO_LOCAL_HUMEDAD" ColumnName="LABORATORIO_LOCAL_HUMEDAD" />
+          <ScalarProperty Name="LABORATORIO_EXT01_LEY" ColumnName="LABORATORIO_EXT01_LEY" />
+          <ScalarProperty Name="LABORATORIO_EXT01_HUMEDAD" ColumnName="LABORATORIO_EXT01_HUMEDAD" />
+          <ScalarProperty Name="LABORATORIO_EXT02_LEY" ColumnName="LABORATORIO_EXT02_LEY" />
+          <ScalarProperty Name="LABORATORIO_EXT02_HUMEDAD" ColumnName="LABORATORIO_EXT02_HUMEDAD" />
+          <ScalarProperty Name="LITOLOGIA" ColumnName="LITOLOGIA" />
+          <ScalarProperty Name="MINERALIZACION" ColumnName="MINERALIZACION" />
+          <ScalarProperty Name="POLIGONO" ColumnName="POLIGONO" />
+          <ScalarProperty Name="ORDEN_LABORATORIO" ColumnName="ORDEN_LABORATORIO" />
+          <ScalarProperty Name="FECHA_ENTREGA" ColumnName="FECHA_ENTREGA" />
+          <ScalarProperty Name="RESPONSABLE_ENTREGA" ColumnName="RESPONSABLE_ENTREGA" />
+          <ScalarProperty Name="AYUDANTE" ColumnName="AYUDANTE" />
+          <ScalarProperty Name="PROYECTO" ColumnName="PROYECTO" />
+          <ScalarProperty Name="MUESTRA_QAQC" ColumnName="MUESTRA_QAQC" />
+          <ScalarProperty Name="LABORATORIO_APROBACION_FEC" ColumnName="LABORATORIO_APROBACION_FEC" />
+          <ScalarProperty Name="LABORATORIO_APROBACION_USU" ColumnName="LABORATORIO_APROBACION_USU" />
+          <ScalarProperty Name="LEY_GEOLOGIA" ColumnName="LEY_GEOLOGIA" />
+          <ScalarProperty Name="PILA" ColumnName="PILA" />
+          <ScalarProperty Name="POLIGONO_REFERENCIA" ColumnName="POLIGONO_REFERENCIA" />
+          <ScalarProperty Name="LABORATORIO_LEY_ESTADO" ColumnName="LABORATORIO_LEY_ESTADO" />
+          <ScalarProperty Name="LABORATORIO_LEY_OBS" ColumnName="LABORATORIO_LEY_OBS" />
+          <ScalarProperty Name="TITULAR" ColumnName="TITULAR" />
+          <ScalarProperty Name="LABOR" ColumnName="LABOR" />
+          <ScalarProperty Name="SONDAJE" ColumnName="SONDAJE" />
+          <ScalarProperty Name="METRAJE_FROM" ColumnName="METRAJE_FROM" />
+          <ScalarProperty Name="METRAJE_TO" ColumnName="METRAJE_TO" />
+          <ScalarProperty Name="TIPO_CANAL" ColumnName="TIPO_CANAL" />
+          <ScalarProperty Name="MUESTREO_EN" ColumnName="MUESTREO_EN" />
+          <ScalarProperty Name="MANTO" ColumnName="MANTO" />
+          <ScalarProperty Name="CALICATA" ColumnName="CALICATA" />
+          <ScalarProperty Name="CC_ANCHO" ColumnName="CC_ANCHO" />
+          <ScalarProperty Name="CC_LARGO" ColumnName="CC_LARGO" />
+          <ScalarProperty Name="ZMUESTRA" ColumnName="ZMUESTRA" />
+          <ScalarProperty Name="LOGUEO" ColumnName="LOGUEO" />
+          <ScalarProperty Name="REFERENCIAM" ColumnName="REFERENCIAM" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GE_REPORTE_MUESTREO_LABORATO">
+      <EntityTypeMapping TypeName="SIGDATAModel1.GE_REPORTE_MUESTREO_LABORATO">
+        <MappingFragment StoreEntitySet="GE_REPORTE_MUESTREO_LABORATO">
+          <ScalarProperty Name="COMPANIA" ColumnName="COMPANIA" />
+          <ScalarProperty Name="UNIDAD" ColumnName="UNIDAD" />
+          <ScalarProperty Name="PROGRAMA" ColumnName="PROGRAMA" />
+          <ScalarProperty Name="REPORTE" ColumnName="REPORTE" />
+          <ScalarProperty Name="MUESTRA" ColumnName="MUESTRA" />
+          <ScalarProperty Name="LEY" ColumnName="LEY" />
+          <ScalarProperty Name="OBSERVACION" ColumnName="OBSERVACION" />
+          <ScalarProperty Name="PERSONAL_LABORATORIO" ColumnName="PERSONAL_LABORATORIO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GE_REPORTE_PRF">
+      <EntityTypeMapping TypeName="SIGDATAModel1.GE_REPORTE_PRF">
+        <MappingFragment StoreEntitySet="GE_REPORTE_PRF">
+          <ScalarProperty Name="COMPANIA" ColumnName="COMPANIA" />
+          <ScalarProperty Name="UNIDAD" ColumnName="UNIDAD" />
+          <ScalarProperty Name="PROYECTO" ColumnName="PROYECTO" />
+          <ScalarProperty Name="REPORTA" ColumnName="REPORTA" />
+          <ScalarProperty Name="SUPERVISOR" ColumnName="SUPERVISOR" />
+          <ScalarProperty Name="LABOR" ColumnName="LABOR" />
+          <ScalarProperty Name="FECHA" ColumnName="FECHA" />
+          <ScalarProperty Name="COORDENADAE" ColumnName="COORDENADAE" />
+          <ScalarProperty Name="COORDENADAN" ColumnName="COORDENADAN" />
+          <ScalarProperty Name="COTA" ColumnName="COTA" />
+          <ScalarProperty Name="AZIMUT" ColumnName="AZIMUT" />
+          <ScalarProperty Name="INCLINACION" ColumnName="INCLINACION" />
+          <ScalarProperty Name="ARCHIVOPDF" ColumnName="ARCHIVOPDF" />
+          <ScalarProperty Name="ESTADO" ColumnName="ESTADO" />
+          <ScalarProperty Name="CREADOPOR" ColumnName="CREADOPOR" />
+          <ScalarProperty Name="FECHACREA" ColumnName="FECHACREA" />
+          <ScalarProperty Name="MODIFIPOR" ColumnName="MODIFIPOR" />
+          <ScalarProperty Name="FECHAMOD" ColumnName="FECHAMOD" />
+          <ScalarProperty Name="LONGTOTAL" ColumnName="LONGTOTAL" />
+          <ScalarProperty Name="MAQUINA" ColumnName="MAQUINA" />
+          <ScalarProperty Name="SONDAJE" ColumnName="SONDAJE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GE_REPORTE_PRF_DETALLE">
+      <EntityTypeMapping TypeName="SIGDATAModel1.GE_REPORTE_PRF_DETALLE">
+        <MappingFragment StoreEntitySet="GE_REPORTE_PRF_DETALLE">
+          <ScalarProperty Name="COMPANIA" ColumnName="COMPANIA" />
+          <ScalarProperty Name="UNIDAD" ColumnName="UNIDAD" />
+          <ScalarProperty Name="SONDAJE" ColumnName="SONDAJE" />
+          <ScalarProperty Name="METRAJE_FROM" ColumnName="METRAJE_FROM" />
+          <ScalarProperty Name="METRAJE_TO" ColumnName="METRAJE_TO" />
+          <ScalarProperty Name="INTERVALO" ColumnName="INTERVALO" />
+          <ScalarProperty Name="LOGUEO" ColumnName="LOGUEO" />
+          <ScalarProperty Name="LITOLOGIA" ColumnName="LITOLOGIA" />
+          <ScalarProperty Name="ALTERACION" ColumnName="ALTERACION" />
+          <ScalarProperty Name="ESTRUCTURAS" ColumnName="ESTRUCTURAS" />
+          <ScalarProperty Name="MINERALIZACION" ColumnName="MINERALIZACION" />
+          <ScalarProperty Name="PROYECTO" ColumnName="PROYECTO" />
+          <ScalarProperty Name="ILITOLOGIA" ColumnName="ILITOLOGIA" />
+          <ScalarProperty Name="IALTERACION" ColumnName="IALTERACION" />
+          <ScalarProperty Name="IESTRUCTURAS" ColumnName="IESTRUCTURAS" />
+          <ScalarProperty Name="IMINERALIZACION" ColumnName="IMINERALIZACION" />
+          <ScalarProperty Name="CORR" ColumnName="CORR" />
+          <ScalarProperty Name="RECUP" ColumnName="RECUP" />
+          <ScalarProperty Name="PRECUP" ColumnName="PRECUP" />
+          <ScalarProperty Name="RQD" ColumnName="RQD" />
+          <ScalarProperty Name="PRQD" ColumnName="PRQD" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GE_REPORTE_PRF_DETALLE_MUESTRA">
+      <EntityTypeMapping TypeName="SIGDATAModel1.GE_REPORTE_PRF_DETALLE_MUESTRA">
+        <MappingFragment StoreEntitySet="GE_REPORTE_PRF_DETALLE_MUESTRA">
+          <ScalarProperty Name="COMPANIA" ColumnName="COMPANIA" />
+          <ScalarProperty Name="UNIDAD" ColumnName="UNIDAD" />
+          <ScalarProperty Name="SONDAJE" ColumnName="SONDAJE" />
+          <ScalarProperty Name="MUESTRA" ColumnName="MUESTRA" />
+          <ScalarProperty Name="DESDE" ColumnName="DESDE" />
+          <ScalarProperty Name="HASTA" ColumnName="HASTA" />
+          <ScalarProperty Name="LEY" ColumnName="LEY" />
+          <ScalarProperty Name="LITOLOGIA" ColumnName="LITOLOGIA" />
+          <ScalarProperty Name="ALTERACION" ColumnName="ALTERACION" />
+          <ScalarProperty Name="ESTRUCTURAS" ColumnName="ESTRUCTURAS" />
+          <ScalarProperty Name="MINERALIZACION" ColumnName="MINERALIZACION" />
+          <ScalarProperty Name="PROYECTO" ColumnName="PROYECTO" />
+          <ScalarProperty Name="ILITOLOGIA" ColumnName="ILITOLOGIA" />
+          <ScalarProperty Name="IALTERACION" ColumnName="IALTERACION" />
+          <ScalarProperty Name="IESTRUCTURAS" ColumnName="IESTRUCTURAS" />
+          <ScalarProperty Name="IMINERALZACION" ColumnName="IMINERALZACION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GE_REPORTE_TOPOGRAFICO">
+      <EntityTypeMapping TypeName="SIGDATAModel1.GE_REPORTE_TOPOGRAFICO">
+        <MappingFragment StoreEntitySet="GE_REPORTE_TOPOGRAFICO">
+          <ScalarProperty Name="COMPANIA" ColumnName="COMPANIA" />
+          <ScalarProperty Name="UNIDAD" ColumnName="UNIDAD" />
+          <ScalarProperty Name="PROGRAMA" ColumnName="PROGRAMA" />
+          <ScalarProperty Name="REPORTE" ColumnName="REPORTE" />
+          <ScalarProperty Name="CONTRATA" ColumnName="CONTRATA" />
+          <ScalarProperty Name="REPORTA" ColumnName="REPORTA" />
+          <ScalarProperty Name="SUPERVISOR" ColumnName="SUPERVISOR" />
+          <ScalarProperty Name="FECHA_REPORTE" ColumnName="FECHA_REPORTE" />
+          <ScalarProperty Name="OBSERVACIONES" ColumnName="OBSERVACIONES" />
+          <ScalarProperty Name="USUARIOMODIFICA" ColumnName="USUARIOMODIFICA" />
+          <ScalarProperty Name="FECHAMODIFICA" ColumnName="FECHAMODIFICA" />
+          <ScalarProperty Name="CODIGO_AUTORIZACION" ColumnName="CODIGO_AUTORIZACION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GE_SEGURIDAD_USUARIOS">
+      <EntityTypeMapping TypeName="SIGDATAModel1.GE_SEGURIDAD_USUARIOS">
+        <MappingFragment StoreEntitySet="GE_SEGURIDAD_USUARIOS">
+          <ScalarProperty Name="COMPANIA" ColumnName="COMPANIA" />
+          <ScalarProperty Name="UNIDAD" ColumnName="UNIDAD" />
+          <ScalarProperty Name="USUARIO" ColumnName="USUARIO" />
+          <ScalarProperty Name="PROCESO" ColumnName="PROCESO" />
+          <ScalarProperty Name="SUBPROCESO" ColumnName="SUBPROCESO" />
+          <ScalarProperty Name="ACTIVIDAD" ColumnName="ACTIVIDAD" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GE_TMP_TRANSPORTE">
+      <EntityTypeMapping TypeName="SIGDATAModel1.GE_TMP_TRANSPORTE">
+        <MappingFragment StoreEntitySet="GE_TMP_TRANSPORTE">
+          <ScalarProperty Name="CANO_ID" ColumnName="CANO_ID" />
+          <ScalarProperty Name="CMES_ID" ColumnName="CMES_ID" />
+          <ScalarProperty Name="CBALANZA_ITEM" ColumnName="CBALANZA_ITEM" />
+          <ScalarProperty Name="DBALANZA_FECHA" ColumnName="DBALANZA_FECHA" />
+          <ScalarProperty Name="CACTIVOS_FIJOS_ID" ColumnName="CACTIVOS_FIJOS_ID" />
+          <ScalarProperty Name="CACTIVOS_FIJOS_DESC" ColumnName="CACTIVOS_FIJOS_DESC" />
+          <ScalarProperty Name="CCARGA_ID" ColumnName="CCARGA_ID" />
+          <ScalarProperty Name="VCARGA_DESCRIPCION" ColumnName="VCARGA_DESCRIPCION" />
+          <ScalarProperty Name="CTURNO_ID" ColumnName="CTURNO_ID" />
+          <ScalarProperty Name="VTURNO_NOMBRE" ColumnName="VTURNO_NOMBRE" />
+          <ScalarProperty Name="CMINA_ID" ColumnName="CMINA_ID" />
+          <ScalarProperty Name="VMINA_DESCRIPCION" ColumnName="VMINA_DESCRIPCION" />
+          <ScalarProperty Name="CVETA_ID" ColumnName="CVETA_ID" />
+          <ScalarProperty Name="VVETA_DESCRIPCION" ColumnName="VVETA_DESCRIPCION" />
+          <ScalarProperty Name="DFECHA_INICIAL" ColumnName="DFECHA_INICIAL" />
+          <ScalarProperty Name="NTONELAJE_INICIAL" ColumnName="NTONELAJE_INICIAL" />
+          <ScalarProperty Name="DFECHA_FINAL" ColumnName="DFECHA_FINAL" />
+          <ScalarProperty Name="NTONELAJE_FINAL" ColumnName="NTONELAJE_FINAL" />
+          <ScalarProperty Name="NPESO_NETO" ColumnName="NPESO_NETO" />
+          <ScalarProperty Name="CTOLVA_ID" ColumnName="CTOLVA_ID" />
+          <ScalarProperty Name="VTOLVA_DESCRIPCION" ColumnName="VTOLVA_DESCRIPCION" />
+          <ScalarProperty Name="COPERADOR_ID" ColumnName="COPERADOR_ID" />
+          <ScalarProperty Name="CCHOFER" ColumnName="CCHOFER" />
+          <ScalarProperty Name="CUSUARIOMODIFICA_ID" ColumnName="CUSUARIOMODIFICA_ID" />
+          <ScalarProperty Name="POLIGONO" ColumnName="POLIGONO" />
+          <ScalarProperty Name="LABOR_ORIGEN" ColumnName="LABOR_ORIGEN" />
+          <ScalarProperty Name="LABOR_DESTINO" ColumnName="LABOR_DESTINO" />
+          <ScalarProperty Name="TIPO_MINERAL" ColumnName="TIPO_MINERAL" />
+          <ScalarProperty Name="APILAR_EN" ColumnName="APILAR_EN" />
+          <ScalarProperty Name="UBICACION_PILA" ColumnName="UBICACION_PILA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GE_VALGRA_PRO">
+      <EntityTypeMapping TypeName="SIGDATAModel1.GE_VALGRA_PRO">
+        <MappingFragment StoreEntitySet="GE_VALGRA_PRO">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="FECHA" ColumnName="FECHA" />
+          <ScalarProperty Name="PROTMH" ColumnName="PROTMH" />
+          <ScalarProperty Name="PROAUG" ColumnName="PROAUG" />
+          <ScalarProperty Name="PROKGA" ColumnName="PROKGA" />
+          <ScalarProperty Name="PRMTMH" ColumnName="PRMTMH" />
+          <ScalarProperty Name="PRMAUG" ColumnName="PRMAUG" />
+          <ScalarProperty Name="BLETMH" ColumnName="BLETMH" />
+          <ScalarProperty Name="BLEAUG" ColumnName="BLEAUG" />
+          <ScalarProperty Name="PRPTMH" ColumnName="PRPTMH" />
+          <ScalarProperty Name="PRPAUG" ColumnName="PRPAUG" />
+          <ScalarProperty Name="PRPKAU" ColumnName="PRPKAU" />
+          <ScalarProperty Name="FPGTMH" ColumnName="FPGTMH" />
+          <ScalarProperty Name="FPGAUG" ColumnName="FPGAUG" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GE_VALPRO">
+      <EntityTypeMapping TypeName="SIGDATAModel1.GE_VALPRO">
+        <MappingFragment StoreEntitySet="GE_VALPRO">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="FECHA" ColumnName="FECHA" />
+          <ScalarProperty Name="TMH_PROG" ColumnName="TMH_PROG" />
+          <ScalarProperty Name="LCA_PROG" ColumnName="LCA_PROG" />
+          <ScalarProperty Name="TMH_PROC" ColumnName="TMH_PROC" />
+          <ScalarProperty Name="LCA_CALC" ColumnName="LCA_CALC" />
+          <ScalarProperty Name="FPROG" ColumnName="FPROG" />
+          <ScalarProperty Name="FPROD" ColumnName="FPROD" />
+          <ScalarProperty Name="LEY_ANALIZADA" ColumnName="LEY_ANALIZADA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MIN_MLABOR">
+      <EntityTypeMapping TypeName="SIGDATAModel1.MIN_MLABOR">
+        <MappingFragment StoreEntitySet="MIN_MLABOR">
+          <ScalarProperty Name="VLABOR_ID" ColumnName="VLABOR_ID" />
+          <ScalarProperty Name="CUNIDAD_ID" ColumnName="CUNIDAD_ID" />
+          <ScalarProperty Name="CZONA_ID" ColumnName="CZONA_ID" />
+          <ScalarProperty Name="CMINA_ID" ColumnName="CMINA_ID" />
+          <ScalarProperty Name="CNIVEL_ID" ColumnName="CNIVEL_ID" />
+          <ScalarProperty Name="CVETA_ID" ColumnName="CVETA_ID" />
+          <ScalarProperty Name="NLABOR_COORDENADAX" ColumnName="NLABOR_COORDENADAX" />
+          <ScalarProperty Name="NLABOR_COORDENADAY" ColumnName="NLABOR_COORDENADAY" />
+          <ScalarProperty Name="NLABOR_COORDENADAZ" ColumnName="NLABOR_COORDENADAZ" />
+          <ScalarProperty Name="CFASE_ID" ColumnName="CFASE_ID" />
+          <ScalarProperty Name="CPROVEEDOR_ID" ColumnName="CPROVEEDOR_ID" />
+          <ScalarProperty Name="CDIMENSION_ID" ColumnName="CDIMENSION_ID" />
+          <ScalarProperty Name="DLABOR_FECHAAPERTURA" ColumnName="DLABOR_FECHAAPERTURA" />
+          <ScalarProperty Name="CTIPOROCA_ID" ColumnName="CTIPOROCA_ID" />
+          <ScalarProperty Name="CCR_ID" ColumnName="CCR_ID" />
+          <ScalarProperty Name="CTIPOLABOR_ID" ColumnName="CTIPOLABOR_ID" />
+          <ScalarProperty Name="VLABOR_COMENTARIO" ColumnName="VLABOR_COMENTARIO" />
+          <ScalarProperty Name="CPISO_ID" ColumnName="CPISO_ID" />
+          <ScalarProperty Name="CESTADO_ID" ColumnName="CESTADO_ID" />
+          <ScalarProperty Name="CSISTEMALABOR_ID" ColumnName="CSISTEMALABOR_ID" />
+          <ScalarProperty Name="CMETODOLABOR_ID" ColumnName="CMETODOLABOR_ID" />
+          <ScalarProperty Name="CUSUARIOINGRESO_ID" ColumnName="CUSUARIOINGRESO_ID" />
+          <ScalarProperty Name="DFECHAINGRESO" ColumnName="DFECHAINGRESO" />
+          <ScalarProperty Name="VPCINGRESO" ColumnName="VPCINGRESO" />
+          <ScalarProperty Name="CUSUARIOMODIFICA_ID" ColumnName="CUSUARIOMODIFICA_ID" />
+          <ScalarProperty Name="DFECHAMODIFICA" ColumnName="DFECHAMODIFICA" />
+          <ScalarProperty Name="VPCMODIFICA" ColumnName="VPCMODIFICA" />
+          <ScalarProperty Name="NLABOR_ALTURA" ColumnName="NLABOR_ALTURA" />
+          <ScalarProperty Name="NLABOR_ANCHO" ColumnName="NLABOR_ANCHO" />
+          <ScalarProperty Name="CTIPO_ID" ColumnName="CTIPO_ID" />
+          <ScalarProperty Name="CESPECIAL_ID" ColumnName="CESPECIAL_ID" />
+          <ScalarProperty Name="BLABOR_PRIORIDAD" ColumnName="BLABOR_PRIORIDAD" />
+          <ScalarProperty Name="BLABOR_REHABILITACION" ColumnName="BLABOR_REHABILITACION" />
+          <ScalarProperty Name="COBRAS_ID" ColumnName="COBRAS_ID" />
+          <ScalarProperty Name="CESTATUS_ID" ColumnName="CESTATUS_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MIN_TMINA">
+      <EntityTypeMapping TypeName="SIGDATAModel1.MIN_TMINA">
+        <MappingFragment StoreEntitySet="MIN_TMINA">
+          <ScalarProperty Name="CMINA_ID" ColumnName="CMINA_ID" />
+          <ScalarProperty Name="CSISTEMA_ANTIGUO" ColumnName="CSISTEMA_ANTIGUO" />
+          <ScalarProperty Name="VMINA_DESCRIPCION" ColumnName="VMINA_DESCRIPCION" />
+          <ScalarProperty Name="DFECHAINGRESO" ColumnName="DFECHAINGRESO" />
+          <ScalarProperty Name="CESTADO_ID" ColumnName="CESTADO_ID" />
+          <ScalarProperty Name="CUSUARIOINGRESO_ID" ColumnName="CUSUARIOINGRESO_ID" />
+          <ScalarProperty Name="VPCINGRESO" ColumnName="VPCINGRESO" />
+          <ScalarProperty Name="CUSUARIOMODIFICA_ID" ColumnName="CUSUARIOMODIFICA_ID" />
+          <ScalarProperty Name="DFECHAMODIFICA" ColumnName="DFECHAMODIFICA" />
+          <ScalarProperty Name="VPCMODIFICA" ColumnName="VPCMODIFICA" />
+          <ScalarProperty Name="CESTATUS_ID" ColumnName="CESTATUS_ID" />
+          <ScalarProperty Name="CZONA_ID" ColumnName="CZONA_ID" />
+          <ScalarProperty Name="NFACTOR_HUMEDAD" ColumnName="NFACTOR_HUMEDAD" />
+          <ScalarProperty Name="BCLASIFICACION_PEC" ColumnName="BCLASIFICACION_PEC" />
+          <ScalarProperty Name="NPORCENTAJE_PEC" ColumnName="NPORCENTAJE_PEC" />
+          <ScalarProperty Name="CCODIGO_PROVEEDOR" ColumnName="CCODIGO_PROVEEDOR" />
+          <ScalarProperty Name="CGRUPO_ID" ColumnName="CGRUPO_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MIN_TNIVEL">
+      <EntityTypeMapping TypeName="SIGDATAModel1.MIN_TNIVEL">
+        <MappingFragment StoreEntitySet="MIN_TNIVEL">
+          <ScalarProperty Name="CNIVEL_ID" ColumnName="CNIVEL_ID" />
+          <ScalarProperty Name="CSISTEMA_ANTIGUO" ColumnName="CSISTEMA_ANTIGUO" />
+          <ScalarProperty Name="NNIVEL_DESCRIPCION" ColumnName="NNIVEL_DESCRIPCION" />
+          <ScalarProperty Name="CESTADO_ID" ColumnName="CESTADO_ID" />
+          <ScalarProperty Name="CESTATUS_ID" ColumnName="CESTATUS_ID" />
+          <ScalarProperty Name="CUSUARIOINGRESO_ID" ColumnName="CUSUARIOINGRESO_ID" />
+          <ScalarProperty Name="DFECHAINGRESO" ColumnName="DFECHAINGRESO" />
+          <ScalarProperty Name="VPCINGRESO" ColumnName="VPCINGRESO" />
+          <ScalarProperty Name="CUSUARIOMODIFICA_ID" ColumnName="CUSUARIOMODIFICA_ID" />
+          <ScalarProperty Name="DFECHAMODIFICA" ColumnName="DFECHAMODIFICA" />
+          <ScalarProperty Name="VPCMODIFICA" ColumnName="VPCMODIFICA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MIN_TVETA">
+      <EntityTypeMapping TypeName="SIGDATAModel1.MIN_TVETA">
+        <MappingFragment StoreEntitySet="MIN_TVETA">
+          <ScalarProperty Name="CVETA_ID" ColumnName="CVETA_ID" />
+          <ScalarProperty Name="CSISTEMA_ANTIGUO" ColumnName="CSISTEMA_ANTIGUO" />
+          <ScalarProperty Name="CESTRUCTURA_ID" ColumnName="CESTRUCTURA_ID" />
+          <ScalarProperty Name="VVETA_DESCRIPCION" ColumnName="VVETA_DESCRIPCION" />
+          <ScalarProperty Name="CESTADO_ID" ColumnName="CESTADO_ID" />
+          <ScalarProperty Name="CUSUARIOINGRESO_ID" ColumnName="CUSUARIOINGRESO_ID" />
+          <ScalarProperty Name="DFECHAINGRESO" ColumnName="DFECHAINGRESO" />
+          <ScalarProperty Name="VPCINGRESO" ColumnName="VPCINGRESO" />
+          <ScalarProperty Name="CUSUARIOMODIFICA_ID" ColumnName="CUSUARIOMODIFICA_ID" />
+          <ScalarProperty Name="DFECHAMODIFICA" ColumnName="DFECHAMODIFICA" />
+          <ScalarProperty Name="VPCMODIFICA" ColumnName="VPCMODIFICA" />
+          <ScalarProperty Name="CESTATUS_ID" ColumnName="CESTATUS_ID" />
+          <ScalarProperty Name="NVETA_DENSIDAD" ColumnName="NVETA_DENSIDAD" />
+          <ScalarProperty Name="CMINA_ID" ColumnName="CMINA_ID" />
+          <ScalarProperty Name="CZONA_ID" ColumnName="CZONA_ID" />
+          <ScalarProperty Name="CUNIDAD_ID" ColumnName="CUNIDAD_ID" />
+          <ScalarProperty Name="CVETA_NUEVA" ColumnName="CVETA_NUEVA" />
+          <ScalarProperty Name="CVETA_SIGTH" ColumnName="CVETA_SIGTH" />
+          <ScalarProperty Name="NVETA_DISTANCIAKM" ColumnName="NVETA_DISTANCIAKM" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MIN_TZONA">
+      <EntityTypeMapping TypeName="SIGDATAModel1.MIN_TZONA">
+        <MappingFragment StoreEntitySet="MIN_TZONA">
+          <ScalarProperty Name="CZONA_ID" ColumnName="CZONA_ID" />
+          <ScalarProperty Name="CSISTEMA_ANTIGUO" ColumnName="CSISTEMA_ANTIGUO" />
+          <ScalarProperty Name="VZONA_DESCRIPCION" ColumnName="VZONA_DESCRIPCION" />
+          <ScalarProperty Name="CESTADO_ID" ColumnName="CESTADO_ID" />
+          <ScalarProperty Name="CESTATUS_ID" ColumnName="CESTATUS_ID" />
+          <ScalarProperty Name="CUSUARIOINGRESO_ID" ColumnName="CUSUARIOINGRESO_ID" />
+          <ScalarProperty Name="DFECHAINGRESO" ColumnName="DFECHAINGRESO" />
+          <ScalarProperty Name="VPCINGRESO" ColumnName="VPCINGRESO" />
+          <ScalarProperty Name="CUSUARIOMODIFICA_ID" ColumnName="CUSUARIOMODIFICA_ID" />
+          <ScalarProperty Name="DFECHAMODIFICA" ColumnName="DFECHAMODIFICA" />
+          <ScalarProperty Name="VPCMODIFICA" ColumnName="VPCMODIFICA" />
+          <ScalarProperty Name="NZONA_ORDEN" ColumnName="NZONA_ORDEN" />
+          <ScalarProperty Name="CSARH_AREA" ColumnName="CSARH_AREA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MIN_USUARIOS_CONTRATAS">
+      <EntityTypeMapping TypeName="SIGDATAModel1.MIN_USUARIOS_CONTRATAS">
+        <MappingFragment StoreEntitySet="MIN_USUARIOS_CONTRATAS">
+          <ScalarProperty Name="USUARIO_CODIGO" ColumnName="USUARIO_CODIGO" />
+          <ScalarProperty Name="USUARIO_NOMBRE" ColumnName="USUARIO_NOMBRE" />
+          <ScalarProperty Name="USUARIO_SISTEMA" ColumnName="USUARIO_SISTEMA" />
+          <ScalarProperty Name="COMPANIA_CODIGO" ColumnName="COMPANIA_CODIGO" />
+          <ScalarProperty Name="COMPANIA_NOMBRE" ColumnName="COMPANIA_NOMBRE" />
+          <ScalarProperty Name="TIPO_CIA" ColumnName="TIPO_CIA" />
+          <ScalarProperty Name="TIPO_CIA_DES" ColumnName="TIPO_CIA_DES" />
+          <ScalarProperty Name="AREA" ColumnName="AREA" />
+          <ScalarProperty Name="AREA_NOMBRE" ColumnName="AREA_NOMBRE" />
+          <ScalarProperty Name="TIPO_USUARIO" ColumnName="TIPO_USUARIO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBLMENUSU">
+      <EntityTypeMapping TypeName="SIGDATAModel1.TBLMENUSU">
+        <MappingFragment StoreEntitySet="TBLMENUSU">
+          <ScalarProperty Name="IDMENUSU" ColumnName="IDMENUSU" />
+          <ScalarProperty Name="IDUNICO" ColumnName="IDUNICO" />
+          <ScalarProperty Name="DESCRIPCION" ColumnName="DESCRIPCION" />
+          <ScalarProperty Name="IDROL" ColumnName="IDROL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBLMENUSUA">
+      <EntityTypeMapping TypeName="SIGDATAModel1.TBLMENUSUA">
+        <MappingFragment StoreEntitySet="TBLMENUSUA">
+          <ScalarProperty Name="IDMENUSU" ColumnName="IDMENUSU" />
+          <ScalarProperty Name="IDUNICO" ColumnName="IDUNICO" />
+          <ScalarProperty Name="DESCRIPCION" ColumnName="DESCRIPCION" />
+          <ScalarProperty Name="IDROL" ColumnName="IDROL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBLUSUARIOS">
+      <EntityTypeMapping TypeName="SIGDATAModel1.TBLUSUARIOS">
+        <MappingFragment StoreEntitySet="TBLUSUARIOS">
+          <ScalarProperty Name="IDUSU" ColumnName="IDUSU" />
+          <ScalarProperty Name="USUARIO" ColumnName="USUARIO" />
+          <ScalarProperty Name="CLAVE" ColumnName="CLAVE" />
+          <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
+          <ScalarProperty Name="ESTADO" ColumnName="ESTADO" />
+          <ScalarProperty Name="USRCRE" ColumnName="USRCRE" />
+          <ScalarProperty Name="FECCRE" ColumnName="FECCRE" />
+          <ScalarProperty Name="USRMOD" ColumnName="USRMOD" />
+          <ScalarProperty Name="FECMOD" ColumnName="FECMOD" />
+          <ScalarProperty Name="IDROL" ColumnName="IDROL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ge_v_labores">
+      <EntityTypeMapping TypeName="SIGDATAModel1.ge_v_labores">
+        <MappingFragment StoreEntitySet="ge_v_labores">
+          <ScalarProperty Name="VLABOR_ID" ColumnName="VLABOR_ID" />
+          <ScalarProperty Name="mlabor" ColumnName="mlabor" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ge_v_menu">
+      <EntityTypeMapping TypeName="SIGDATAModel1.ge_v_menu">
+        <MappingFragment StoreEntitySet="ge_v_menu">
+          <ScalarProperty Name="MENU" ColumnName="MENU" />
+          <ScalarProperty Name="DESCRIPCION" ColumnName="DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ge_v_menu_user">
+      <EntityTypeMapping TypeName="SIGDATAModel1.ge_v_menu_user">
+        <MappingFragment StoreEntitySet="ge_v_menu_user">
+          <ScalarProperty Name="MENU" ColumnName="MENU" />
+          <ScalarProperty Name="DESCRIPCION" ColumnName="DESCRIPCION" />
+          <ScalarProperty Name="usuario" ColumnName="usuario" />
+          <ScalarProperty Name="clave" ColumnName="clave" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GE_V_TIPOCANAL">
+      <EntityTypeMapping TypeName="SIGDATAModel1.GE_V_TIPOCANAL">
+        <MappingFragment StoreEntitySet="GE_V_TIPOCANAL">
+          <ScalarProperty Name="CODIGO" ColumnName="CODIGO" />
+          <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GE_V_TIPOMUESTREO">
+      <EntityTypeMapping TypeName="SIGDATAModel1.GE_V_TIPOMUESTREO">
+        <MappingFragment StoreEntitySet="GE_V_TIPOMUESTREO">
+          <ScalarProperty Name="CODIGO" ColumnName="CODIGO" />
+          <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GE_V_TIPOMUESTREOEN">
+      <EntityTypeMapping TypeName="SIGDATAModel1.GE_V_TIPOMUESTREOEN">
+        <MappingFragment StoreEntitySet="GE_V_TIPOMUESTREOEN">
+          <ScalarProperty Name="CODIGO" ColumnName="CODIGO" />
+          <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GE_V_TIPOQAQC">
+      <EntityTypeMapping TypeName="SIGDATAModel1.GE_V_TIPOQAQC">
+        <MappingFragment StoreEntitySet="GE_V_TIPOQAQC">
+          <ScalarProperty Name="CODIGO" ColumnName="CODIGO" />
+          <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sig_v_grapro">
+      <EntityTypeMapping TypeName="SIGDATAModel1.sig_v_grapro">
+        <MappingFragment StoreEntitySet="sig_v_grapro">
+          <ScalarProperty Name="aset" ColumnName="aset" />
+          <ScalarProperty Name="fecha" ColumnName="fecha" />
+          <ScalarProperty Name="val" ColumnName="val" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="FK_MT_COMPANIA_UNIDAD" TypeName="SIGDATAModel1.FK_MT_COMPANIA_UNIDAD" StoreEntitySet="GE_MT_COMPANIA_UNIDAD">
+      <EndProperty Name="GE_MT_COMPANIA">
+        <ScalarProperty Name="COMPANIA" ColumnName="COMPANIA" />
+      </EndProperty>
+      <EndProperty Name="GE_MT_COMPANIA_UNIDAD">
+        <ScalarProperty Name="COMPANIA" ColumnName="COMPANIA" />
+        <ScalarProperty Name="UNIDAD" ColumnName="UNIDAD" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<rpt1>
+  <promedio_o></promedio_o>
+  <desviacion_o></desviacion_o>
+  <varianza_o></varianza_o>
+  <minimo_o></minimo_o>
+  <maximo_o></maximo_o>
+  <suma_o></suma_o>
+  <contar_o></contar_o>
+  <mediana_o></mediana_o>
+  <moda_o></moda_o>
+  <promedio_d></promedio_d>
+  <desviacion_d></desviacion_d>
+  <varianza_d></varianza_d>
+  <minimo_d></minimo_d>
+  <maximo_d></maximo_d>
+  <suma_d></suma_d>
+  <contar_d></contar_d>
+  <mediana_d></mediana_d>
+  <moda_d></moda_d>
+</rpt1>

@@ -1,0 +1,60 @@
+C:\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGLOGICA\bin\Debug\SIGLOGICA.dll
+C:\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGLOGICA\bin\Debug\SIGLOGICA.pdb
+C:\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGLOGICA\bin\Debug\SIGLOGICA.xml
+C:\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGLOGICA\bin\Debug\SIGDATA.dll
+C:\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGLOGICA\bin\Debug\SIGDATA.pdb
+C:\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGLOGICA\bin\Debug\SIGDATA.xml
+C:\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGLOGICA\obj\Debug\SIGLOGICA.vbprojResolveAssemblyReference.cache
+C:\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGLOGICA\obj\Debug\SIGLOGICA.Resources.resources
+C:\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGLOGICA\obj\Debug\SIGLOGICA.vbproj.GenerateResource.Cache
+C:\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGLOGICA\obj\Debug\SIGLOGICA.dll
+C:\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGLOGICA\obj\Debug\SIGLOGICA.xml
+C:\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGLOGICA\obj\Debug\SIGLOGICA.pdb
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGLOGICA\bin\Debug\SIGLOGICA.dll
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGLOGICA\bin\Debug\SIGLOGICA.pdb
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGLOGICA\bin\Debug\SIGLOGICA.xml
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGLOGICA\bin\Debug\SIGDATA.dll
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGLOGICA\bin\Debug\SIGDATA.pdb
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGLOGICA\bin\Debug\SIGDATA.xml
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGLOGICA\obj\Debug\SIGLOGICA.vbprojResolveAssemblyReference.cache
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGLOGICA\obj\Debug\SIGLOGICA.Resources.resources
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGLOGICA\obj\Debug\SIGLOGICA.vbproj.GenerateResource.Cache
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGLOGICA\obj\Debug\SIGLOGICA.dll
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGLOGICA\obj\Debug\SIGLOGICA.xml
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGLOGICA\obj\Debug\SIGLOGICA.pdb
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET - copia (5)\SIGLOGICA\bin\Debug\SIGLOGICA.dll
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET - copia (5)\SIGLOGICA\bin\Debug\SIGLOGICA.pdb
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET - copia (5)\SIGLOGICA\bin\Debug\SIGLOGICA.xml
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET - copia (5)\SIGLOGICA\bin\Debug\SIGDATA.dll
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET - copia (5)\SIGLOGICA\bin\Debug\SIGDATA.pdb
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET - copia (5)\SIGLOGICA\bin\Debug\SIGDATA.xml
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET - copia (5)\SIGLOGICA\obj\Debug\SIGLOGICA.vbprojResolveAssemblyReference.cache
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET - copia (5)\SIGLOGICA\obj\Debug\SIGLOGICA.Resources.resources
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET - copia (5)\SIGLOGICA\obj\Debug\SIGLOGICA.vbproj.GenerateResource.Cache
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET - copia (5)\SIGLOGICA\obj\Debug\SIGLOGICA.dll
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET - copia (5)\SIGLOGICA\obj\Debug\SIGLOGICA.xml
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET - copia (5)\SIGLOGICA\obj\Debug\SIGLOGICA.pdb
+C:\SIG_NET - copia (5)\SIGLOGICA\bin\Debug\SIGLOGICA.dll
+C:\SIG_NET - copia (5)\SIGLOGICA\bin\Debug\SIGLOGICA.pdb
+C:\SIG_NET - copia (5)\SIGLOGICA\bin\Debug\SIGLOGICA.xml
+C:\SIG_NET - copia (5)\SIGLOGICA\bin\Debug\SIGDATA.dll
+C:\SIG_NET - copia (5)\SIGLOGICA\bin\Debug\SIGDATA.pdb
+C:\SIG_NET - copia (5)\SIGLOGICA\bin\Debug\SIGDATA.xml
+C:\SIG_NET - copia (5)\SIGLOGICA\obj\Debug\SIGLOGICA.vbprojResolveAssemblyReference.cache
+C:\SIG_NET - copia (5)\SIGLOGICA\obj\Debug\SIGLOGICA.Resources.resources
+C:\SIG_NET - copia (5)\SIGLOGICA\obj\Debug\SIGLOGICA.vbproj.GenerateResource.Cache
+C:\SIG_NET - copia (5)\SIGLOGICA\obj\Debug\SIGLOGICA.dll
+C:\SIG_NET - copia (5)\SIGLOGICA\obj\Debug\SIGLOGICA.xml
+C:\SIG_NET - copia (5)\SIGLOGICA\obj\Debug\SIGLOGICA.pdb
+C:\SIG_NET\SIGLOGICA\bin\Debug\SIGLOGICA.dll
+C:\SIG_NET\SIGLOGICA\bin\Debug\SIGLOGICA.pdb
+C:\SIG_NET\SIGLOGICA\bin\Debug\SIGLOGICA.xml
+C:\SIG_NET\SIGLOGICA\bin\Debug\SIGDATA.dll
+C:\SIG_NET\SIGLOGICA\bin\Debug\SIGDATA.pdb
+C:\SIG_NET\SIGLOGICA\bin\Debug\SIGDATA.xml
+C:\SIG_NET\SIGLOGICA\obj\Debug\SIGLOGICA.vbprojResolveAssemblyReference.cache
+C:\SIG_NET\SIGLOGICA\obj\Debug\SIGLOGICA.Resources.resources
+C:\SIG_NET\SIGLOGICA\obj\Debug\SIGLOGICA.vbproj.GenerateResource.Cache
+C:\SIG_NET\SIGLOGICA\obj\Debug\SIGLOGICA.dll
+C:\SIG_NET\SIGLOGICA\obj\Debug\SIGLOGICA.xml
+C:\SIG_NET\SIGLOGICA\obj\Debug\SIGLOGICA.pdb

@@ -1,0 +1,173 @@
+C:\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGVISTA\bin\Release\SIGVISTA.exe.config
+C:\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGVISTA\bin\Release\SIGVISTA.exe
+C:\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGVISTA\bin\Release\SIGVISTA.pdb
+C:\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGVISTA\bin\Release\SIGVISTA.xml
+C:\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGVISTA\bin\Release\SIGLOGICA.dll
+C:\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGVISTA\bin\Release\SIGDATA.dll
+C:\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGVISTA\bin\Release\SIGLOGICA.pdb
+C:\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGVISTA\bin\Release\SIGLOGICA.xml
+C:\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGVISTA\bin\Release\SIGDATA.pdb
+C:\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGVISTA\bin\Release\SIGDATA.xml
+C:\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.vbprojResolveAssemblyReference.cache
+C:\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.Form1.resources
+C:\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.frminicio.resources
+C:\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.frmlogin.resources
+C:\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.Resources.resources
+C:\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.vbproj.GenerateResource.Cache
+C:\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.exe.licenses
+C:\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.exe
+C:\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.xml
+C:\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.pdb
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGVISTA\bin\Release\SIGVISTA.exe
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGVISTA\bin\Release\SIGLOGICA.dll
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGVISTA\bin\Release\SIGDATA.dll
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGVISTA\bin\Release\SIGLOGICA.pdb
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGVISTA\bin\Release\SIGLOGICA.xml
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGVISTA\bin\Release\SIGDATA.pdb
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGVISTA\bin\Release\SIGDATA.xml
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.vbprojResolveAssemblyReference.cache
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.frmtopografia.resources
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.frmadmmuestras.resources
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.frmpendienteOT.resources
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.frmperdia.resources
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.frmregmuestreo.resources
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.frmrepmuestreo.resources
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.frminicio.resources
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.frmlogin.resources
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.frmmtolab.resources
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.frmmtouser.resources
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.frmproyecto.resources
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.Resources.resources
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.frmqaqc.resources
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.rptgrapro.resources
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.rptest.resources
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.rptqaqc.resources
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.userboton.resources
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.useroperacion.resources
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.vbproj.GenerateResource.Cache
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.exe.licenses
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.exe
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.xml
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.pdb
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGVISTA\bin\Release\App.config
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGVISTA\bin\Release\SIGVISTA.exe.config
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGVISTA\bin\Release\SIGVISTA.pdb
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGVISTA\bin\Release\SIGVISTA.xml
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET - copia (5)\SIGVISTA\bin\Release\SIGVISTA.exe.config
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET - copia (5)\SIGVISTA\obj\x86\Release\SIGVISTA.exe
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET - copia (5)\SIGVISTA\obj\x86\Release\SIGVISTA.xml
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET - copia (5)\SIGVISTA\obj\x86\Release\SIGVISTA.pdb
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET - copia (5)\SIGVISTA\bin\Release\App.config
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET - copia (5)\SIGVISTA\bin\Release\SIGVISTA.exe
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET - copia (5)\SIGVISTA\bin\Release\SIGVISTA.pdb
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET - copia (5)\SIGVISTA\bin\Release\SIGVISTA.xml
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET - copia (5)\SIGVISTA\bin\Release\SIGLOGICA.dll
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET - copia (5)\SIGVISTA\bin\Release\SIGDATA.dll
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET - copia (5)\SIGVISTA\bin\Release\SIGLOGICA.pdb
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET - copia (5)\SIGVISTA\bin\Release\SIGLOGICA.xml
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET - copia (5)\SIGVISTA\bin\Release\SIGDATA.pdb
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET - copia (5)\SIGVISTA\bin\Release\SIGDATA.xml
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET - copia (5)\SIGVISTA\obj\x86\Release\SIGVISTA.vbprojResolveAssemblyReference.cache
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET - copia (5)\SIGVISTA\obj\x86\Release\SIGVISTA.frmtopografia.resources
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET - copia (5)\SIGVISTA\obj\x86\Release\SIGVISTA.frmadmmuestras.resources
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET - copia (5)\SIGVISTA\obj\x86\Release\SIGVISTA.frmpendienteOT.resources
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET - copia (5)\SIGVISTA\obj\x86\Release\SIGVISTA.frmperdia.resources
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET - copia (5)\SIGVISTA\obj\x86\Release\SIGVISTA.frmregmuestreo.resources
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET - copia (5)\SIGVISTA\obj\x86\Release\SIGVISTA.frmrepmuestreo.resources
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET - copia (5)\SIGVISTA\obj\x86\Release\SIGVISTA.frminicio.resources
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET - copia (5)\SIGVISTA\obj\x86\Release\SIGVISTA.frmlogin.resources
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET - copia (5)\SIGVISTA\obj\x86\Release\SIGVISTA.frmmtolab.resources
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET - copia (5)\SIGVISTA\obj\x86\Release\SIGVISTA.frmmtouser.resources
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET - copia (5)\SIGVISTA\obj\x86\Release\SIGVISTA.frmproyecto.resources
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET - copia (5)\SIGVISTA\obj\x86\Release\SIGVISTA.Resources.resources
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET - copia (5)\SIGVISTA\obj\x86\Release\SIGVISTA.frmqaqc.resources
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET - copia (5)\SIGVISTA\obj\x86\Release\SIGVISTA.rptgrapro.resources
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET - copia (5)\SIGVISTA\obj\x86\Release\SIGVISTA.rptest.resources
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET - copia (5)\SIGVISTA\obj\x86\Release\SIGVISTA.rptqaqc.resources
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET - copia (5)\SIGVISTA\obj\x86\Release\SIGVISTA.userboton.resources
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET - copia (5)\SIGVISTA\obj\x86\Release\SIGVISTA.useroperacion.resources
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET - copia (5)\SIGVISTA\obj\x86\Release\SIGVISTA.vbproj.GenerateResource.Cache
+C:\Windows.old.000\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET - copia (5)\SIGVISTA\obj\x86\Release\SIGVISTA.exe.licenses
+C:\SIG_NET - copia (5)\SIGVISTA\bin\Release\SIGVISTA.exe.config
+C:\SIG_NET - copia (5)\SIGVISTA\obj\x86\Release\SIGVISTA.exe
+C:\SIG_NET - copia (5)\SIGVISTA\obj\x86\Release\SIGVISTA.xml
+C:\SIG_NET - copia (5)\SIGVISTA\obj\x86\Release\SIGVISTA.pdb
+C:\SIG_NET - copia (5)\SIGVISTA\bin\Release\App.config
+C:\SIG_NET - copia (5)\SIGVISTA\bin\Release\SIGVISTA.exe
+C:\SIG_NET - copia (5)\SIGVISTA\bin\Release\SIGVISTA.pdb
+C:\SIG_NET - copia (5)\SIGVISTA\bin\Release\SIGVISTA.xml
+C:\SIG_NET - copia (5)\SIGVISTA\bin\Release\SIGLOGICA.dll
+C:\SIG_NET - copia (5)\SIGVISTA\bin\Release\SIGDATA.dll
+C:\SIG_NET - copia (5)\SIGVISTA\bin\Release\SIGLOGICA.pdb
+C:\SIG_NET - copia (5)\SIGVISTA\bin\Release\SIGLOGICA.xml
+C:\SIG_NET - copia (5)\SIGVISTA\bin\Release\SIGDATA.pdb
+C:\SIG_NET - copia (5)\SIGVISTA\bin\Release\SIGDATA.xml
+C:\SIG_NET - copia (5)\SIGVISTA\obj\x86\Release\SIGVISTA.vbprojResolveAssemblyReference.cache
+C:\SIG_NET - copia (5)\SIGVISTA\obj\x86\Release\SIGVISTA.frmtopografia.resources
+C:\SIG_NET - copia (5)\SIGVISTA\obj\x86\Release\SIGVISTA.frmadmmuestras.resources
+C:\SIG_NET - copia (5)\SIGVISTA\obj\x86\Release\SIGVISTA.frmpendienteOT.resources
+C:\SIG_NET - copia (5)\SIGVISTA\obj\x86\Release\SIGVISTA.frmperdia.resources
+C:\SIG_NET - copia (5)\SIGVISTA\obj\x86\Release\SIGVISTA.frmregmuestreo.resources
+C:\SIG_NET - copia (5)\SIGVISTA\obj\x86\Release\SIGVISTA.frmrepmuestreo.resources
+C:\SIG_NET - copia (5)\SIGVISTA\obj\x86\Release\SIGVISTA.frminicio.resources
+C:\SIG_NET - copia (5)\SIGVISTA\obj\x86\Release\SIGVISTA.frmlogin.resources
+C:\SIG_NET - copia (5)\SIGVISTA\obj\x86\Release\SIGVISTA.frmmtolab.resources
+C:\SIG_NET - copia (5)\SIGVISTA\obj\x86\Release\SIGVISTA.frmmtouser.resources
+C:\SIG_NET - copia (5)\SIGVISTA\obj\x86\Release\SIGVISTA.frmproyecto.resources
+C:\SIG_NET - copia (5)\SIGVISTA\obj\x86\Release\SIGVISTA.Resources.resources
+C:\SIG_NET - copia (5)\SIGVISTA\obj\x86\Release\SIGVISTA.frmqaqc.resources
+C:\SIG_NET - copia (5)\SIGVISTA\obj\x86\Release\SIGVISTA.rptgrapro.resources
+C:\SIG_NET - copia (5)\SIGVISTA\obj\x86\Release\SIGVISTA.rptest.resources
+C:\SIG_NET - copia (5)\SIGVISTA\obj\x86\Release\SIGVISTA.rptqaqc.resources
+C:\SIG_NET - copia (5)\SIGVISTA\obj\x86\Release\SIGVISTA.userboton.resources
+C:\SIG_NET - copia (5)\SIGVISTA\obj\x86\Release\SIGVISTA.useroperacion.resources
+C:\SIG_NET - copia (5)\SIGVISTA\obj\x86\Release\SIGVISTA.vbproj.GenerateResource.Cache
+C:\SIG_NET - copia (5)\SIGVISTA\obj\x86\Release\SIGVISTA.exe.licenses
+C:\SIG_NET\SIGVISTA\bin\Release\SIGVISTA.exe
+C:\SIG_NET\SIGVISTA\bin\Release\SIGLOGICA.dll
+C:\SIG_NET\SIGVISTA\bin\Release\SIGDATA.dll
+C:\SIG_NET\SIGVISTA\bin\Release\SIGLOGICA.pdb
+C:\SIG_NET\SIGVISTA\bin\Release\SIGLOGICA.xml
+C:\SIG_NET\SIGVISTA\bin\Release\SIGDATA.pdb
+C:\SIG_NET\SIGVISTA\bin\Release\SIGDATA.xml
+C:\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.vbprojResolveAssemblyReference.cache
+C:\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.frmtopografia.resources
+C:\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.frmadmmuestras.resources
+C:\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.frmpendienteOT.resources
+C:\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.frmperdia.resources
+C:\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.frmregdiaper.resources
+C:\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.frmregmuestreo.resources
+C:\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.frmrepmuestreo.resources
+C:\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.frminicio.resources
+C:\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.frmlogin.resources
+C:\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.frmmtolab.resources
+C:\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.frmmtouser.resources
+C:\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.frmproyecto.resources
+C:\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.Resources.resources
+C:\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.frmadmmuestraspr.resources
+C:\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.frmagregamuestra.resources
+C:\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.frmbalanza.resources
+C:\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.frmblending.resources
+C:\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.frmcreapoligono.resources
+C:\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.frmorigenmina.resources
+C:\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.frmparpro.resources
+C:\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.frmregmuestreopr.resources
+C:\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.frmrepmuestreopr.resources
+C:\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.rptgrapro.resources
+C:\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.rptest.resources
+C:\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.rptqaqc.resources
+C:\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.userboton.resources
+C:\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.useroperacion.resources
+C:\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.vbproj.GenerateResource.Cache
+C:\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.exe.licenses
+C:\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.exe
+C:\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.xml
+C:\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.pdb
+C:\SIG_NET\SIGVISTA\bin\Release\SIGVISTA.exe.config
+C:\SIG_NET\SIGVISTA\bin\Release\App.config
+C:\SIG_NET\SIGVISTA\bin\Release\SIGVISTA.pdb
+C:\SIG_NET\SIGVISTA\bin\Release\SIGVISTA.xml
+C:\Users\Carlos\Desktop\SIG_NET\SIGVISTA\bin\Release\SIGVISTA.exe.config
+C:\Users\Carlos\Desktop\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.exe
+C:\Users\Carlos\Desktop\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.xml
+C:\Users\Carlos\Desktop\SIG_NET\SIGVISTA\obj\x86\Release\SIGVISTA.pdb

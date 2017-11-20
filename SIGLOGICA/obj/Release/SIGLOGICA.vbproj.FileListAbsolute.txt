@@ -1,0 +1,12 @@
+C:\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGLOGICA\bin\Release\SIGLOGICA.dll
+C:\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGLOGICA\bin\Release\SIGLOGICA.pdb
+C:\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGLOGICA\bin\Release\SIGLOGICA.xml
+C:\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGLOGICA\bin\Release\SIGDATA.dll
+C:\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGLOGICA\bin\Release\SIGDATA.pdb
+C:\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGLOGICA\bin\Release\SIGDATA.xml
+C:\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGLOGICA\obj\Release\SIGLOGICA.vbprojResolveAssemblyReference.cache
+C:\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGLOGICA\obj\Release\SIGLOGICA.Resources.resources
+C:\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGLOGICA\obj\Release\SIGLOGICA.vbproj.GenerateResource.Cache
+C:\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGLOGICA\obj\Release\SIGLOGICA.dll
+C:\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGLOGICA\obj\Release\SIGLOGICA.xml
+C:\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGLOGICA\obj\Release\SIGLOGICA.pdb

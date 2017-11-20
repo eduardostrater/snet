@@ -1,0 +1,1 @@
+metadata=res://*/SIGDATASDO.csdl|res://*/SIGDATASDO.ssdl|res://*/SIGDATASDO.msl;provider=System.Data.SqlClient;provider connection string="data source=ANDROID\ANDROIDBD;initial catalog=SIGDATASDO;persist security info=True;user id=sa;password=123456789;multipleactiveresultsets=True;App=EntityFramework"

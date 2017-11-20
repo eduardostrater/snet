@@ -1,0 +1,1546 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="sigdatasdoModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2006/04/edm/ssdl">
+  <EntityContainer Name="sigdatasdoModelStoreContainer">
+    <EntitySet Name="GE_AUTORIAZACIONES_CODIGOS" EntityType="sigdatasdoModel.Store.GE_AUTORIAZACIONES_CODIGOS" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GE_BLENDING" EntityType="sigdatasdoModel.Store.GE_BLENDING" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GE_BLENDING_DETALLE" EntityType="sigdatasdoModel.Store.GE_BLENDING_DETALLE" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GE_BLENDING_RESULTADO" EntityType="sigdatasdoModel.Store.GE_BLENDING_RESULTADO" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GE_BLENDING_SALDOS" EntityType="sigdatasdoModel.Store.GE_BLENDING_SALDOS" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GE_CONFIGURACION_MAIL" EntityType="sigdatasdoModel.Store.GE_CONFIGURACION_MAIL" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GE_CONTRATA_EQUIPOS" EntityType="sigdatasdoModel.Store.GE_CONTRATA_EQUIPOS" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GE_DOCUMENTO_MAIL" EntityType="sigdatasdoModel.Store.GE_DOCUMENTO_MAIL" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GE_DW_COLUMNAS" EntityType="sigdatasdoModel.Store.GE_DW_COLUMNAS" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GE_INF_GEOLOGICA" EntityType="sigdatasdoModel.Store.GE_INF_GEOLOGICA" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GE_LABORES_SUBTERRANEA" EntityType="sigdatasdoModel.Store.GE_LABORES_SUBTERRANEA" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GE_METODO_CASTIGO_LEY" EntityType="sigdatasdoModel.Store.GE_METODO_CASTIGO_LEY" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GE_METODO_CASTIGO_LEY_DET" EntityType="sigdatasdoModel.Store.GE_METODO_CASTIGO_LEY_DET" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GE_MODELO_ACTIVIDAD" EntityType="sigdatasdoModel.Store.GE_MODELO_ACTIVIDAD" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GE_MODELO_PROCESO" EntityType="sigdatasdoModel.Store.GE_MODELO_PROCESO" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GE_MODELO_SUBPROCESO" EntityType="sigdatasdoModel.Store.GE_MODELO_SUBPROCESO" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GE_MOVIMIENTOS_MINERAL" EntityType="sigdatasdoModel.Store.GE_MOVIMIENTOS_MINERAL" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GE_MT_COMPANIA" EntityType="sigdatasdoModel.Store.GE_MT_COMPANIA" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GE_MT_COMPANIA_UNIDAD" EntityType="sigdatasdoModel.Store.GE_MT_COMPANIA_UNIDAD" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GE_MT_LITOLOGIA" EntityType="sigdatasdoModel.Store.GE_MT_LITOLOGIA" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GE_MT_MINERALIZACION" EntityType="sigdatasdoModel.Store.GE_MT_MINERALIZACION" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GE_MT_TIPO_MUESTREO" EntityType="sigdatasdoModel.Store.GE_MT_TIPO_MUESTREO" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GE_MT_TRANSACCIONES" EntityType="sigdatasdoModel.Store.GE_MT_TRANSACCIONES" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GE_ORDEN_TRABAJO_LAB" EntityType="sigdatasdoModel.Store.GE_ORDEN_TRABAJO_LAB" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GE_ORDEN_TRABAJO_LAB_DET" EntityType="sigdatasdoModel.Store.GE_ORDEN_TRABAJO_LAB_DET" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GE_PARAMETROS" EntityType="sigdatasdoModel.Store.GE_PARAMETROS" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GE_PERFORACION_CAB" EntityType="sigdatasdoModel.Store.GE_PERFORACION_CAB" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GE_PERIODOS" EntityType="sigdatasdoModel.Store.GE_PERIODOS" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GE_POLIGONO_CAB" EntityType="sigdatasdoModel.Store.GE_POLIGONO_CAB" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GE_PROGRAMA_MUESTREO" EntityType="sigdatasdoModel.Store.GE_PROGRAMA_MUESTREO" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GE_PROGRAMA_MUESTREO_PERSONAL" EntityType="sigdatasdoModel.Store.GE_PROGRAMA_MUESTREO_PERSONAL" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GE_PROYECTO_PRF" EntityType="sigdatasdoModel.Store.GE_PROYECTO_PRF" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GE_RECURSOS_AREA" EntityType="sigdatasdoModel.Store.GE_RECURSOS_AREA" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GE_RECURSOS_AREA_MOVIMIENTOS" EntityType="sigdatasdoModel.Store.GE_RECURSOS_AREA_MOVIMIENTOS" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GE_RECURSOS_AREA_PERIODO" EntityType="sigdatasdoModel.Store.GE_RECURSOS_AREA_PERIODO" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GE_RECURSOS_CATEGORIA_CAMBIO" EntityType="sigdatasdoModel.Store.GE_RECURSOS_CATEGORIA_CAMBIO" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GE_RECURSOS_CLASIFICACION" EntityType="sigdatasdoModel.Store.GE_RECURSOS_CLASIFICACION" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GE_RECURSOS_LEVANTAMIENTO_TOPO" EntityType="sigdatasdoModel.Store.GE_RECURSOS_LEVANTAMIENTO_TOPO" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GE_RECURSOS_PILAS" EntityType="sigdatasdoModel.Store.GE_RECURSOS_PILAS" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GE_RECURSOS_TRANSACCIONES" EntityType="sigdatasdoModel.Store.GE_RECURSOS_TRANSACCIONES" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GE_REGISTRO_POLIGONO" EntityType="sigdatasdoModel.Store.GE_REGISTRO_POLIGONO" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GE_REP_BALANZA" EntityType="sigdatasdoModel.Store.GE_REP_BALANZA" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GE_REPORTE_LABORATORIO" EntityType="sigdatasdoModel.Store.GE_REPORTE_LABORATORIO" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GE_REPORTE_MUESTREO" EntityType="sigdatasdoModel.Store.GE_REPORTE_MUESTREO" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GE_REPORTE_MUESTREO_DETALLE" EntityType="sigdatasdoModel.Store.GE_REPORTE_MUESTREO_DETALLE" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GE_REPORTE_MUESTREO_LABORATO" EntityType="sigdatasdoModel.Store.GE_REPORTE_MUESTREO_LABORATO" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GE_REPORTE_MUESTREO_UBICA" EntityType="sigdatasdoModel.Store.GE_REPORTE_MUESTREO_UBICA" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ge_reporte_prf" EntityType="sigdatasdoModel.Store.ge_reporte_prf" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GE_REPORTE_PRF_DETALLE" EntityType="sigdatasdoModel.Store.GE_REPORTE_PRF_DETALLE" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ge_reporte_prf_detalle_alt" EntityType="sigdatasdoModel.Store.ge_reporte_prf_detalle_alt" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ge_reporte_prf_detalle_est" EntityType="sigdatasdoModel.Store.ge_reporte_prf_detalle_est" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ge_reporte_prf_detalle_lit" EntityType="sigdatasdoModel.Store.ge_reporte_prf_detalle_lit" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ge_reporte_prf_detalle_min" EntityType="sigdatasdoModel.Store.ge_reporte_prf_detalle_min" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ge_reporte_prf_detalle_mineco" EntityType="sigdatasdoModel.Store.ge_reporte_prf_detalle_mineco" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GE_REPORTE_PRF_DETALLE_MUESTRA" EntityType="sigdatasdoModel.Store.GE_REPORTE_PRF_DETALLE_MUESTRA" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GE_REPORTE_TOPOGRAFICO" EntityType="sigdatasdoModel.Store.GE_REPORTE_TOPOGRAFICO" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GE_SEGURIDAD_USUARIOS" EntityType="sigdatasdoModel.Store.GE_SEGURIDAD_USUARIOS" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GE_TIPO_LABOR" EntityType="sigdatasdoModel.Store.GE_TIPO_LABOR" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GE_TMP_TRANSPORTE" EntityType="sigdatasdoModel.Store.GE_TMP_TRANSPORTE" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GE_VALGRA_PRO" EntityType="sigdatasdoModel.Store.GE_VALGRA_PRO" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GE_VALPRO" EntityType="sigdatasdoModel.Store.GE_VALPRO" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MIN_MLABOR" EntityType="sigdatasdoModel.Store.MIN_MLABOR" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MIN_TMINA" EntityType="sigdatasdoModel.Store.MIN_TMINA" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MIN_TNIVEL" EntityType="sigdatasdoModel.Store.MIN_TNIVEL" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MIN_TVETA" EntityType="sigdatasdoModel.Store.MIN_TVETA" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MIN_TZONA" EntityType="sigdatasdoModel.Store.MIN_TZONA" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MIN_USUARIOS_CONTRATAS" EntityType="sigdatasdoModel.Store.MIN_USUARIOS_CONTRATAS" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="sysdiagrams" EntityType="sigdatasdoModel.Store.sysdiagrams" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="TBLMENUSU" EntityType="sigdatasdoModel.Store.TBLMENUSU" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="TBLMENUSUA" EntityType="sigdatasdoModel.Store.TBLMENUSUA" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="TBLUSUARIOS" EntityType="sigdatasdoModel.Store.TBLUSUARIOS" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tmpqaqc2" EntityType="sigdatasdoModel.Store.tmpqaqc2" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ge_v_labores" EntityType="sigdatasdoModel.Store.ge_v_labores" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GE_V_LABORES_SUBTERRANEA" EntityType="sigdatasdoModel.Store.GE_V_LABORES_SUBTERRANEA" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GE_V_LABORES_SUBTERRANEA_DETALLE" EntityType="sigdatasdoModel.Store.GE_V_LABORES_SUBTERRANEA_DETALLE" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ge_v_menu" EntityType="sigdatasdoModel.Store.ge_v_menu" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ge_v_menu_user" EntityType="sigdatasdoModel.Store.ge_v_menu_user" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GE_V_TIPOCANAL" EntityType="sigdatasdoModel.Store.GE_V_TIPOCANAL" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GE_V_TIPOMUESTREO" EntityType="sigdatasdoModel.Store.GE_V_TIPOMUESTREO" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GE_V_TIPOMUESTREOEN" EntityType="sigdatasdoModel.Store.GE_V_TIPOMUESTREOEN" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GE_V_TIPOQAQC" EntityType="sigdatasdoModel.Store.GE_V_TIPOQAQC" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GE_V_TIPUBICACION" EntityType="sigdatasdoModel.Store.GE_V_TIPUBICACION" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="sig_v_grapro" EntityType="sigdatasdoModel.Store.sig_v_grapro" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="vmuestrasqaqcl1" EntityType="sigdatasdoModel.Store.vmuestrasqaqcl1" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_MT_COMPANIA_UNIDAD" Association="sigdatasdoModel.Store.FK_MT_COMPANIA_UNIDAD">
+      <End Role="GE_MT_COMPANIA" EntitySet="GE_MT_COMPANIA" />
+      <End Role="GE_MT_COMPANIA_UNIDAD" EntitySet="GE_MT_COMPANIA_UNIDAD" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="GE_AUTORIAZACIONES_CODIGOS">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+      <PropertyRef Name="CODIGO" />
+    </Key>
+    <Property Name="COMPANIA" Type="varchar" Nullable="false" MaxLength="2" />
+    <Property Name="UNIDAD" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="CODIGO" Type="varchar" Nullable="false" MaxLength="11" />
+    <Property Name="TIPO" Type="varchar" Nullable="true" MaxLength="2" />
+    <Property Name="PROCESO" Type="varchar" Nullable="true" MaxLength="10" />
+    <Property Name="SUBPROCESO" Type="varchar" Nullable="true" MaxLength="10" />
+    <Property Name="ACTIVIDAD" Type="varchar" Nullable="true" MaxLength="10" />
+    <Property Name="USUARIOMODIFICO" Type="varchar" Nullable="true" MaxLength="30" />
+    <Property Name="FECHAMODIFICO" Type="datetime" Nullable="true" />
+    <Property Name="VENCE" Type="datetime" Nullable="true" />
+    <Property Name="USUARIOUTILIZO" Type="varchar" Nullable="true" MaxLength="30" />
+    <Property Name="FECHAUTILIZO" Type="datetime" Nullable="true" />
+  </EntityType>
+  <EntityType Name="GE_BLENDING">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+      <PropertyRef Name="PERIODO" />
+      <PropertyRef Name="BLENDING" />
+    </Key>
+    <Property Name="COMPANIA" Type="varchar" Nullable="false" MaxLength="2" />
+    <Property Name="UNIDAD" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="PERIODO" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="BLENDING" Type="float" Nullable="false" />
+    <Property Name="FECHA" Type="datetime" Nullable="true" />
+    <Property Name="TURNO" Type="varchar" Nullable="true" MaxLength="1" />
+    <Property Name="ORE_CONTROL" Type="varchar" Nullable="true" MaxLength="30" />
+    <Property Name="SUPERVISOR" Type="varchar" Nullable="true" MaxLength="30" />
+    <Property Name="TMH_PROGRAMADO" Type="decimal" Nullable="true" Precision="38" Scale="2" />
+    <Property Name="LEY_PROGRAMADA" Type="decimal" Nullable="true" Precision="38" Scale="2" />
+    <Property Name="CREADOPOR" Type="varchar" Nullable="true" MaxLength="30" />
+    <Property Name="CREADOEL" Type="datetime" Nullable="true" />
+    <Property Name="ESTADO" Type="varchar" Nullable="true" MaxLength="2" />
+    <Property Name="TMH_TOLVA" Type="decimal" Nullable="true" Precision="18" Scale="2" />
+    <Property Name="TMH_SALDO" Type="decimal" Nullable="true" Precision="18" Scale="2" />
+    <Property Name="PRIORIDAD" Type="varchar" Nullable="true" MaxLength="40" />
+  </EntityType>
+  <EntityType Name="GE_BLENDING_DETALLE">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+      <PropertyRef Name="PERIODO" />
+      <PropertyRef Name="BLENDING" />
+      <PropertyRef Name="SECTOR" />
+      <PropertyRef Name="AREA" />
+      <PropertyRef Name="POLIGONO" />
+      <PropertyRef Name="CARGA" />
+    </Key>
+    <Property Name="COMPANIA" Type="varchar" Nullable="false" MaxLength="2" />
+    <Property Name="UNIDAD" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="PERIODO" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="BLENDING" Type="float" Nullable="false" />
+    <Property Name="SECTOR" Type="varchar" Nullable="false" MaxLength="6" />
+    <Property Name="AREA" Type="varchar" Nullable="false" MaxLength="6" />
+    <Property Name="POLIGONO" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="CARGA" Type="float" Nullable="false" />
+    <Property Name="CARGA_DETALLE" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="CARGA_TIPO" Type="varchar" Nullable="true" MaxLength="2" />
+    <Property Name="TMH_PROGRAMADO" Type="float" Nullable="true" />
+    <Property Name="LEY_PROGRAMADO" Type="float" Nullable="true" />
+  </EntityType>
+  <EntityType Name="GE_BLENDING_RESULTADO">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+      <PropertyRef Name="PERIODO" />
+      <PropertyRef Name="FECHA_PROCESO" />
+    </Key>
+    <Property Name="COMPANIA" Type="varchar" Nullable="false" MaxLength="2" />
+    <Property Name="UNIDAD" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="PERIODO" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="FECHA_PROCESO" Type="datetime" Nullable="false" />
+    <Property Name="REPORTE" Type="varchar" Nullable="true" MaxLength="10" />
+    <Property Name="SUPERVISOR" Type="varchar" Nullable="true" MaxLength="30" />
+    <Property Name="TMH_PROCESADO" Type="decimal" Nullable="true" Precision="38" Scale="2" />
+    <Property Name="LEY_CABEZA" Type="decimal" Nullable="true" Precision="38" Scale="2" />
+    <Property Name="FINOS" Type="decimal" Nullable="true" Precision="38" Scale="2" />
+    <Property Name="CREADOPOR" Type="varchar" Nullable="true" MaxLength="30" />
+    <Property Name="CREADOEL" Type="datetime" Nullable="true" />
+  </EntityType>
+  <EntityType Name="GE_BLENDING_SALDOS">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+      <PropertyRef Name="PERIODO" />
+      <PropertyRef Name="BLENDING" />
+      <PropertyRef Name="ORDEN" />
+    </Key>
+    <Property Name="COMPANIA" Type="varchar" Nullable="false" MaxLength="2" />
+    <Property Name="UNIDAD" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="PERIODO" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="BLENDING" Type="float" Nullable="false" />
+    <Property Name="TMH_SALDO" Type="decimal" Nullable="true" Precision="38" Scale="2" />
+    <Property Name="LEY_SALDO" Type="decimal" Nullable="true" Precision="38" Scale="2" />
+    <Property Name="CREADOPOR" Type="varchar" Nullable="true" MaxLength="30" />
+    <Property Name="CREADOEL" Type="datetime" Nullable="true" />
+    <Property Name="SECTOR" Type="varchar" Nullable="true" MaxLength="6" />
+    <Property Name="AREA" Type="varchar" Nullable="true" MaxLength="6" />
+    <Property Name="POLIGONO" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="ORDEN" Type="float" Nullable="false" />
+    <Property Name="ESTADO" Type="varchar" Nullable="true" MaxLength="2" />
+  </EntityType>
+  <EntityType Name="GE_CONFIGURACION_MAIL">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DESTINATARIO" Type="varchar(max)" Nullable="true" />
+    <Property Name="USUARIO" Type="varchar" Nullable="true" MaxLength="500" />
+    <Property Name="CLAVE" Type="nchar" Nullable="true" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="GE_CONTRATA_EQUIPOS">
+    <Key>
+      <PropertyRef Name="CONTRATA" />
+      <PropertyRef Name="CODIGO" />
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+    </Key>
+    <Property Name="CONTRATA" Type="varchar" Nullable="false" MaxLength="30" />
+    <Property Name="CODIGO" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="MODELO" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="DESCRIPCION" Type="varchar" Nullable="true" MaxLength="100" />
+    <Property Name="SERIE_EQUIPO" Type="varchar" Nullable="true" MaxLength="30" />
+    <Property Name="COMPANIA" Type="varchar" Nullable="false" MaxLength="2" />
+    <Property Name="UNIDAD" Type="varchar" Nullable="false" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="GE_DOCUMENTO_MAIL">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+      <PropertyRef Name="TIPO_DOC" />
+      <PropertyRef Name="NUMERO" />
+    </Key>
+    <Property Name="COMPANIA" Type="varchar" Nullable="false" MaxLength="2" />
+    <Property Name="UNIDAD" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="TIPO_DOC" Type="varchar" Nullable="false" MaxLength="2" />
+    <Property Name="NUMERO" Type="varchar" Nullable="false" MaxLength="20" />
+    <Property Name="FECHA" Type="datetime" Nullable="true" />
+    <Property Name="USUARIO" Type="varchar" Nullable="true" MaxLength="20" />
+    <Property Name="NRO_ENVIOS" Type="float" Nullable="true" />
+  </EntityType>
+  <EntityType Name="GE_DW_COLUMNAS">
+    <Key>
+      <PropertyRef Name="USUARIO" />
+      <PropertyRef Name="FECHA" />
+      <PropertyRef Name="VENTANA" />
+      <PropertyRef Name="DATAWINDOW" />
+      <PropertyRef Name="COLUMNA" />
+    </Key>
+    <Property Name="USUARIO" Type="varchar" Nullable="false" MaxLength="30" />
+    <Property Name="FECHA" Type="datetime" Nullable="false" />
+    <Property Name="VENTANA" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="DATAWINDOW" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="COLUMNA" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="ACTIVA" Type="varchar" Nullable="true" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="GE_INF_GEOLOGICA">
+    <Key>
+      <PropertyRef Name="COD" />
+    </Key>
+    <Property Name="COD" Type="varchar" Nullable="false" MaxLength="5" />
+    <Property Name="DESCRIPCION" Type="varchar" Nullable="true" MaxLength="300" />
+    <Property Name="ABREVIATURA" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="TIPO" Type="varchar" Nullable="true" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="GE_LABORES_SUBTERRANEA">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PROYECTO" Type="varchar" Nullable="true" MaxLength="500" />
+    <Property Name="TLABOR" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="CODIFICACION" Type="varchar" Nullable="true" MaxLength="200" />
+    <Property Name="DESCRIPCION" Type="varchar" Nullable="true" MaxLength="500" />
+    <Property Name="USRCRE" Type="varchar" Nullable="true" MaxLength="500" />
+    <Property Name="FECCRE" Type="datetime" Nullable="true" />
+    <Property Name="USRMOD" Type="varchar" Nullable="true" MaxLength="500" />
+    <Property Name="FECMOD" Type="datetime" Nullable="true" />
+    <Property Name="NIVEL" Type="decimal" Nullable="true" Precision="18" Scale="2" />
+  </EntityType>
+  <EntityType Name="GE_METODO_CASTIGO_LEY">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+      <PropertyRef Name="METODO" />
+    </Key>
+    <Property Name="COMPANIA" Type="varchar" Nullable="false" MaxLength="2" />
+    <Property Name="UNIDAD" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="METODO" Type="float" Nullable="false" />
+    <Property Name="DESCRIPCION" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="SALTO_ERRATICO" Type="decimal" Nullable="true" Precision="20" Scale="2" />
+    <Property Name="DETALLE_METODO" Type="varchar" Nullable="true" MaxLength="255" />
+    <Property Name="TIPO" Type="varchar" Nullable="false" MaxLength="2" />
+    <Property Name="NUMERO_DESVIACIONES" Type="float" Nullable="true" />
+  </EntityType>
+  <EntityType Name="GE_METODO_CASTIGO_LEY_DET">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+      <PropertyRef Name="METODO" />
+      <PropertyRef Name="RANGO" />
+    </Key>
+    <Property Name="COMPANIA" Type="varchar" Nullable="false" MaxLength="2" />
+    <Property Name="UNIDAD" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="METODO" Type="float" Nullable="false" />
+    <Property Name="RANGO" Type="float" Nullable="false" />
+    <Property Name="VALOR_DE_INI" Type="decimal" Nullable="true" Precision="10" Scale="2" />
+    <Property Name="VALOR_DE_FIN" Type="decimal" Nullable="true" Precision="10" Scale="2" />
+    <Property Name="NRO_DE" Type="float" Nullable="true" />
+  </EntityType>
+  <EntityType Name="GE_MODELO_ACTIVIDAD">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+      <PropertyRef Name="PROCESO" />
+      <PropertyRef Name="SUBPROCESO" />
+      <PropertyRef Name="ACTIVIDAD" />
+    </Key>
+    <Property Name="COMPANIA" Type="varchar" Nullable="false" MaxLength="2" />
+    <Property Name="UNIDAD" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="PROCESO" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="SUBPROCESO" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="ACTIVIDAD" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="DESCRIPCION" Type="varchar" Nullable="true" MaxLength="255" />
+    <Property Name="W_OBJ" Type="varchar" Nullable="true" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="GE_MODELO_PROCESO">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+      <PropertyRef Name="PROCESO" />
+    </Key>
+    <Property Name="COMPANIA" Type="varchar" Nullable="false" MaxLength="2" />
+    <Property Name="UNIDAD" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="PROCESO" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="DESCRIPCION" Type="varchar" Nullable="true" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="GE_MODELO_SUBPROCESO">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+      <PropertyRef Name="PROCESO" />
+      <PropertyRef Name="SUBPROCESO" />
+    </Key>
+    <Property Name="COMPANIA" Type="varchar" Nullable="false" MaxLength="2" />
+    <Property Name="UNIDAD" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="PROCESO" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="SUBPROCESO" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="DESCRIPCION" Type="varchar" Nullable="true" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="GE_MOVIMIENTOS_MINERAL">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+      <PropertyRef Name="PERIODO" />
+      <PropertyRef Name="MOVIMIENTO" />
+    </Key>
+    <Property Name="COMPANIA" Type="varchar" Nullable="false" MaxLength="2" />
+    <Property Name="UNIDAD" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="PERIODO" Type="varchar" Nullable="false" MaxLength="4" />
+    <Property Name="MOVIMIENTO" Type="float" Nullable="false" />
+    <Property Name="FECHA" Type="datetime" Nullable="true" />
+    <Property Name="LABOR_ORIGEN" Type="varchar" Nullable="true" MaxLength="12" />
+    <Property Name="LABOR_DESTINO" Type="varchar" Nullable="true" MaxLength="12" />
+    <Property Name="TONELAJE" Type="decimal" Nullable="true" Precision="20" Scale="2" />
+    <Property Name="LEY" Type="decimal" Nullable="true" Precision="20" Scale="2" />
+    <Property Name="SITUACION_MINERAL" Type="varchar" Nullable="true" MaxLength="2" />
+    <Property Name="TRANSACCION" Type="varchar" Nullable="true" MaxLength="2" />
+    <Property Name="FECHA_CUBICACION" Type="datetime" Nullable="true" />
+    <Property Name="MODIFICADOEL" Type="datetime" Nullable="true" />
+    <Property Name="MODIFICADOPOR" Type="varchar" Nullable="true" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="GE_MT_COMPANIA">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+    </Key>
+    <Property Name="COMPANIA" Type="varchar" Nullable="false" MaxLength="2" />
+    <Property Name="DESCRIPCION" Type="varchar" Nullable="true" MaxLength="40" />
+  </EntityType>
+  <EntityType Name="GE_MT_COMPANIA_UNIDAD">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+    </Key>
+    <Property Name="COMPANIA" Type="varchar" Nullable="false" MaxLength="2" />
+    <Property Name="UNIDAD" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="DESCRIPCION" Type="varchar" Nullable="true" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="GE_MT_LITOLOGIA">
+    <Key>
+      <PropertyRef Name="LITOLOGIA" />
+    </Key>
+    <Property Name="LITOLOGIA" Type="float" Nullable="false" />
+    <Property Name="DESCRIPCION" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="LIT_ABR" Type="varchar" Nullable="true" MaxLength="5" />
+  </EntityType>
+  <EntityType Name="GE_MT_MINERALIZACION">
+    <Key>
+      <PropertyRef Name="MINERALIZACION" />
+    </Key>
+    <Property Name="MINERALIZACION" Type="float" Nullable="false" />
+    <Property Name="DESCRIPCION" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="MIN_ABR" Type="varchar" Nullable="true" MaxLength="5" />
+  </EntityType>
+  <EntityType Name="GE_MT_TIPO_MUESTREO">
+    <Key>
+      <PropertyRef Name="TIPO" />
+    </Key>
+    <Property Name="NOMBRE" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="DESCRIPCION" Type="varchar" Nullable="true" MaxLength="100" />
+    <Property Name="PREFIJO_MUESTRA" Type="varchar" Nullable="true" MaxLength="2" />
+    <Property Name="ESTADO" Type="varchar" Nullable="true" MaxLength="2" />
+    <Property Name="TIPO" Type="varchar" Nullable="false" MaxLength="2" />
+  </EntityType>
+  <EntityType Name="GE_MT_TRANSACCIONES">
+    <Key>
+      <PropertyRef Name="TRANSACCION" />
+    </Key>
+    <Property Name="TRANSACCION" Type="varchar" Nullable="false" MaxLength="2" />
+    <Property Name="DESCRIPCION" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="TIPO" Type="varchar" Nullable="true" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="GE_ORDEN_TRABAJO_LAB">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+      <PropertyRef Name="ORDEN" />
+    </Key>
+    <Property Name="COMPANIA" Type="varchar" Nullable="false" MaxLength="2" />
+    <Property Name="UNIDAD" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="ORDEN" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="FECHA_ORDEN" Type="datetime" Nullable="true" />
+    <Property Name="FECHA_LABORATORIO" Type="datetime" Nullable="true" />
+    <Property Name="RESPOBSABLE_ENTREGA" Type="varchar" Nullable="true" MaxLength="30" />
+    <Property Name="OBSERVACION" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="MODIFICADOPOR" Type="varchar" Nullable="true" MaxLength="30" />
+    <Property Name="MODIFICADOEL" Type="datetime" Nullable="true" />
+  </EntityType>
+  <EntityType Name="GE_ORDEN_TRABAJO_LAB_DET">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+      <PropertyRef Name="ORDEN" />
+      <PropertyRef Name="MUESTRA" />
+    </Key>
+    <Property Name="COMPANIA" Type="varchar" Nullable="false" MaxLength="2" />
+    <Property Name="UNIDAD" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="ORDEN" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="MUESTRA" Type="varchar" Nullable="false" MaxLength="12" />
+    <Property Name="OBSERVACION" Type="varchar" Nullable="true" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="GE_PARAMETROS">
+    <Key>
+      <PropertyRef Name="PARAMETRO" />
+    </Key>
+    <Property Name="PARAMETRO" Type="varchar" Nullable="false" MaxLength="30" />
+    <Property Name="DESCRIPCION" Type="varchar" Nullable="true" MaxLength="255" />
+    <Property Name="DETALLE" Type="varchar" Nullable="true" MaxLength="255" />
+    <Property Name="COMPANIA" Type="varchar" Nullable="true" MaxLength="2" />
+    <Property Name="UNIDAD" Type="varchar" Nullable="true" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="GE_PERFORACION_CAB">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NOMBRE" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="CORREL" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="ESTADO" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="TIPO" Type="varchar" Nullable="true" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="GE_PERIODOS">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+      <PropertyRef Name="PERIODO" />
+      <PropertyRef Name="MES" />
+    </Key>
+    <Property Name="COMPANIA" Type="varchar" Nullable="false" MaxLength="2" />
+    <Property Name="UNIDAD" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="PERIODO" Type="decimal" Nullable="false" Precision="4" Scale="0" />
+    <Property Name="MES" Type="decimal" Nullable="false" Precision="2" Scale="0" />
+    <Property Name="DESDE" Type="datetime" Nullable="true" />
+    <Property Name="HASTA" Type="datetime" Nullable="true" />
+  </EntityType>
+  <EntityType Name="GE_POLIGONO_CAB">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+      <PropertyRef Name="POLIGONO" />
+    </Key>
+    <Property Name="COMPANIA" Type="varchar" Nullable="false" MaxLength="2" />
+    <Property Name="UNIDAD" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="POLIGONO" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="REFERENCIA" Type="varchar" Nullable="true" MaxLength="20" />
+    <Property Name="NRO_MUESTRAS" Type="float" Nullable="true" />
+    <Property Name="MEDIA_LAB" Type="decimal" Nullable="true" Precision="38" Scale="3" />
+    <Property Name="MEDIA_GEO" Type="decimal" Nullable="true" Precision="38" Scale="3" />
+    <Property Name="DESVIACION_ESTANDAR" Type="decimal" Nullable="true" Precision="38" Scale="3" />
+    <Property Name="ALTO_ERRATICO" Type="decimal" Nullable="true" Precision="38" Scale="3" />
+    <Property Name="ALTOS_ERRATICOS" Type="float" Nullable="true" />
+    <Property Name="LABOR" Type="varchar" Nullable="true" MaxLength="20" />
+    <Property Name="METODO" Type="float" Nullable="true" />
+    <Property Name="FECHACREA" Type="datetime" Nullable="true" />
+    <Property Name="USUARIOCREA" Type="varchar" Nullable="true" MaxLength="30" />
+    <Property Name="ESTADO" Type="varchar" Nullable="true" MaxLength="2" />
+    <Property Name="AREA" Type="decimal" Nullable="true" Precision="38" Scale="2" />
+    <Property Name="DENSIDAD" Type="decimal" Nullable="true" Precision="38" Scale="2" />
+    <Property Name="POTENCIA" Type="decimal" Nullable="true" Precision="38" Scale="2" />
+    <Property Name="TONELAJE" Type="decimal" Nullable="true" Precision="38" Scale="2" />
+    <Property Name="TONELAJE_PESADO" Type="decimal" Nullable="true" Precision="38" Scale="2" />
+    <Property Name="FECHACR" Type="datetime" Nullable="true" />
+    <Property Name="USUARIOCR" Type="varchar" Nullable="true" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="GE_PROGRAMA_MUESTREO">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="COMPANIA" Type="varchar" Nullable="false" MaxLength="2" />
+    <Property Name="UNIDAD" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="PROGRAMA" Type="varchar" Nullable="false" MaxLength="15" />
+    <Property Name="OBSERVACION" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="FECHA" Type="datetime" Nullable="true" />
+    <Property Name="MODIFICADOPOR" Type="varchar" Nullable="true" MaxLength="30" />
+    <Property Name="MODIFICADOEL" Type="datetime" Nullable="true" />
+    <Property Name="TURNO" Type="varchar" Nullable="false" MaxLength="1" />
+    <Property Name="MUESTRAS_OBJETIVO" Type="float" Nullable="true" />
+    <Property Name="MUESTRAS_REAL" Type="float" Nullable="true" />
+    <Property Name="ESTADO" Type="varchar" Nullable="true" MaxLength="2" />
+    <Property Name="TIPO" Type="varchar" Nullable="true" MaxLength="2" />
+    <Property Name="PROYECTO_CODIGO" Type="varchar" Nullable="true" MaxLength="10" />
+    <Property Name="PROYECTO_DESCRIPCION" Type="varchar" Nullable="true" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="GE_PROGRAMA_MUESTREO_PERSONAL">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+      <PropertyRef Name="PROGRAMA" />
+      <PropertyRef Name="LABOR" />
+      <PropertyRef Name="PERSONAL" />
+    </Key>
+    <Property Name="COMPANIA" Type="varchar" Nullable="false" MaxLength="2" />
+    <Property Name="UNIDAD" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="PROGRAMA" Type="varchar" Nullable="false" MaxLength="15" />
+    <Property Name="LABOR" Type="varchar" Nullable="false" MaxLength="12" />
+    <Property Name="PERSONAL" Type="varchar" Nullable="false" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="GE_PROYECTO_PRF">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PROYECTO" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="OBJETIVO" Type="varchar" Nullable="true" MaxLength="400" />
+    <Property Name="FECHA" Type="datetime" Nullable="true" />
+    <Property Name="RESUMEN" Type="varchar" Nullable="true" MaxLength="500" />
+    <Property Name="FECHACREA" Type="datetime" Nullable="true" />
+    <Property Name="USUARCREA" Type="varchar" Nullable="true" MaxLength="200" />
+    <Property Name="CORDENADAE" Type="decimal" Nullable="true" Precision="20" Scale="3" />
+    <Property Name="CORDENADAN" Type="decimal" Nullable="true" Precision="20" Scale="3" />
+    <Property Name="COTA" Type="decimal" Nullable="true" Precision="20" Scale="3" />
+    <Property Name="AZIMUT" Type="decimal" Nullable="true" Precision="20" Scale="3" />
+    <Property Name="INCLINACION" Type="decimal" Nullable="true" Precision="20" Scale="3" />
+    <Property Name="ARCHIVO" Type="varchar" Nullable="true" MaxLength="2000" />
+  </EntityType>
+  <EntityType Name="GE_RECURSOS_AREA">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+      <PropertyRef Name="SECTOR" />
+      <PropertyRef Name="AREA" />
+      <PropertyRef Name="PERIODO" />
+    </Key>
+    <Property Name="COMPANIA" Type="varchar" Nullable="false" MaxLength="2" />
+    <Property Name="UNIDAD" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="SECTOR" Type="varchar" Nullable="false" MaxLength="6" />
+    <Property Name="AREA" Type="varchar" Nullable="false" MaxLength="6" />
+    <Property Name="TIPO_AREA" Type="varchar" Nullable="true" MaxLength="3" />
+    <Property Name="SECTOR_PADRE" Type="varchar" Nullable="true" MaxLength="6" />
+    <Property Name="AREA_PADRE" Type="varchar" Nullable="true" MaxLength="7" />
+    <Property Name="TIPO_LEY" Type="varchar" Nullable="true" MaxLength="2" />
+    <Property Name="TIPO_MEDICION" Type="varchar" Nullable="true" MaxLength="2" />
+    <Property Name="DESTINO_BLENDING" Type="varchar" Nullable="true" MaxLength="1" />
+    <Property Name="PERIODO" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="MODIFICADOEL" Type="datetime" Nullable="true" />
+    <Property Name="MODIFICADOPOR" Type="varchar" Nullable="true" MaxLength="30" />
+    <Property Name="TIPO_BALANCE" Type="varchar" Nullable="true" MaxLength="2" />
+    <Property Name="CATEGORIA" Type="varchar" Nullable="true" MaxLength="2" />
+    <Property Name="DENSIDAD" Type="decimal" Nullable="true" Precision="38" Scale="2" />
+    <Property Name="TITULAR" Type="varchar" Nullable="true" MaxLength="2" />
+  </EntityType>
+  <EntityType Name="GE_RECURSOS_AREA_MOVIMIENTOS">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+      <PropertyRef Name="SECTOR" />
+      <PropertyRef Name="AREA" />
+      <PropertyRef Name="PERIODO" />
+      <PropertyRef Name="MOVIMIENTO" />
+    </Key>
+    <Property Name="COMPANIA" Type="varchar" Nullable="false" MaxLength="2" />
+    <Property Name="UNIDAD" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="SECTOR" Type="varchar" Nullable="false" MaxLength="6" />
+    <Property Name="AREA" Type="varchar" Nullable="false" MaxLength="6" />
+    <Property Name="PERIODO" Type="varchar" Nullable="false" MaxLength="8" />
+    <Property Name="FECHA_MOV" Type="datetime" Nullable="true" />
+    <Property Name="TRANSACCION" Type="varchar" Nullable="true" MaxLength="3" />
+    <Property Name="TONELAJE" Type="decimal" Nullable="true" Precision="38" Scale="2" />
+    <Property Name="SECTOR_ORIGEN" Type="varchar" Nullable="true" MaxLength="6" />
+    <Property Name="AREA_ORIGEN" Type="varchar" Nullable="true" MaxLength="6" />
+    <Property Name="LEY" Type="decimal" Nullable="true" Precision="38" Scale="2" />
+    <Property Name="MOVIMIENTO" Type="float" Nullable="false" />
+    <Property Name="MEDICION_TOPOGRAFIA_ID" Type="float" Nullable="true" />
+    <Property Name="MEDICION_MODELO_ID" Type="float" Nullable="true" />
+    <Property Name="MEDICION_PESAJE_ID" Type="varchar" Nullable="true" MaxLength="10" />
+    <Property Name="POLIGONO" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="LABOR" Type="varchar" Nullable="true" MaxLength="20" />
+    <Property Name="BLENDING" Type="float" Nullable="true" />
+    <Property Name="MIGRACION" Type="varchar" Nullable="true" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="GE_RECURSOS_AREA_PERIODO">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+      <PropertyRef Name="SECTOR" />
+      <PropertyRef Name="AREA" />
+      <PropertyRef Name="PERIODO" />
+      <PropertyRef Name="CORTE" />
+    </Key>
+    <Property Name="COMPANIA" Type="varchar" Nullable="false" MaxLength="2" />
+    <Property Name="UNIDAD" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="SECTOR" Type="varchar" Nullable="false" MaxLength="6" />
+    <Property Name="AREA" Type="varchar" Nullable="false" MaxLength="6" />
+    <Property Name="PERIODO" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="FECHA" Type="datetime" Nullable="true" />
+    <Property Name="RECURSO_MEDIDIO" Type="decimal" Nullable="true" Precision="38" Scale="2" />
+    <Property Name="RECURSO_INDICADO" Type="decimal" Nullable="true" Precision="38" Scale="2" />
+    <Property Name="RECURSO_INFERIDO" Type="decimal" Nullable="true" Precision="38" Scale="2" />
+    <Property Name="CORTE" Type="nvarchar" Nullable="false" MaxLength="6" />
+    <Property Name="LEY_MEDIDO" Type="decimal" Nullable="true" Precision="38" Scale="2" />
+    <Property Name="LEY_INDICADO" Type="decimal" Nullable="true" Precision="38" Scale="2" />
+    <Property Name="LEY_INFERIDO" Type="decimal" Nullable="true" Precision="38" Scale="2" />
+    <Property Name="CATOFF" Type="decimal" Nullable="true" Precision="38" Scale="2" />
+  </EntityType>
+  <EntityType Name="GE_RECURSOS_CATEGORIA_CAMBIO">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+      <PropertyRef Name="SECTOR" />
+      <PropertyRef Name="AREA" />
+      <PropertyRef Name="PERIODO" />
+      <PropertyRef Name="CORTE" />
+      <PropertyRef Name="MOVIMIENTO" />
+    </Key>
+    <Property Name="COMPANIA" Type="varchar" Nullable="false" MaxLength="2" />
+    <Property Name="UNIDAD" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="SECTOR" Type="varchar" Nullable="false" MaxLength="6" />
+    <Property Name="AREA" Type="varchar" Nullable="false" MaxLength="6" />
+    <Property Name="PERIODO" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="CORTE" Type="varchar" Nullable="false" MaxLength="2" />
+    <Property Name="MOVIMIENTO" Type="float" Nullable="false" />
+    <Property Name="TRANSACCION" Type="varchar" Nullable="true" MaxLength="3" />
+    <Property Name="FECHA" Type="datetime" Nullable="true" />
+    <Property Name="TMH" Type="decimal" Nullable="true" Precision="38" Scale="2" />
+    <Property Name="LEY" Type="decimal" Nullable="true" Precision="38" Scale="2" />
+    <Property Name="CREADOPOR" Type="varchar" Nullable="true" MaxLength="20" />
+    <Property Name="CREADOEL" Type="datetime" Nullable="true" />
+    <Property Name="SUSTENTO" Type="varchar" Nullable="true" MaxLength="255" />
+    <Property Name="DETALLE_CAMBIO" Type="varchar" Nullable="true" MaxLength="2500" />
+  </EntityType>
+  <EntityType Name="GE_RECURSOS_CLASIFICACION">
+    <Key>
+      <PropertyRef Name="CATEGORIA" />
+    </Key>
+    <Property Name="CATEGORIA" Type="varchar" Nullable="false" MaxLength="2" />
+    <Property Name="DESCRIPCION" Type="varchar" Nullable="true" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="GE_RECURSOS_LEVANTAMIENTO_TOPO">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+      <PropertyRef Name="MEDICION" />
+    </Key>
+    <Property Name="COMPANIA" Type="varchar" Nullable="false" MaxLength="2" />
+    <Property Name="UNIDAD" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="MEDICION" Type="float" Nullable="false" />
+    <Property Name="PERIODO" Type="varchar" Nullable="true" MaxLength="4" />
+    <Property Name="FECHA" Type="datetime" Nullable="true" />
+    <Property Name="SECTOR" Type="varchar" Nullable="true" MaxLength="6" />
+    <Property Name="AREA" Type="varchar" Nullable="true" MaxLength="7" />
+    <Property Name="LEY" Type="decimal" Nullable="true" Precision="38" Scale="2" />
+    <Property Name="METROS_CUBICOS" Type="decimal" Nullable="true" Precision="38" Scale="2" />
+    <Property Name="DENSIDAD" Type="decimal" Nullable="true" Precision="38" Scale="2" />
+    <Property Name="CONTRATA" Type="varchar" Nullable="true" MaxLength="30" />
+    <Property Name="TOPOGRAFO" Type="varchar" Nullable="true" MaxLength="30" />
+    <Property Name="OBSERVACION" Type="varchar" Nullable="true" MaxLength="500" />
+    <Property Name="PESO_TMH" Type="decimal" Nullable="true" Precision="38" Scale="2" />
+    <Property Name="GENERA_MOVIMIENTO" Type="varchar" Nullable="true" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="GE_RECURSOS_PILAS">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+      <PropertyRef Name="PILA" />
+    </Key>
+    <Property Name="COMPANIA" Type="varchar" Nullable="false" MaxLength="2" />
+    <Property Name="UNIDAD" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="PILA" Type="varchar" Nullable="false" MaxLength="20" />
+    <Property Name="SECTOR" Type="varchar" Nullable="true" MaxLength="6" />
+    <Property Name="AREA" Type="varchar" Nullable="true" MaxLength="6" />
+    <Property Name="POLIGONO" Type="varchar" Nullable="true" MaxLength="30" />
+    <Property Name="LEY" Type="decimal" Nullable="true" Precision="38" Scale="2" />
+    <Property Name="TONELAJE_SALDO" Type="decimal" Nullable="true" Precision="38" Scale="2" />
+    <Property Name="ESTADO" Type="varchar" Nullable="true" MaxLength="2" />
+    <Property Name="CUADRICULA" Type="varchar" Nullable="true" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="GE_RECURSOS_TRANSACCIONES">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+      <PropertyRef Name="TRANSACCION" />
+    </Key>
+    <Property Name="COMPANIA" Type="varchar" Nullable="false" MaxLength="2" />
+    <Property Name="UNIDAD" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="TRANSACCION" Type="varchar" Nullable="false" MaxLength="3" />
+    <Property Name="DESCRIPCION" Type="varchar" Nullable="true" MaxLength="100" />
+    <Property Name="SUSTENTO" Type="varchar" Nullable="true" MaxLength="1500" />
+    <Property Name="SECTOR_DESTINO" Type="varchar" Nullable="true" MaxLength="6" />
+    <Property Name="AREA_DESTINO" Type="varchar" Nullable="true" MaxLength="7" />
+    <Property Name="TIPO_OPERACION" Type="varchar" Nullable="true" MaxLength="1" />
+    <Property Name="TIPO_AREA" Type="varchar" Nullable="true" MaxLength="3" />
+  </EntityType>
+  <EntityType Name="GE_REGISTRO_POLIGONO">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+      <PropertyRef Name="POLIGONO" />
+    </Key>
+    <Property Name="COMPANIA" Type="varchar" Nullable="false" MaxLength="2" />
+    <Property Name="UNIDAD" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="POLIGONO" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="COMENTARIO" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="LABOR" Type="varchar" Nullable="true" MaxLength="20" />
+    <Property Name="METODO" Type="float" Nullable="true" />
+    <Property Name="NUMERO_MUESTRAS" Type="float" Nullable="true" />
+    <Property Name="MEDIA_PONDERADA_LAB" Type="decimal" Nullable="true" Precision="38" Scale="3" />
+    <Property Name="MEDIA_PONDERADA_GEO" Type="decimal" Nullable="true" Precision="38" Scale="3" />
+    <Property Name="DESVIACION_ESTANDAR" Type="decimal" Nullable="true" Precision="38" Scale="3" />
+    <Property Name="SALTO_ERRATICO_MAYOR_A" Type="decimal" Nullable="true" Precision="38" Scale="3" />
+    <Property Name="NUMERO_SALTOS_ERRATICOS" Type="decimal" Nullable="true" Precision="38" Scale="3" />
+    <Property Name="USUARIOMODIFICO" Type="varchar" Nullable="true" MaxLength="20" />
+    <Property Name="FECHAMODIFICO" Type="datetime" Nullable="true" />
+  </EntityType>
+  <EntityType Name="GE_REP_BALANZA">
+    <Key>
+      <PropertyRef Name="CANO_ID" />
+      <PropertyRef Name="CMES_ID" />
+      <PropertyRef Name="CBALANZA_ITEM" />
+    </Key>
+    <Property Name="CANO_ID" Type="varchar" Nullable="false" MaxLength="4" />
+    <Property Name="CMES_ID" Type="varchar" Nullable="false" MaxLength="2" />
+    <Property Name="CBALANZA_ITEM" Type="varchar" Nullable="false" MaxLength="6" />
+    <Property Name="DBALANZA_FECHA" Type="datetime" Nullable="true" />
+    <Property Name="CACTIVOS_FIJOS_ID" Type="varchar" Nullable="true" MaxLength="10" />
+    <Property Name="CACTIVOS_FIJOS_DESC" Type="varchar" Nullable="true" MaxLength="80" />
+    <Property Name="CCARGA_ID" Type="varchar" Nullable="true" MaxLength="6" />
+    <Property Name="VCARGA_DESCRIPCION" Type="varchar" Nullable="true" MaxLength="100" />
+    <Property Name="CTURNO_ID" Type="varchar" Nullable="true" MaxLength="6" />
+    <Property Name="VTURNO_NOMBRE" Type="varchar" Nullable="true" MaxLength="100" />
+    <Property Name="CMINA_ID" Type="varchar" Nullable="true" MaxLength="6" />
+    <Property Name="VMINA_DESCRIPCION" Type="varchar" Nullable="true" MaxLength="100" />
+    <Property Name="CVETA_ID" Type="varchar" Nullable="true" MaxLength="6" />
+    <Property Name="VVETA_DESCRIPCION" Type="varchar" Nullable="true" MaxLength="100" />
+    <Property Name="DFECHA_INICIAL" Type="datetime" Nullable="true" />
+    <Property Name="NTONELAJE_INICIAL" Type="decimal" Nullable="true" Precision="12" Scale="2" />
+    <Property Name="DFECHA_FINAL" Type="datetime" Nullable="true" />
+    <Property Name="NTONELAJE_FINAL" Type="decimal" Nullable="true" Precision="12" Scale="2" />
+    <Property Name="NPESO_NETO" Type="decimal" Nullable="true" Precision="12" Scale="2" />
+    <Property Name="CTOLVA_ID" Type="varchar" Nullable="true" MaxLength="6" />
+    <Property Name="VTOLVA_DESCRIPCION" Type="varchar" Nullable="true" MaxLength="100" />
+    <Property Name="COPERADOR_ID" Type="varchar" Nullable="true" MaxLength="10" />
+    <Property Name="CCHOFER" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="CUSUARIOMODIFICA_ID" Type="varchar" Nullable="true" MaxLength="20" />
+    <Property Name="POLIGONO" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="LABOR_ORIGEN" Type="varchar" Nullable="true" MaxLength="20" />
+    <Property Name="LABOR_DESTINO" Type="varchar" Nullable="true" MaxLength="20" />
+    <Property Name="TIPO_MINERAL" Type="varchar" Nullable="true" MaxLength="2" />
+    <Property Name="APILAR_EN" Type="varchar" Nullable="true" MaxLength="30" />
+    <Property Name="UBICACION_PILA" Type="varchar" Nullable="true" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="GE_REPORTE_LABORATORIO">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+      <PropertyRef Name="PROGRAMA" />
+      <PropertyRef Name="REPORTE" />
+    </Key>
+    <Property Name="COMPANIA" Type="varchar" Nullable="false" MaxLength="2" />
+    <Property Name="UNIDAD" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="PROGRAMA" Type="varchar" Nullable="false" MaxLength="15" />
+    <Property Name="REPORTE" Type="float" Nullable="false" />
+    <Property Name="CONTRATA" Type="varchar" Nullable="true" MaxLength="30" />
+    <Property Name="REPORTA" Type="varchar" Nullable="true" MaxLength="30" />
+    <Property Name="SUPERVISOR" Type="varchar" Nullable="true" MaxLength="30" />
+    <Property Name="FECHA_REPORTE" Type="datetime" Nullable="true" />
+    <Property Name="OBSERVACIONES" Type="varchar" Nullable="true" MaxLength="255" />
+    <Property Name="ORDEN_TRABAJO" Type="varchar" Nullable="true" MaxLength="10" />
+    <Property Name="FECHA_RECEPCION_OT" Type="datetime" Nullable="true" />
+  </EntityType>
+  <EntityType Name="GE_REPORTE_MUESTREO">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="COMPANIA" Type="varchar" Nullable="false" MaxLength="2" />
+    <Property Name="UNIDAD" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="PROGRAMA" Type="varchar" Nullable="false" MaxLength="15" />
+    <Property Name="REPORTE" Type="varchar" Nullable="false" MaxLength="20" />
+    <Property Name="REPORTA" Type="varchar" Nullable="true" MaxLength="30" />
+    <Property Name="SUPERVISOR" Type="varchar" Nullable="true" MaxLength="30" />
+    <Property Name="FECHA_REPORTE" Type="datetime" Nullable="true" />
+    <Property Name="LABOR" Type="varchar" Nullable="true" MaxLength="12" />
+    <Property Name="OBSERVACION" Type="varchar" Nullable="true" MaxLength="255" />
+    <Property Name="ORDEN_LABORATORIO" Type="varchar" Nullable="true" MaxLength="10" />
+    <Property Name="FECHA_ENTREGA" Type="datetime" Nullable="true" />
+    <Property Name="RESPONSABLE_ENTREGA" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="MUESTRAS_ENTREGADAS" Type="decimal" Nullable="true" Precision="10" Scale="0" />
+    <Property Name="USRCRE" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="FECCRE" Type="datetime" Nullable="true" />
+    <Property Name="USRMOD" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="FECMOD" Type="datetime" Nullable="true" />
+  </EntityType>
+  <EntityType Name="GE_REPORTE_MUESTREO_DETALLE">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="COMPANIA" Type="varchar" Nullable="false" MaxLength="2" />
+    <Property Name="UNIDAD" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="PROGRAMA" Type="varchar" Nullable="false" MaxLength="15" />
+    <Property Name="REPORTE" Type="varchar" Nullable="false" MaxLength="20" />
+    <Property Name="MUESTRA" Type="varchar" Nullable="false" MaxLength="12" />
+    <Property Name="LONGITUD" Type="decimal" Nullable="true" Precision="12" Scale="2" />
+    <Property Name="SISTEMA_MUESTREO" Type="varchar" Nullable="true" MaxLength="2" />
+    <Property Name="RESPONSABLE" Type="varchar" Nullable="true" MaxLength="30" />
+    <Property Name="OBSERVACION" Type="varchar" Nullable="true" MaxLength="255" />
+    <Property Name="TIPO_MUESTREO" Type="varchar" Nullable="true" MaxLength="2" />
+    <Property Name="AZIMUT" Type="decimal" Nullable="true" Precision="12" Scale="2" />
+    <Property Name="INCLINACION" Type="decimal" Nullable="true" Precision="10" Scale="2" />
+    <Property Name="QAQC" Type="varchar" Nullable="true" MaxLength="2" />
+    <Property Name="TOPOGRAFIA_X" Type="decimal" Nullable="true" Precision="38" Scale="3" />
+    <Property Name="TOPOGRAFIA_Y" Type="decimal" Nullable="true" Precision="38" Scale="3" />
+    <Property Name="TOPOGRAFIA_Z" Type="decimal" Nullable="true" Precision="38" Scale="3" />
+    <Property Name="REPORTE_TOPOGRAFIA" Type="float" Nullable="true" />
+    <Property Name="REPORTE_LABORATORIO" Type="float" Nullable="true" />
+    <Property Name="LABORATORIO_LOCAL_LEY" Type="decimal" Nullable="true" Precision="38" Scale="3" />
+    <Property Name="LABORATORIO_LOCAL_HUMEDAD" Type="decimal" Nullable="true" Precision="38" Scale="3" />
+    <Property Name="LABORATORIO_EXT01_LEY" Type="decimal" Nullable="true" Precision="38" Scale="3" />
+    <Property Name="LABORATORIO_EXT01_HUMEDAD" Type="decimal" Nullable="true" Precision="38" Scale="3" />
+    <Property Name="LABORATORIO_EXT02_LEY" Type="decimal" Nullable="true" Precision="38" Scale="3" />
+    <Property Name="LABORATORIO_EXT02_HUMEDAD" Type="decimal" Nullable="true" Precision="38" Scale="3" />
+    <Property Name="LITOLOGIA" Type="varchar" Nullable="true" MaxLength="100" />
+    <Property Name="MINERALIZACION" Type="varchar" Nullable="true" MaxLength="100" />
+    <Property Name="POLIGONO" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="ORDEN_LABORATORIO" Type="varchar" Nullable="true" MaxLength="10" />
+    <Property Name="FECHA_ENTREGA" Type="datetime" Nullable="true" />
+    <Property Name="RESPONSABLE_ENTREGA" Type="varchar" Nullable="true" MaxLength="30" />
+    <Property Name="AYUDANTE" Type="varchar" Nullable="true" MaxLength="30" />
+    <Property Name="PROYECTO" Type="varchar" Nullable="true" MaxLength="30" />
+    <Property Name="MUESTRA_QAQC" Type="varchar" Nullable="true" MaxLength="12" />
+    <Property Name="LABORATORIO_APROBACION_FEC" Type="datetime" Nullable="true" />
+    <Property Name="LABORATORIO_APROBACION_USU" Type="varchar" Nullable="true" MaxLength="30" />
+    <Property Name="LEY_GEOLOGIA" Type="decimal" Nullable="true" Precision="38" Scale="3" />
+    <Property Name="PILA" Type="float" Nullable="true" />
+    <Property Name="POLIGONO_REFERENCIA" Type="varchar" Nullable="true" MaxLength="20" />
+    <Property Name="LABORATORIO_LEY_ESTADO" Type="varchar" Nullable="true" MaxLength="2" />
+    <Property Name="LABORATORIO_LEY_OBS" Type="varchar" Nullable="true" MaxLength="100" />
+    <Property Name="TITULAR" Type="varchar" Nullable="true" MaxLength="2" />
+    <Property Name="LABOR" Type="varchar" Nullable="true" MaxLength="20" />
+    <Property Name="SONDAJE" Type="varchar" Nullable="true" MaxLength="20" />
+    <Property Name="METRAJE_FROM" Type="decimal" Nullable="true" Precision="38" Scale="2" />
+    <Property Name="METRAJE_TO" Type="decimal" Nullable="true" Precision="38" Scale="2" />
+    <Property Name="TIPO_CANAL" Type="varchar" Nullable="true" MaxLength="2" />
+    <Property Name="MUESTREO_EN" Type="varchar" Nullable="true" MaxLength="2" />
+    <Property Name="MANTO" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="CALICATA" Type="varchar" Nullable="true" MaxLength="15" />
+    <Property Name="CC_ANCHO" Type="decimal" Nullable="true" Precision="38" Scale="2" />
+    <Property Name="CC_LARGO" Type="decimal" Nullable="true" Precision="38" Scale="2" />
+    <Property Name="ZMUESTRA" Type="varchar" Nullable="true" MaxLength="40" />
+    <Property Name="LOGUEO" Type="varchar" Nullable="true" MaxLength="400" />
+    <Property Name="REFERENCIAM" Type="varchar" Nullable="true" MaxLength="500" />
+    <Property Name="GEMMUESTRA" Type="varchar" Nullable="true" MaxLength="12" />
+    <Property Name="RECMUESTRA" Type="varchar" Nullable="true" MaxLength="12" />
+    <Property Name="DUPMUESTRA" Type="varchar" Nullable="true" MaxLength="12" />
+    <Property Name="LEYGEMMUESTRA" Type="decimal" Nullable="true" Precision="38" Scale="3" />
+    <Property Name="LEYRECMUESTRA" Type="decimal" Nullable="true" Precision="38" Scale="3" />
+    <Property Name="LEYDUPMUESTRA" Type="decimal" Nullable="true" Precision="38" Scale="3" />
+    <Property Name="PRIORIDAD" Type="varchar" Nullable="true" MaxLength="15" />
+    <Property Name="CLITOLOGIA" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="CDLITOLOGIA" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="CALTERACION" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="CDALTERACION" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="CESTRUCTURAS" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="CDESTRUCTURAS" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="CMINERALIZACION" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="CDMINERALIZACION" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="PULMUESTRA" Type="varchar" Nullable="true" MaxLength="12" />
+    <Property Name="USRCRE" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="FECCRE" Type="datetime" Nullable="true" />
+    <Property Name="USRMOD" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="FECMOD" Type="datetime" Nullable="true" />
+  </EntityType>
+  <EntityType Name="GE_REPORTE_MUESTREO_LABORATO">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+      <PropertyRef Name="PROGRAMA" />
+      <PropertyRef Name="REPORTE" />
+      <PropertyRef Name="MUESTRA" />
+    </Key>
+    <Property Name="COMPANIA" Type="varchar" Nullable="false" MaxLength="3" />
+    <Property Name="UNIDAD" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="PROGRAMA" Type="varchar" Nullable="false" MaxLength="2" />
+    <Property Name="REPORTE" Type="float" Nullable="false" />
+    <Property Name="MUESTRA" Type="varchar" Nullable="false" MaxLength="12" />
+    <Property Name="LEY" Type="decimal" Nullable="true" Precision="12" Scale="2" />
+    <Property Name="OBSERVACION" Type="varchar" Nullable="true" MaxLength="255" />
+    <Property Name="PERSONAL_LABORATORIO" Type="varchar" Nullable="true" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="GE_REPORTE_MUESTREO_UBICA">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="COMPANIA" Type="varchar" Nullable="true" MaxLength="12" />
+    <Property Name="UNIDAD" Type="varchar" Nullable="true" MaxLength="10" />
+    <Property Name="PROGRAMA" Type="varchar" Nullable="true" MaxLength="15" />
+    <Property Name="LABOR" Type="varchar" Nullable="true" MaxLength="12" />
+    <Property Name="NUMERO_MUESTREROS" Type="decimal" Nullable="true" Precision="10" Scale="0" />
+    <Property Name="PROGRAMADO" Type="varchar" Nullable="true" MaxLength="2" />
+    <Property Name="GEOLOGO_RES" Type="varchar" Nullable="true" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="ge_reporte_prf">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="proyecto" Type="varchar" Nullable="true" MaxLength="100" />
+    <Property Name="reporta" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="supervisor" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="labor" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="fecha" Type="datetime" Nullable="true" />
+    <Property Name="coordenadae" Type="decimal" Nullable="true" Precision="30" Scale="3" />
+    <Property Name="coordenadan" Type="decimal" Nullable="true" Precision="30" Scale="3" />
+    <Property Name="cota" Type="decimal" Nullable="true" Precision="30" Scale="3" />
+    <Property Name="azimut" Type="decimal" Nullable="true" Precision="10" Scale="2" />
+    <Property Name="inclinacion" Type="decimal" Nullable="true" Precision="10" Scale="2" />
+    <Property Name="archivopdf" Type="varchar" Nullable="true" MaxLength="400" />
+    <Property Name="estado" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="creadopor" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="fechacrea" Type="datetime" Nullable="true" />
+    <Property Name="modifipor" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="fechamod" Type="datetime" Nullable="true" />
+    <Property Name="longtotal" Type="decimal" Nullable="true" Precision="10" Scale="3" />
+    <Property Name="maquina" Type="varchar" Nullable="true" MaxLength="150" />
+    <Property Name="sondaje" Type="varchar" Nullable="true" MaxLength="100" />
+    <Property Name="tipest" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="fechai" Type="datetime" Nullable="true" />
+    <Property Name="fechaf" Type="datetime" Nullable="true" />
+    <Property Name="referencia" Type="varchar" Nullable="true" MaxLength="30" />
+    <Property Name="aformato" Type="varchar" Nullable="true" MaxLength="3000" />
+    <Property Name="aplanta" Type="varchar" Nullable="true" MaxLength="3000" />
+    <Property Name="objetivo" Type="varchar" Nullable="true" MaxLength="3000" />
+    <Property Name="aseccion" Type="varchar" Nullable="true" MaxLength="3000" />
+  </EntityType>
+  <EntityType Name="GE_REPORTE_PRF_DETALLE">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+      <PropertyRef Name="SONDAJE" />
+      <PropertyRef Name="METRAJE_FROM" />
+      <PropertyRef Name="METRAJE_TO" />
+    </Key>
+    <Property Name="COMPANIA" Type="varchar" Nullable="false" MaxLength="2" />
+    <Property Name="UNIDAD" Type="varchar" Nullable="false" MaxLength="6" />
+    <Property Name="SONDAJE" Type="varchar" Nullable="false" MaxLength="30" />
+    <Property Name="METRAJE_FROM" Type="decimal" Nullable="false" Precision="10" Scale="3" />
+    <Property Name="METRAJE_TO" Type="decimal" Nullable="false" Precision="10" Scale="3" />
+    <Property Name="INTERVALO" Type="decimal" Nullable="true" Precision="10" Scale="3" />
+    <Property Name="LOGUEO" Type="varchar" Nullable="true" MaxLength="2000" />
+    <Property Name="LITOLOGIA" Type="varchar" Nullable="true" MaxLength="200" />
+    <Property Name="ALTERACION" Type="varchar" Nullable="true" MaxLength="200" />
+    <Property Name="ESTRUCTURAS" Type="varchar" Nullable="true" MaxLength="200" />
+    <Property Name="MINERALIZACION" Type="varchar" Nullable="true" MaxLength="200" />
+    <Property Name="PROYECTO" Type="varchar" Nullable="true" MaxLength="100" />
+    <Property Name="ILITOLOGIA" Type="varchar" Nullable="true" MaxLength="20" />
+    <Property Name="IALTERACION" Type="varchar" Nullable="true" MaxLength="20" />
+    <Property Name="IESTRUCTURAS" Type="varchar" Nullable="true" MaxLength="20" />
+    <Property Name="IMINERALIZACION" Type="varchar" Nullable="true" MaxLength="20" />
+    <Property Name="CORR" Type="decimal" Nullable="true" Precision="10" Scale="0" />
+    <Property Name="RECUP" Type="decimal" Nullable="true" Precision="10" Scale="3" />
+    <Property Name="PRECUP" Type="decimal" Nullable="true" Precision="10" Scale="3" />
+    <Property Name="RQD" Type="decimal" Nullable="true" Precision="10" Scale="3" />
+    <Property Name="PRQD" Type="decimal" Nullable="true" Precision="10" Scale="3" />
+  </EntityType>
+  <EntityType Name="ge_reporte_prf_detalle_alt">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="compania" Type="varchar" Nullable="true" MaxLength="2" />
+    <Property Name="unidad" Type="varchar" Nullable="true" MaxLength="6" />
+    <Property Name="sondaje" Type="varchar" Nullable="true" MaxLength="30" />
+    <Property Name="metraje_from" Type="decimal" Nullable="true" Precision="10" Scale="3" />
+    <Property Name="metraje_to" Type="decimal" Nullable="true" Precision="10" Scale="3" />
+    <Property Name="intervalo" Type="decimal" Nullable="true" Precision="10" Scale="3" />
+    <Property Name="alteracion" Type="varchar" Nullable="true" MaxLength="500" />
+    <Property Name="detalle" Type="varchar" Nullable="true" MaxLength="2000" />
+    <Property Name="usrcre" Type="varchar" Nullable="true" MaxLength="300" />
+    <Property Name="feccre" Type="datetime" Nullable="true" />
+    <Property Name="usrmod" Type="varchar" Nullable="true" MaxLength="300" />
+    <Property Name="fecmod" Type="datetime" Nullable="true" />
+    <Property Name="proyecto" Type="varchar" Nullable="true" MaxLength="300" />
+  </EntityType>
+  <EntityType Name="ge_reporte_prf_detalle_est">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="compania" Type="varchar" Nullable="true" MaxLength="2" />
+    <Property Name="unidad" Type="varchar" Nullable="true" MaxLength="6" />
+    <Property Name="sondaje" Type="varchar" Nullable="true" MaxLength="30" />
+    <Property Name="metraje_from" Type="decimal" Nullable="true" Precision="10" Scale="3" />
+    <Property Name="metraje_to" Type="decimal" Nullable="true" Precision="10" Scale="3" />
+    <Property Name="intervalo" Type="decimal" Nullable="true" Precision="10" Scale="3" />
+    <Property Name="estructura" Type="varchar" Nullable="true" MaxLength="500" />
+    <Property Name="detalle" Type="varchar" Nullable="true" MaxLength="2000" />
+    <Property Name="usrcre" Type="varchar" Nullable="true" MaxLength="300" />
+    <Property Name="feccre" Type="datetime" Nullable="true" />
+    <Property Name="usrmod" Type="varchar" Nullable="true" MaxLength="300" />
+    <Property Name="fecmod" Type="datetime" Nullable="true" />
+    <Property Name="proyecto" Type="varchar" Nullable="true" MaxLength="300" />
+  </EntityType>
+  <EntityType Name="ge_reporte_prf_detalle_lit">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="compania" Type="varchar" Nullable="true" MaxLength="2" />
+    <Property Name="unidad" Type="varchar" Nullable="true" MaxLength="6" />
+    <Property Name="sondaje" Type="varchar" Nullable="true" MaxLength="30" />
+    <Property Name="metraje_from" Type="decimal" Nullable="true" Precision="10" Scale="3" />
+    <Property Name="metraje_to" Type="decimal" Nullable="true" Precision="10" Scale="3" />
+    <Property Name="intervalo" Type="decimal" Nullable="true" Precision="10" Scale="3" />
+    <Property Name="litologia" Type="varchar" Nullable="true" MaxLength="500" />
+    <Property Name="detalle" Type="varchar" Nullable="true" MaxLength="2000" />
+    <Property Name="usrcre" Type="varchar" Nullable="true" MaxLength="300" />
+    <Property Name="feccre" Type="datetime" Nullable="true" />
+    <Property Name="usrmod" Type="varchar" Nullable="true" MaxLength="300" />
+    <Property Name="fecmod" Type="datetime" Nullable="true" />
+    <Property Name="proyecto" Type="varchar" Nullable="true" MaxLength="300" />
+  </EntityType>
+  <EntityType Name="ge_reporte_prf_detalle_min">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="compania" Type="varchar" Nullable="true" MaxLength="2" />
+    <Property Name="unidad" Type="varchar" Nullable="true" MaxLength="6" />
+    <Property Name="sondaje" Type="varchar" Nullable="true" MaxLength="30" />
+    <Property Name="metraje_from" Type="decimal" Nullable="true" Precision="10" Scale="3" />
+    <Property Name="metraje_to" Type="decimal" Nullable="true" Precision="10" Scale="3" />
+    <Property Name="intervalo" Type="decimal" Nullable="true" Precision="10" Scale="3" />
+    <Property Name="mineralizacion" Type="varchar" Nullable="true" MaxLength="500" />
+    <Property Name="detalle" Type="varchar" Nullable="true" MaxLength="2000" />
+    <Property Name="usrcre" Type="varchar" Nullable="true" MaxLength="300" />
+    <Property Name="feccre" Type="datetime" Nullable="true" />
+    <Property Name="usrmod" Type="varchar" Nullable="true" MaxLength="300" />
+    <Property Name="fecmod" Type="datetime" Nullable="true" />
+    <Property Name="proyecto" Type="varchar" Nullable="true" MaxLength="300" />
+  </EntityType>
+  <EntityType Name="ge_reporte_prf_detalle_mineco">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="compania" Type="varchar" Nullable="true" MaxLength="2" />
+    <Property Name="unidad" Type="varchar" Nullable="true" MaxLength="6" />
+    <Property Name="sondaje" Type="varchar" Nullable="true" MaxLength="30" />
+    <Property Name="metraje_from" Type="decimal" Nullable="true" Precision="10" Scale="3" />
+    <Property Name="metraje_to" Type="decimal" Nullable="true" Precision="10" Scale="3" />
+    <Property Name="intervalo" Type="decimal" Nullable="true" Precision="10" Scale="3" />
+    <Property Name="mineconomico" Type="varchar" Nullable="true" MaxLength="500" />
+    <Property Name="detalle" Type="varchar" Nullable="true" MaxLength="2000" />
+    <Property Name="usrcre" Type="varchar" Nullable="true" MaxLength="300" />
+    <Property Name="feccre" Type="datetime" Nullable="true" />
+    <Property Name="usrmod" Type="varchar" Nullable="true" MaxLength="300" />
+    <Property Name="fecmod" Type="datetime" Nullable="true" />
+    <Property Name="proyecto" Type="varchar" Nullable="true" MaxLength="300" />
+  </EntityType>
+  <EntityType Name="GE_REPORTE_PRF_DETALLE_MUESTRA">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+      <PropertyRef Name="SONDAJE" />
+    </Key>
+    <Property Name="COMPANIA" Type="varchar" Nullable="false" MaxLength="2" />
+    <Property Name="UNIDAD" Type="varchar" Nullable="false" MaxLength="6" />
+    <Property Name="SONDAJE" Type="varchar" Nullable="false" MaxLength="30" />
+    <Property Name="MUESTRA" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="DESDE" Type="decimal" Nullable="true" Precision="10" Scale="3" />
+    <Property Name="HASTA" Type="decimal" Nullable="true" Precision="10" Scale="3" />
+    <Property Name="LEY" Type="decimal" Nullable="true" Precision="10" Scale="3" />
+    <Property Name="LITOLOGIA" Type="varchar" Nullable="true" MaxLength="20" />
+    <Property Name="ALTERACION" Type="varchar" Nullable="true" MaxLength="20" />
+    <Property Name="ESTRUCTURAS" Type="varchar" Nullable="true" MaxLength="20" />
+    <Property Name="MINERALIZACION" Type="varchar" Nullable="true" MaxLength="20" />
+    <Property Name="PROYECTO" Type="varchar" Nullable="true" MaxLength="100" />
+    <Property Name="ILITOLOGIA" Type="varchar" Nullable="true" MaxLength="20" />
+    <Property Name="IALTERACION" Type="varchar" Nullable="true" MaxLength="20" />
+    <Property Name="IESTRUCTURAS" Type="varchar" Nullable="true" MaxLength="20" />
+    <Property Name="IMINERALZACION" Type="varchar" Nullable="true" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="GE_REPORTE_TOPOGRAFICO">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+      <PropertyRef Name="PROGRAMA" />
+      <PropertyRef Name="REPORTE" />
+    </Key>
+    <Property Name="COMPANIA" Type="varchar" Nullable="false" MaxLength="2" />
+    <Property Name="UNIDAD" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="PROGRAMA" Type="varchar" Nullable="false" MaxLength="15" />
+    <Property Name="REPORTE" Type="float" Nullable="false" />
+    <Property Name="CONTRATA" Type="varchar" Nullable="true" MaxLength="30" />
+    <Property Name="REPORTA" Type="varchar" Nullable="true" MaxLength="30" />
+    <Property Name="SUPERVISOR" Type="varchar" Nullable="true" MaxLength="30" />
+    <Property Name="FECHA_REPORTE" Type="datetime" Nullable="true" />
+    <Property Name="OBSERVACIONES" Type="varchar" Nullable="true" MaxLength="255" />
+    <Property Name="USUARIOMODIFICA" Type="varchar" Nullable="true" MaxLength="30" />
+    <Property Name="FECHAMODIFICA" Type="datetime" Nullable="true" />
+    <Property Name="CODIGO_AUTORIZACION" Type="varchar" Nullable="true" MaxLength="11" />
+  </EntityType>
+  <EntityType Name="GE_SEGURIDAD_USUARIOS">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+      <PropertyRef Name="USUARIO" />
+      <PropertyRef Name="PROCESO" />
+      <PropertyRef Name="SUBPROCESO" />
+      <PropertyRef Name="ACTIVIDAD" />
+    </Key>
+    <Property Name="COMPANIA" Type="varchar" Nullable="false" MaxLength="2" />
+    <Property Name="UNIDAD" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="USUARIO" Type="varchar" Nullable="false" MaxLength="35" />
+    <Property Name="PROCESO" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="SUBPROCESO" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="ACTIVIDAD" Type="varchar" Nullable="false" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="GE_TIPO_LABOR">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ABREVIATURA" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="NOMBRE" Type="varchar" Nullable="true" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="GE_TMP_TRANSPORTE">
+    <Key>
+      <PropertyRef Name="CANO_ID" />
+      <PropertyRef Name="CMES_ID" />
+      <PropertyRef Name="CBALANZA_ITEM" />
+    </Key>
+    <Property Name="CANO_ID" Type="varchar" Nullable="false" MaxLength="4" />
+    <Property Name="CMES_ID" Type="varchar" Nullable="false" MaxLength="2" />
+    <Property Name="CBALANZA_ITEM" Type="varchar" Nullable="false" MaxLength="6" />
+    <Property Name="DBALANZA_FECHA" Type="datetime" Nullable="true" />
+    <Property Name="CACTIVOS_FIJOS_ID" Type="varchar" Nullable="true" MaxLength="10" />
+    <Property Name="CACTIVOS_FIJOS_DESC" Type="varchar" Nullable="true" MaxLength="80" />
+    <Property Name="CCARGA_ID" Type="varchar" Nullable="true" MaxLength="6" />
+    <Property Name="VCARGA_DESCRIPCION" Type="varchar" Nullable="true" MaxLength="100" />
+    <Property Name="CTURNO_ID" Type="varchar" Nullable="true" MaxLength="6" />
+    <Property Name="VTURNO_NOMBRE" Type="varchar" Nullable="true" MaxLength="100" />
+    <Property Name="CMINA_ID" Type="varchar" Nullable="true" MaxLength="6" />
+    <Property Name="VMINA_DESCRIPCION" Type="varchar" Nullable="true" MaxLength="100" />
+    <Property Name="CVETA_ID" Type="varchar" Nullable="true" MaxLength="6" />
+    <Property Name="VVETA_DESCRIPCION" Type="varchar" Nullable="true" MaxLength="100" />
+    <Property Name="DFECHA_INICIAL" Type="datetime" Nullable="true" />
+    <Property Name="NTONELAJE_INICIAL" Type="decimal" Nullable="true" Precision="12" Scale="2" />
+    <Property Name="DFECHA_FINAL" Type="datetime" Nullable="true" />
+    <Property Name="NTONELAJE_FINAL" Type="decimal" Nullable="true" Precision="12" Scale="2" />
+    <Property Name="NPESO_NETO" Type="decimal" Nullable="true" Precision="12" Scale="2" />
+    <Property Name="CTOLVA_ID" Type="varchar" Nullable="true" MaxLength="6" />
+    <Property Name="VTOLVA_DESCRIPCION" Type="varchar" Nullable="true" MaxLength="100" />
+    <Property Name="COPERADOR_ID" Type="varchar" Nullable="true" MaxLength="10" />
+    <Property Name="CCHOFER" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="CUSUARIOMODIFICA_ID" Type="varchar" Nullable="true" MaxLength="20" />
+    <Property Name="POLIGONO" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="LABOR_ORIGEN" Type="varchar" Nullable="true" MaxLength="20" />
+    <Property Name="LABOR_DESTINO" Type="varchar" Nullable="true" MaxLength="20" />
+    <Property Name="TIPO_MINERAL" Type="varchar" Nullable="true" MaxLength="2" />
+    <Property Name="APILAR_EN" Type="varchar" Nullable="true" MaxLength="30" />
+    <Property Name="UBICACION_PILA" Type="varchar" Nullable="true" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="GE_VALGRA_PRO">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="decimal" Nullable="false" Precision="6" Scale="0" />
+    <Property Name="FECHA" Type="datetime" Nullable="true" />
+    <Property Name="PROTMH" Type="decimal" Nullable="true" Precision="10" Scale="2" />
+    <Property Name="PROAUG" Type="decimal" Nullable="true" Precision="10" Scale="2" />
+    <Property Name="PROKGA" Type="decimal" Nullable="true" Precision="10" Scale="2" />
+    <Property Name="PRMTMH" Type="decimal" Nullable="true" Precision="10" Scale="2" />
+    <Property Name="PRMAUG" Type="decimal" Nullable="true" Precision="10" Scale="2" />
+    <Property Name="BLETMH" Type="decimal" Nullable="true" Precision="10" Scale="2" />
+    <Property Name="BLEAUG" Type="decimal" Nullable="true" Precision="10" Scale="2" />
+    <Property Name="PRPTMH" Type="decimal" Nullable="true" Precision="10" Scale="2" />
+    <Property Name="PRPAUG" Type="decimal" Nullable="true" Precision="10" Scale="2" />
+    <Property Name="PRPKAU" Type="decimal" Nullable="true" Precision="10" Scale="2" />
+    <Property Name="FPGTMH" Type="decimal" Nullable="true" Precision="10" Scale="2" />
+    <Property Name="FPGAUG" Type="decimal" Nullable="true" Precision="10" Scale="2" />
+  </EntityType>
+  <EntityType Name="GE_VALPRO">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="decimal" Nullable="false" Precision="20" Scale="0" />
+    <Property Name="FECHA" Type="datetime" Nullable="true" />
+    <Property Name="TMH_PROG" Type="decimal" Nullable="true" Precision="18" Scale="2" />
+    <Property Name="LCA_PROG" Type="decimal" Nullable="true" Precision="18" Scale="2" />
+    <Property Name="TMH_PROC" Type="decimal" Nullable="true" Precision="18" Scale="2" />
+    <Property Name="LCA_CALC" Type="decimal" Nullable="true" Precision="18" Scale="2" />
+    <Property Name="FPROG" Type="decimal" Nullable="true" Precision="18" Scale="2" />
+    <Property Name="FPROD" Type="decimal" Nullable="true" Precision="18" Scale="2" />
+    <Property Name="LEY_ANALIZADA" Type="decimal" Nullable="true" Precision="18" Scale="2" />
+  </EntityType>
+  <EntityType Name="MIN_MLABOR">
+    <Key>
+      <PropertyRef Name="VLABOR_ID" />
+    </Key>
+    <Property Name="VLABOR_ID" Type="varchar" Nullable="false" MaxLength="12" />
+    <Property Name="CUNIDAD_ID" Type="varchar" Nullable="true" MaxLength="10" />
+    <Property Name="CZONA_ID" Type="varchar" Nullable="true" MaxLength="6" />
+    <Property Name="CMINA_ID" Type="varchar" Nullable="true" MaxLength="6" />
+    <Property Name="CNIVEL_ID" Type="varchar" Nullable="true" MaxLength="6" />
+    <Property Name="CVETA_ID" Type="varchar" Nullable="true" MaxLength="6" />
+    <Property Name="NLABOR_COORDENADAX" Type="decimal" Nullable="true" Precision="20" Scale="8" />
+    <Property Name="NLABOR_COORDENADAY" Type="decimal" Nullable="true" Precision="20" Scale="8" />
+    <Property Name="NLABOR_COORDENADAZ" Type="decimal" Nullable="true" Precision="20" Scale="8" />
+    <Property Name="CFASE_ID" Type="varchar" Nullable="true" MaxLength="6" />
+    <Property Name="CPROVEEDOR_ID" Type="varchar" Nullable="true" MaxLength="8" />
+    <Property Name="CDIMENSION_ID" Type="varchar" Nullable="true" MaxLength="6" />
+    <Property Name="DLABOR_FECHAAPERTURA" Type="datetime" Nullable="true" />
+    <Property Name="CTIPOROCA_ID" Type="varchar" Nullable="true" MaxLength="6" />
+    <Property Name="CCR_ID" Type="varchar" Nullable="true" MaxLength="5" />
+    <Property Name="CTIPOLABOR_ID" Type="varchar" Nullable="true" MaxLength="6" />
+    <Property Name="VLABOR_COMENTARIO" Type="varchar" Nullable="true" MaxLength="100" />
+    <Property Name="CPISO_ID" Type="varchar" Nullable="true" MaxLength="6" />
+    <Property Name="CESTADO_ID" Type="varchar" Nullable="true" MaxLength="6" />
+    <Property Name="CSISTEMALABOR_ID" Type="varchar" Nullable="true" MaxLength="6" />
+    <Property Name="CMETODOLABOR_ID" Type="varchar" Nullable="true" MaxLength="6" />
+    <Property Name="CUSUARIOINGRESO_ID" Type="varchar" Nullable="true" MaxLength="20" />
+    <Property Name="DFECHAINGRESO" Type="datetime" Nullable="true" />
+    <Property Name="VPCINGRESO" Type="varchar" Nullable="true" MaxLength="20" />
+    <Property Name="CUSUARIOMODIFICA_ID" Type="varchar" Nullable="true" MaxLength="20" />
+    <Property Name="DFECHAMODIFICA" Type="datetime" Nullable="true" />
+    <Property Name="VPCMODIFICA" Type="varchar" Nullable="true" MaxLength="20" />
+    <Property Name="NLABOR_ALTURA" Type="decimal" Nullable="true" Precision="10" Scale="2" />
+    <Property Name="NLABOR_ANCHO" Type="decimal" Nullable="true" Precision="10" Scale="2" />
+    <Property Name="CTIPO_ID" Type="varchar" Nullable="true" MaxLength="1" />
+    <Property Name="CESPECIAL_ID" Type="varchar" Nullable="true" MaxLength="5" />
+    <Property Name="BLABOR_PRIORIDAD" Type="varchar" Nullable="true" MaxLength="1" />
+    <Property Name="BLABOR_REHABILITACION" Type="varchar" Nullable="true" MaxLength="1" />
+    <Property Name="COBRAS_ID" Type="varchar" Nullable="true" MaxLength="6" />
+    <Property Name="CESTATUS_ID" Type="varchar" Nullable="true" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="MIN_TMINA">
+    <Key>
+      <PropertyRef Name="CMINA_ID" />
+    </Key>
+    <Property Name="CMINA_ID" Type="varchar" Nullable="false" MaxLength="6" />
+    <Property Name="CSISTEMA_ANTIGUO" Type="varchar" Nullable="true" MaxLength="20" />
+    <Property Name="VMINA_DESCRIPCION" Type="varchar" Nullable="true" MaxLength="100" />
+    <Property Name="DFECHAINGRESO" Type="datetime" Nullable="true" />
+    <Property Name="CESTADO_ID" Type="varchar" Nullable="true" MaxLength="6" />
+    <Property Name="CUSUARIOINGRESO_ID" Type="varchar" Nullable="true" MaxLength="20" />
+    <Property Name="VPCINGRESO" Type="varchar" Nullable="true" MaxLength="20" />
+    <Property Name="CUSUARIOMODIFICA_ID" Type="varchar" Nullable="true" MaxLength="20" />
+    <Property Name="DFECHAMODIFICA" Type="datetime" Nullable="true" />
+    <Property Name="VPCMODIFICA" Type="varchar" Nullable="true" MaxLength="20" />
+    <Property Name="CESTATUS_ID" Type="varchar" Nullable="true" MaxLength="1" />
+    <Property Name="CZONA_ID" Type="varchar" Nullable="true" MaxLength="6" />
+    <Property Name="NFACTOR_HUMEDAD" Type="decimal" Nullable="true" Precision="8" Scale="4" />
+    <Property Name="BCLASIFICACION_PEC" Type="varchar" Nullable="true" MaxLength="1" />
+    <Property Name="NPORCENTAJE_PEC" Type="decimal" Nullable="true" Precision="6" Scale="2" />
+    <Property Name="CCODIGO_PROVEEDOR" Type="varchar" Nullable="true" MaxLength="10" />
+    <Property Name="CGRUPO_ID" Type="varchar" Nullable="true" MaxLength="3" />
+  </EntityType>
+  <EntityType Name="MIN_TNIVEL">
+    <Key>
+      <PropertyRef Name="CNIVEL_ID" />
+    </Key>
+    <Property Name="CNIVEL_ID" Type="varchar" Nullable="false" MaxLength="6" />
+    <Property Name="CSISTEMA_ANTIGUO" Type="varchar" Nullable="true" MaxLength="20" />
+    <Property Name="NNIVEL_DESCRIPCION" Type="varchar" Nullable="true" MaxLength="20" />
+    <Property Name="CESTADO_ID" Type="varchar" Nullable="true" MaxLength="6" />
+    <Property Name="CESTATUS_ID" Type="varchar" Nullable="true" MaxLength="1" />
+    <Property Name="CUSUARIOINGRESO_ID" Type="varchar" Nullable="true" MaxLength="20" />
+    <Property Name="DFECHAINGRESO" Type="datetime" Nullable="true" />
+    <Property Name="VPCINGRESO" Type="varchar" Nullable="true" MaxLength="20" />
+    <Property Name="CUSUARIOMODIFICA_ID" Type="varchar" Nullable="true" MaxLength="20" />
+    <Property Name="DFECHAMODIFICA" Type="datetime" Nullable="true" />
+    <Property Name="VPCMODIFICA" Type="varchar" Nullable="true" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="MIN_TVETA">
+    <Key>
+      <PropertyRef Name="CVETA_ID" />
+    </Key>
+    <Property Name="CVETA_ID" Type="varchar" Nullable="false" MaxLength="6" />
+    <Property Name="CSISTEMA_ANTIGUO" Type="varchar" Nullable="true" MaxLength="20" />
+    <Property Name="CESTRUCTURA_ID" Type="varchar" Nullable="true" MaxLength="6" />
+    <Property Name="VVETA_DESCRIPCION" Type="varchar" Nullable="true" MaxLength="100" />
+    <Property Name="CESTADO_ID" Type="varchar" Nullable="true" MaxLength="6" />
+    <Property Name="CUSUARIOINGRESO_ID" Type="varchar" Nullable="true" MaxLength="20" />
+    <Property Name="DFECHAINGRESO" Type="datetime" Nullable="true" />
+    <Property Name="VPCINGRESO" Type="varchar" Nullable="true" MaxLength="20" />
+    <Property Name="CUSUARIOMODIFICA_ID" Type="varchar" Nullable="true" MaxLength="20" />
+    <Property Name="DFECHAMODIFICA" Type="datetime" Nullable="true" />
+    <Property Name="VPCMODIFICA" Type="varchar" Nullable="true" MaxLength="20" />
+    <Property Name="CESTATUS_ID" Type="varchar" Nullable="true" MaxLength="1" />
+    <Property Name="NVETA_DENSIDAD" Type="decimal" Nullable="true" Precision="10" Scale="2" />
+    <Property Name="CMINA_ID" Type="varchar" Nullable="true" MaxLength="6" />
+    <Property Name="CZONA_ID" Type="varchar" Nullable="true" MaxLength="6" />
+    <Property Name="CUNIDAD_ID" Type="varchar" Nullable="true" MaxLength="6" />
+    <Property Name="CVETA_NUEVA" Type="varchar" Nullable="true" MaxLength="6" />
+    <Property Name="CVETA_SIGTH" Type="varchar" Nullable="true" MaxLength="10" />
+    <Property Name="NVETA_DISTANCIAKM" Type="decimal" Nullable="true" Precision="10" Scale="2" />
+  </EntityType>
+  <EntityType Name="MIN_TZONA">
+    <Key>
+      <PropertyRef Name="CZONA_ID" />
+    </Key>
+    <Property Name="CZONA_ID" Type="varchar" Nullable="false" MaxLength="6" />
+    <Property Name="CSISTEMA_ANTIGUO" Type="varchar" Nullable="true" MaxLength="20" />
+    <Property Name="VZONA_DESCRIPCION" Type="varchar" Nullable="true" MaxLength="100" />
+    <Property Name="CESTADO_ID" Type="varchar" Nullable="true" MaxLength="6" />
+    <Property Name="CESTATUS_ID" Type="varchar" Nullable="true" MaxLength="1" />
+    <Property Name="CUSUARIOINGRESO_ID" Type="varchar" Nullable="true" MaxLength="20" />
+    <Property Name="DFECHAINGRESO" Type="datetime" Nullable="true" />
+    <Property Name="VPCINGRESO" Type="varchar" Nullable="true" MaxLength="20" />
+    <Property Name="CUSUARIOMODIFICA_ID" Type="varchar" Nullable="true" MaxLength="20" />
+    <Property Name="DFECHAMODIFICA" Type="datetime" Nullable="true" />
+    <Property Name="VPCMODIFICA" Type="varchar" Nullable="true" MaxLength="20" />
+    <Property Name="NZONA_ORDEN" Type="decimal" Nullable="true" Precision="10" Scale="2" />
+    <Property Name="CSARH_AREA" Type="varchar" Nullable="true" MaxLength="6" />
+  </EntityType>
+  <EntityType Name="MIN_USUARIOS_CONTRATAS">
+    <Key>
+      <PropertyRef Name="USUARIO_CODIGO" />
+    </Key>
+    <Property Name="USUARIO_CODIGO" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="USUARIO_NOMBRE" Type="varchar" Nullable="true" MaxLength="100" />
+    <Property Name="USUARIO_SISTEMA" Type="varchar" Nullable="true" MaxLength="20" />
+    <Property Name="COMPANIA_CODIGO" Type="varchar" Nullable="true" MaxLength="10" />
+    <Property Name="COMPANIA_NOMBRE" Type="varchar" Nullable="true" MaxLength="100" />
+    <Property Name="TIPO_CIA" Type="varchar" Nullable="true" MaxLength="10" />
+    <Property Name="TIPO_CIA_DES" Type="varchar" Nullable="true" MaxLength="20" />
+    <Property Name="AREA" Type="varchar" Nullable="true" MaxLength="10" />
+    <Property Name="AREA_NOMBRE" Type="varchar" Nullable="true" MaxLength="100" />
+    <Property Name="TIPO_USUARIO" Type="varchar" Nullable="true" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" Nullable="false" MaxLength="128" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" Nullable="true" />
+    <Property Name="definition" Type="varbinary(max)" Nullable="true" />
+  </EntityType>
+  <EntityType Name="TBLMENUSU">
+    <Key>
+      <PropertyRef Name="IDMENUSU" />
+    </Key>
+    <Property Name="IDMENUSU" Type="int" Nullable="false" />
+    <Property Name="IDUNICO" Type="int" Nullable="true" />
+    <Property Name="DESCRIPCION" Type="nvarchar" Nullable="true" MaxLength="150" />
+    <Property Name="IDROL" Type="nvarchar" Nullable="true" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="TBLMENUSUA">
+    <Key>
+      <PropertyRef Name="IDMENUSU" />
+    </Key>
+    <Property Name="IDMENUSU" Type="int" Nullable="false" />
+    <Property Name="IDUNICO" Type="int" Nullable="true" />
+    <Property Name="DESCRIPCION" Type="nvarchar" Nullable="true" MaxLength="150" />
+    <Property Name="IDROL" Type="nvarchar" Nullable="true" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="TBLUSUARIOS">
+    <Key>
+      <PropertyRef Name="IDUSU" />
+    </Key>
+    <Property Name="IDUSU" Type="smallint" Nullable="false" />
+    <Property Name="USUARIO" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="CLAVE" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="NOMBRE" Type="nvarchar" Nullable="true" MaxLength="150" />
+    <Property Name="ESTADO" Type="char" Nullable="true" MaxLength="2" />
+    <Property Name="USRCRE" Type="varchar" Nullable="true" MaxLength="20" />
+    <Property Name="FECCRE" Type="datetime" Nullable="true" />
+    <Property Name="USRMOD" Type="varchar" Nullable="true" MaxLength="20" />
+    <Property Name="FECMOD" Type="datetime" Nullable="true" />
+    <Property Name="IDROL" Type="smallint" Nullable="true" />
+  </EntityType>
+  <EntityType Name="tmpqaqc2">
+    <Key>
+      <PropertyRef Name="l451" />
+      <PropertyRef Name="l452" />
+    </Key>
+    <Property Name="l451" Type="int" Nullable="false" />
+    <Property Name="l452" Type="decimal" Nullable="false" Precision="10" Scale="2" />
+  </EntityType>
+  <EntityType Name="ge_v_labores">
+    <Key>
+      <PropertyRef Name="VLABOR_ID" />
+      <PropertyRef Name="mlabor" />
+    </Key>
+    <Property Name="VLABOR_ID" Type="varchar" Nullable="false" MaxLength="12" />
+    <Property Name="mlabor" Type="varchar" Nullable="false" MaxLength="226" />
+  </EntityType>
+  <EntityType Name="GE_V_LABORES_SUBTERRANEA">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NOMBRE" Type="varchar" Nullable="true" MaxLength="789" />
+    <Property Name="PROYECTO" Type="varchar" Nullable="true" MaxLength="500" />
+    <Property Name="NIVEL" Type="decimal" Nullable="true" Precision="18" Scale="2" />
+    <Property Name="TLABOR" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="CODIFICACION" Type="varchar" Nullable="true" MaxLength="200" />
+    <Property Name="DESCRIPCION" Type="varchar" Nullable="true" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="GE_V_LABORES_SUBTERRANEA_DETALLE">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NOMBRE" Type="varchar" Nullable="true" MaxLength="789" />
+    <Property Name="PROYECTO" Type="varchar" Nullable="true" MaxLength="500" />
+    <Property Name="NIVEL" Type="decimal" Nullable="true" Precision="18" Scale="2" />
+    <Property Name="TLABOR" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="CODIFICACION" Type="varchar" Nullable="true" MaxLength="200" />
+    <Property Name="DESCRIPCION" Type="varchar" Nullable="true" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="ge_v_menu">
+    <Key>
+      <PropertyRef Name="MENU" />
+    </Key>
+    <Property Name="MENU" Type="nvarchar" Nullable="false" MaxLength="150" />
+    <Property Name="DESCRIPCION" Type="nvarchar" Nullable="true" MaxLength="150" />
+  </EntityType>
+  <EntityType Name="ge_v_menu_user">
+    <Key>
+      <PropertyRef Name="MENU" />
+    </Key>
+    <Property Name="MENU" Type="nvarchar" Nullable="false" MaxLength="150" />
+    <Property Name="DESCRIPCION" Type="nvarchar" Nullable="true" MaxLength="150" />
+    <Property Name="usuario" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="clave" Type="varchar" Nullable="true" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="GE_V_TIPOCANAL">
+    <Key>
+      <PropertyRef Name="CODIGO" />
+      <PropertyRef Name="NOMBRE" />
+    </Key>
+    <Property Name="CODIGO" Type="varchar" Nullable="false" MaxLength="2" />
+    <Property Name="NOMBRE" Type="varchar" Nullable="false" MaxLength="13" />
+  </EntityType>
+  <EntityType Name="GE_V_TIPOMUESTREO">
+    <Key>
+      <PropertyRef Name="CODIGO" />
+      <PropertyRef Name="NOMBRE" />
+    </Key>
+    <Property Name="CODIGO" Type="varchar" Nullable="false" MaxLength="2" />
+    <Property Name="NOMBRE" Type="varchar" Nullable="false" MaxLength="11" />
+  </EntityType>
+  <EntityType Name="GE_V_TIPOMUESTREOEN">
+    <Key>
+      <PropertyRef Name="CODIGO" />
+      <PropertyRef Name="NOMBRE" />
+    </Key>
+    <Property Name="CODIGO" Type="varchar" Nullable="false" MaxLength="2" />
+    <Property Name="NOMBRE" Type="varchar" Nullable="false" MaxLength="11" />
+  </EntityType>
+  <EntityType Name="GE_V_TIPOQAQC">
+    <Key>
+      <PropertyRef Name="CODIGO" />
+      <PropertyRef Name="NOMBRE" />
+    </Key>
+    <Property Name="CODIGO" Type="varchar" Nullable="false" MaxLength="2" />
+    <Property Name="NOMBRE" Type="varchar" Nullable="false" MaxLength="14" />
+  </EntityType>
+  <EntityType Name="GE_V_TIPUBICACION">
+    <Key>
+      <PropertyRef Name="CODIGO" />
+      <PropertyRef Name="NOMBRE" />
+    </Key>
+    <Property Name="CODIGO" Type="varchar" Nullable="false" MaxLength="2" />
+    <Property Name="NOMBRE" Type="varchar" Nullable="false" MaxLength="9" />
+  </EntityType>
+  <EntityType Name="sig_v_grapro">
+    <Key>
+      <PropertyRef Name="aset" />
+    </Key>
+    <Property Name="aset" Type="varchar" Nullable="false" MaxLength="1" />
+    <Property Name="fecha" Type="char" Nullable="true" MaxLength="15" />
+    <Property Name="val" Type="decimal" Nullable="true" Precision="10" Scale="2" />
+  </EntityType>
+  <EntityType Name="vmuestrasqaqcl1">
+    <Key>
+      <PropertyRef Name="reporte" />
+      <PropertyRef Name="muestra_duplicada" />
+    </Key>
+    <Property Name="reporte" Type="varchar" Nullable="false" MaxLength="20" />
+    <Property Name="fecha_reporte" Type="datetime" Nullable="true" />
+    <Property Name="muestra_original" Type="varchar" Nullable="true" MaxLength="12" />
+    <Property Name="ley_original" Type="decimal" Nullable="true" Precision="38" Scale="3" />
+    <Property Name="muestra_duplicada" Type="varchar" Nullable="false" MaxLength="12" />
+    <Property Name="ley_duplicada" Type="decimal" Nullable="true" Precision="38" Scale="3" />
+    <Property Name="dif" Type="decimal" Nullable="true" Precision="38" Scale="3" />
+    <Property Name="porerror" Type="decimal" Nullable="true" Precision="38" Scale="6" />
+    <Property Name="revisar" Type="varchar" Nullable="true" MaxLength="14" />
+  </EntityType>
+  <Association Name="FK_MT_COMPANIA_UNIDAD">
+    <End Role="GE_MT_COMPANIA" Type="sigdatasdoModel.Store.GE_MT_COMPANIA" Multiplicity="1" />
+    <End Role="GE_MT_COMPANIA_UNIDAD" Type="sigdatasdoModel.Store.GE_MT_COMPANIA_UNIDAD" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GE_MT_COMPANIA">
+        <PropertyRef Name="COMPANIA" />
+      </Principal>
+      <Dependent Role="GE_MT_COMPANIA_UNIDAD">
+        <PropertyRef Name="COMPANIA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

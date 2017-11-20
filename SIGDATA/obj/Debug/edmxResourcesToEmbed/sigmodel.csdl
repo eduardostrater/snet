@@ -1,0 +1,1312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SIGDATAModel" Alias="Self" xmlns="http://schemas.microsoft.com/ado/2006/04/edm">
+  <EntityContainer Name="SIGDATAEntities">
+    <EntitySet Name="ge_rep_muestreo_detalle" EntityType="SIGDATAModel.ge_rep_muestreo_detalle" />
+    <EntitySet Name="TBLMENUSUA" EntityType="SIGDATAModel.TBLMENUSUA" />
+    <EntitySet Name="TBLUSUARIOS" EntityType="SIGDATAModel.TBLUSUARIOS" />
+    <EntitySet Name="GE_AUTORIAZACIONES_CODIGOS" EntityType="SIGDATAModel.GE_AUTORIAZACIONES_CODIGOS" />
+    <EntitySet Name="GE_BLENDING" EntityType="SIGDATAModel.GE_BLENDING" />
+    <EntitySet Name="GE_BLENDING_DETALLE" EntityType="SIGDATAModel.GE_BLENDING_DETALLE" />
+    <EntitySet Name="GE_BLENDING_RESULTADO" EntityType="SIGDATAModel.GE_BLENDING_RESULTADO" />
+    <EntitySet Name="GE_BLENDING_SALDOS" EntityType="SIGDATAModel.GE_BLENDING_SALDOS" />
+    <EntitySet Name="GE_CONTRATA_EQUIPOS" EntityType="SIGDATAModel.GE_CONTRATA_EQUIPOS" />
+    <EntitySet Name="GE_DOCUMENTO_MAIL" EntityType="SIGDATAModel.GE_DOCUMENTO_MAIL" />
+    <EntitySet Name="GE_DW_COLUMNAS" EntityType="SIGDATAModel.GE_DW_COLUMNAS" />
+    <EntitySet Name="GE_METODO_CASTIGO_LEY" EntityType="SIGDATAModel.GE_METODO_CASTIGO_LEY" />
+    <EntitySet Name="GE_METODO_CASTIGO_LEY_DET" EntityType="SIGDATAModel.GE_METODO_CASTIGO_LEY_DET" />
+    <EntitySet Name="GE_MODELO_ACTIVIDAD" EntityType="SIGDATAModel.GE_MODELO_ACTIVIDAD" />
+    <EntitySet Name="GE_MODELO_PROCESO" EntityType="SIGDATAModel.GE_MODELO_PROCESO" />
+    <EntitySet Name="GE_MODELO_SUBPROCESO" EntityType="SIGDATAModel.GE_MODELO_SUBPROCESO" />
+    <EntitySet Name="GE_MOVIMIENTOS_MINERAL" EntityType="SIGDATAModel.GE_MOVIMIENTOS_MINERAL" />
+    <EntitySet Name="GE_MT_COMPANIA" EntityType="SIGDATAModel.GE_MT_COMPANIA" />
+    <EntitySet Name="GE_MT_COMPANIA_UNIDAD" EntityType="SIGDATAModel.GE_MT_COMPANIA_UNIDAD" />
+    <EntitySet Name="GE_MT_LITOLOGIA" EntityType="SIGDATAModel.GE_MT_LITOLOGIA" />
+    <EntitySet Name="GE_MT_MINERALIZACION" EntityType="SIGDATAModel.GE_MT_MINERALIZACION" />
+    <EntitySet Name="GE_MT_TIPO_MUESTREO" EntityType="SIGDATAModel.GE_MT_TIPO_MUESTREO" />
+    <EntitySet Name="GE_MT_TRANSACCIONES" EntityType="SIGDATAModel.GE_MT_TRANSACCIONES" />
+    <EntitySet Name="GE_ORDEN_TRABAJO_LAB" EntityType="SIGDATAModel.GE_ORDEN_TRABAJO_LAB" />
+    <EntitySet Name="GE_ORDEN_TRABAJO_LAB_DET" EntityType="SIGDATAModel.GE_ORDEN_TRABAJO_LAB_DET" />
+    <EntitySet Name="GE_PARAMETROS" EntityType="SIGDATAModel.GE_PARAMETROS" />
+    <EntitySet Name="GE_PERIODO_BALANCE1" EntityType="SIGDATAModel.GE_PERIODO_BALANCE1" />
+    <EntitySet Name="GE_PERIODOS" EntityType="SIGDATAModel.GE_PERIODOS" />
+    <EntitySet Name="GE_POLIGONO_CAB" EntityType="SIGDATAModel.GE_POLIGONO_CAB" />
+    <EntitySet Name="GE_PROGRAMA_MUESTREO" EntityType="SIGDATAModel.GE_PROGRAMA_MUESTREO" />
+    <EntitySet Name="GE_PROGRAMA_MUESTREO_PERSONAL" EntityType="SIGDATAModel.GE_PROGRAMA_MUESTREO_PERSONAL" />
+    <EntitySet Name="GE_PROYECTO_PRF" EntityType="SIGDATAModel.GE_PROYECTO_PRF" />
+    <EntitySet Name="GE_RECURSOS_AREA" EntityType="SIGDATAModel.GE_RECURSOS_AREA" />
+    <EntitySet Name="GE_RECURSOS_AREA_MOVIMIENTOS" EntityType="SIGDATAModel.GE_RECURSOS_AREA_MOVIMIENTOS" />
+    <EntitySet Name="GE_RECURSOS_AREA_PERIODO" EntityType="SIGDATAModel.GE_RECURSOS_AREA_PERIODO" />
+    <EntitySet Name="GE_RECURSOS_CATEGORIA_CAMBIO" EntityType="SIGDATAModel.GE_RECURSOS_CATEGORIA_CAMBIO" />
+    <EntitySet Name="GE_RECURSOS_CLASIFICACION" EntityType="SIGDATAModel.GE_RECURSOS_CLASIFICACION" />
+    <EntitySet Name="GE_RECURSOS_LEVANTAMIENTO_TOPO" EntityType="SIGDATAModel.GE_RECURSOS_LEVANTAMIENTO_TOPO" />
+    <EntitySet Name="GE_RECURSOS_PILAS" EntityType="SIGDATAModel.GE_RECURSOS_PILAS" />
+    <EntitySet Name="GE_RECURSOS_TRANSACCIONES" EntityType="SIGDATAModel.GE_RECURSOS_TRANSACCIONES" />
+    <EntitySet Name="GE_REGISTRO_POLIGONO" EntityType="SIGDATAModel.GE_REGISTRO_POLIGONO" />
+    <EntitySet Name="GE_REP_BALANZA" EntityType="SIGDATAModel.GE_REP_BALANZA" />
+    <EntitySet Name="GE_REPORTE_LABORATORIO" EntityType="SIGDATAModel.GE_REPORTE_LABORATORIO" />
+    <EntitySet Name="GE_REPORTE_MUESTREO" EntityType="SIGDATAModel.GE_REPORTE_MUESTREO" />
+    <EntitySet Name="GE_REPORTE_MUESTREO_DETALLE" EntityType="SIGDATAModel.GE_REPORTE_MUESTREO_DETALLE" />
+    <EntitySet Name="GE_REPORTE_MUESTREO_DETALLE1" EntityType="SIGDATAModel.GE_REPORTE_MUESTREO_DETALLE1" />
+    <EntitySet Name="GE_REPORTE_MUESTREO_LABORATO" EntityType="SIGDATAModel.GE_REPORTE_MUESTREO_LABORATO" />
+    <EntitySet Name="GE_REPORTE_PRF" EntityType="SIGDATAModel.GE_REPORTE_PRF" />
+    <EntitySet Name="GE_REPORTE_PRF_DETALLE" EntityType="SIGDATAModel.GE_REPORTE_PRF_DETALLE" />
+    <EntitySet Name="GE_REPORTE_PRF_DETALLE_MUESTRA" EntityType="SIGDATAModel.GE_REPORTE_PRF_DETALLE_MUESTRA" />
+    <EntitySet Name="GE_REPORTE_TOPOGRAFICO" EntityType="SIGDATAModel.GE_REPORTE_TOPOGRAFICO" />
+    <EntitySet Name="GE_SEGURIDAD_USUARIOS" EntityType="SIGDATAModel.GE_SEGURIDAD_USUARIOS" />
+    <EntitySet Name="GE_TMP_TRANSPORTE" EntityType="SIGDATAModel.GE_TMP_TRANSPORTE" />
+    <EntitySet Name="GE_VALGRA_PRO" EntityType="SIGDATAModel.GE_VALGRA_PRO" />
+    <EntitySet Name="GE_VALPRO" EntityType="SIGDATAModel.GE_VALPRO" />
+    <EntitySet Name="MIN_MLABOR" EntityType="SIGDATAModel.MIN_MLABOR" />
+    <EntitySet Name="MIN_TMINA" EntityType="SIGDATAModel.MIN_TMINA" />
+    <EntitySet Name="MIN_TNIVEL" EntityType="SIGDATAModel.MIN_TNIVEL" />
+    <EntitySet Name="MIN_TVETA" EntityType="SIGDATAModel.MIN_TVETA" />
+    <EntitySet Name="MIN_TZONA" EntityType="SIGDATAModel.MIN_TZONA" />
+    <AssociationSet Name="FK_MT_COMPANIA_UNIDAD" Association="SIGDATAModel.FK_MT_COMPANIA_UNIDAD">
+      <End Role="GE_MT_COMPANIA" EntitySet="GE_MT_COMPANIA" />
+      <End Role="GE_MT_COMPANIA_UNIDAD" EntitySet="GE_MT_COMPANIA_UNIDAD" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="ge_rep_muestreo_detalle">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int64" Name="ID" Nullable="false" />
+    <Property Type="String" Name="MUESTRA" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Type="String" Name="X" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Type="String" Name="Y" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Type="String" Name="Z" MaxLength="10" FixedLength="true" Unicode="true" />
+  </EntityType>
+  <EntityType Name="TBLMENUSUA">
+    <Key>
+      <PropertyRef Name="IDMENUSU" />
+    </Key>
+    <Property Type="Int32" Name="IDMENUSU" Nullable="false" />
+    <Property Type="Int32" Name="IDUNICO" />
+    <Property Type="String" Name="DESCRIPCION" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="IDROL" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="TBLUSUARIOS">
+    <Key>
+      <PropertyRef Name="IDUSU" />
+    </Key>
+    <Property Type="Int16" Name="IDUSU" Nullable="false" />
+    <Property Type="String" Name="USUARIO" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CLAVE" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="NOMBRE" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ESTADO" MaxLength="2" FixedLength="true" Unicode="false" />
+    <Property Type="String" Name="USRCRE" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="FECCRE" />
+    <Property Type="String" Name="USRMOD" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="FECMOD" />
+    <Property Type="Int16" Name="IDROL" />
+  </EntityType>
+  <EntityType Name="GE_AUTORIAZACIONES_CODIGOS">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+      <PropertyRef Name="CODIGO" />
+    </Key>
+    <Property Type="String" Name="COMPANIA" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="UNIDAD" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CODIGO" Nullable="false" MaxLength="11" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="TIPO" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PROCESO" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="SUBPROCESO" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ACTIVIDAD" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="USUARIOMODIFICO" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="FECHAMODIFICO" />
+    <Property Type="DateTime" Name="VENCE" />
+    <Property Type="String" Name="USUARIOUTILIZO" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="FECHAUTILIZO" />
+  </EntityType>
+  <EntityType Name="GE_BLENDING">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+      <PropertyRef Name="PERIODO" />
+      <PropertyRef Name="BLENDING" />
+    </Key>
+    <Property Type="String" Name="COMPANIA" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="UNIDAD" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PERIODO" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="Double" Name="BLENDING" Nullable="false" />
+    <Property Type="DateTime" Name="FECHA" />
+    <Property Type="String" Name="TURNO" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ORE_CONTROL" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="SUPERVISOR" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Type="Decimal" Name="TMH_PROGRAMADO" Precision="38" Scale="2" />
+    <Property Type="Decimal" Name="LEY_PROGRAMADA" Precision="38" Scale="2" />
+    <Property Type="String" Name="CREADOPOR" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="CREADOEL" />
+    <Property Type="String" Name="ESTADO" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="Decimal" Name="TMH_TOLVA" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="TMH_SALDO" Precision="18" Scale="2" />
+    <Property Type="String" Name="PRIORIDAD" MaxLength="40" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="GE_BLENDING_DETALLE">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+      <PropertyRef Name="PERIODO" />
+      <PropertyRef Name="BLENDING" />
+      <PropertyRef Name="SECTOR" />
+      <PropertyRef Name="AREA" />
+      <PropertyRef Name="POLIGONO" />
+      <PropertyRef Name="CARGA" />
+    </Key>
+    <Property Type="String" Name="COMPANIA" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="UNIDAD" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PERIODO" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="Double" Name="BLENDING" Nullable="false" />
+    <Property Type="String" Name="SECTOR" Nullable="false" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="AREA" Nullable="false" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="POLIGONO" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="Double" Name="CARGA" Nullable="false" />
+    <Property Type="String" Name="CARGA_DETALLE" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CARGA_TIPO" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="Double" Name="TMH_PROGRAMADO" />
+    <Property Type="Double" Name="LEY_PROGRAMADO" />
+  </EntityType>
+  <EntityType Name="GE_BLENDING_RESULTADO">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+      <PropertyRef Name="PERIODO" />
+      <PropertyRef Name="FECHA_PROCESO" />
+    </Key>
+    <Property Type="String" Name="COMPANIA" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="UNIDAD" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PERIODO" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="FECHA_PROCESO" Nullable="false" />
+    <Property Type="String" Name="REPORTE" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="SUPERVISOR" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Type="Decimal" Name="TMH_PROCESADO" Precision="38" Scale="2" />
+    <Property Type="Decimal" Name="LEY_CABEZA" Precision="38" Scale="2" />
+    <Property Type="Decimal" Name="FINOS" Precision="38" Scale="2" />
+    <Property Type="String" Name="CREADOPOR" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="CREADOEL" />
+  </EntityType>
+  <EntityType Name="GE_BLENDING_SALDOS">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+      <PropertyRef Name="PERIODO" />
+      <PropertyRef Name="BLENDING" />
+      <PropertyRef Name="ORDEN" />
+    </Key>
+    <Property Type="String" Name="COMPANIA" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="UNIDAD" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PERIODO" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="Double" Name="BLENDING" Nullable="false" />
+    <Property Type="Decimal" Name="TMH_SALDO" Precision="38" Scale="2" />
+    <Property Type="Decimal" Name="LEY_SALDO" Precision="38" Scale="2" />
+    <Property Type="String" Name="CREADOPOR" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="CREADOEL" />
+    <Property Type="String" Name="SECTOR" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="AREA" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="POLIGONO" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="Double" Name="ORDEN" Nullable="false" />
+    <Property Type="String" Name="ESTADO" MaxLength="2" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="GE_CONTRATA_EQUIPOS">
+    <Key>
+      <PropertyRef Name="CONTRATA" />
+      <PropertyRef Name="CODIGO" />
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+    </Key>
+    <Property Type="String" Name="CONTRATA" Nullable="false" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CODIGO" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="MODELO" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="DESCRIPCION" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="SERIE_EQUIPO" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="COMPANIA" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="UNIDAD" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="GE_DOCUMENTO_MAIL">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+      <PropertyRef Name="TIPO_DOC" />
+      <PropertyRef Name="NUMERO" />
+    </Key>
+    <Property Type="String" Name="COMPANIA" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="UNIDAD" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="TIPO_DOC" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="NUMERO" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="FECHA" />
+    <Property Type="String" Name="USUARIO" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="Double" Name="NRO_ENVIOS" />
+  </EntityType>
+  <EntityType Name="GE_DW_COLUMNAS">
+    <Key>
+      <PropertyRef Name="USUARIO" />
+      <PropertyRef Name="FECHA" />
+      <PropertyRef Name="VENTANA" />
+      <PropertyRef Name="DATAWINDOW" />
+      <PropertyRef Name="COLUMNA" />
+    </Key>
+    <Property Type="String" Name="USUARIO" Nullable="false" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="FECHA" Nullable="false" />
+    <Property Type="String" Name="VENTANA" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="DATAWINDOW" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="COLUMNA" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ACTIVA" MaxLength="1" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="GE_METODO_CASTIGO_LEY">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+      <PropertyRef Name="METODO" />
+    </Key>
+    <Property Type="String" Name="COMPANIA" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="UNIDAD" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="Double" Name="METODO" Nullable="false" />
+    <Property Type="String" Name="DESCRIPCION" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="Decimal" Name="SALTO_ERRATICO" Precision="20" Scale="2" />
+    <Property Type="String" Name="DETALLE_METODO" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="TIPO" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="Double" Name="NUMERO_DESVIACIONES" />
+  </EntityType>
+  <EntityType Name="GE_METODO_CASTIGO_LEY_DET">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+      <PropertyRef Name="METODO" />
+      <PropertyRef Name="RANGO" />
+    </Key>
+    <Property Type="String" Name="COMPANIA" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="UNIDAD" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="Double" Name="METODO" Nullable="false" />
+    <Property Type="Double" Name="RANGO" Nullable="false" />
+    <Property Type="Decimal" Name="VALOR_DE_INI" Precision="10" Scale="2" />
+    <Property Type="Decimal" Name="VALOR_DE_FIN" Precision="10" Scale="2" />
+    <Property Type="Double" Name="NRO_DE" />
+  </EntityType>
+  <EntityType Name="GE_MODELO_ACTIVIDAD">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+      <PropertyRef Name="PROCESO" />
+      <PropertyRef Name="SUBPROCESO" />
+      <PropertyRef Name="ACTIVIDAD" />
+    </Key>
+    <Property Type="String" Name="COMPANIA" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="UNIDAD" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PROCESO" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="SUBPROCESO" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ACTIVIDAD" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="DESCRIPCION" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="W_OBJ" MaxLength="255" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="GE_MODELO_PROCESO">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+      <PropertyRef Name="PROCESO" />
+    </Key>
+    <Property Type="String" Name="COMPANIA" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="UNIDAD" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PROCESO" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="DESCRIPCION" MaxLength="255" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="GE_MODELO_SUBPROCESO">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+      <PropertyRef Name="PROCESO" />
+      <PropertyRef Name="SUBPROCESO" />
+    </Key>
+    <Property Type="String" Name="COMPANIA" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="UNIDAD" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PROCESO" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="SUBPROCESO" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="DESCRIPCION" MaxLength="255" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="GE_MOVIMIENTOS_MINERAL">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+      <PropertyRef Name="PERIODO" />
+      <PropertyRef Name="MOVIMIENTO" />
+    </Key>
+    <Property Type="String" Name="COMPANIA" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="UNIDAD" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PERIODO" Nullable="false" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Type="Double" Name="MOVIMIENTO" Nullable="false" />
+    <Property Type="DateTime" Name="FECHA" />
+    <Property Type="String" Name="LABOR_ORIGEN" MaxLength="12" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="LABOR_DESTINO" MaxLength="12" FixedLength="false" Unicode="false" />
+    <Property Type="Decimal" Name="TONELAJE" Precision="20" Scale="2" />
+    <Property Type="Decimal" Name="LEY" Precision="20" Scale="2" />
+    <Property Type="String" Name="SITUACION_MINERAL" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="TRANSACCION" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="FECHA_CUBICACION" />
+    <Property Type="DateTime" Name="MODIFICADOEL" />
+    <Property Type="String" Name="MODIFICADOPOR" MaxLength="30" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="GE_MT_COMPANIA">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+    </Key>
+    <Property Type="String" Name="COMPANIA" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="DESCRIPCION" MaxLength="40" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="GE_MT_COMPANIA_UNIDAD" Relationship="SIGDATAModel.FK_MT_COMPANIA_UNIDAD" FromRole="GE_MT_COMPANIA" ToRole="GE_MT_COMPANIA_UNIDAD" />
+  </EntityType>
+  <EntityType Name="GE_MT_COMPANIA_UNIDAD">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+    </Key>
+    <Property Type="String" Name="COMPANIA" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="UNIDAD" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="DESCRIPCION" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="GE_MT_COMPANIA" Relationship="SIGDATAModel.FK_MT_COMPANIA_UNIDAD" FromRole="GE_MT_COMPANIA_UNIDAD" ToRole="GE_MT_COMPANIA" />
+  </EntityType>
+  <EntityType Name="GE_MT_LITOLOGIA">
+    <Key>
+      <PropertyRef Name="LITOLOGIA" />
+    </Key>
+    <Property Type="Double" Name="LITOLOGIA" Nullable="false" />
+    <Property Type="String" Name="DESCRIPCION" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="LIT_ABR" MaxLength="5" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="GE_MT_MINERALIZACION">
+    <Key>
+      <PropertyRef Name="MINERALIZACION" />
+    </Key>
+    <Property Type="Double" Name="MINERALIZACION" Nullable="false" />
+    <Property Type="String" Name="DESCRIPCION" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="MIN_ABR" MaxLength="5" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="GE_MT_TIPO_MUESTREO">
+    <Key>
+      <PropertyRef Name="TIPO" />
+    </Key>
+    <Property Type="String" Name="NOMBRE" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="DESCRIPCION" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PREFIJO_MUESTRA" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ESTADO" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="TIPO" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="GE_MT_TRANSACCIONES">
+    <Key>
+      <PropertyRef Name="TRANSACCION" />
+    </Key>
+    <Property Type="String" Name="TRANSACCION" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="DESCRIPCION" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="TIPO" MaxLength="1" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="GE_ORDEN_TRABAJO_LAB">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+      <PropertyRef Name="ORDEN" />
+    </Key>
+    <Property Type="String" Name="COMPANIA" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="UNIDAD" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ORDEN" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="FECHA_ORDEN" />
+    <Property Type="DateTime" Name="FECHA_LABORATORIO" />
+    <Property Type="String" Name="RESPOBSABLE_ENTREGA" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="OBSERVACION" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="MODIFICADOPOR" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="MODIFICADOEL" />
+  </EntityType>
+  <EntityType Name="GE_ORDEN_TRABAJO_LAB_DET">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+      <PropertyRef Name="ORDEN" />
+      <PropertyRef Name="MUESTRA" />
+    </Key>
+    <Property Type="String" Name="COMPANIA" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="UNIDAD" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ORDEN" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="MUESTRA" Nullable="false" MaxLength="12" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="OBSERVACION" MaxLength="255" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="GE_PARAMETROS">
+    <Key>
+      <PropertyRef Name="PARAMETRO" />
+    </Key>
+    <Property Type="String" Name="PARAMETRO" Nullable="false" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="DESCRIPCION" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="DETALLE" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="COMPANIA" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="UNIDAD" MaxLength="10" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="GE_PERIODO_BALANCE1">
+    <Key>
+      <PropertyRef Name="PERIODO" />
+      <PropertyRef Name="MINA_ORIGEN" />
+      <PropertyRef Name="AREA_ORIGEN" />
+      <PropertyRef Name="CATEGORIA" />
+      <PropertyRef Name="CORTE" />
+      <PropertyRef Name="MES" />
+    </Key>
+    <Property Type="String" Name="PERIODO" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="MINA_ORIGEN" Nullable="false" MaxLength="400" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="AREA_ORIGEN" Nullable="false" MaxLength="400" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CATEGORIA" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="Decimal" Name="TMH" Precision="15" Scale="2" />
+    <Property Type="Decimal" Name="AUGT" Precision="15" Scale="2" />
+    <Property Type="String" Name="ESTADO" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="Decimal" Name="CORTE" Nullable="false" Precision="3" Scale="0" />
+    <Property Type="String" Name="MES" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="Decimal" Name="GAN_TMH" Precision="15" Scale="2" />
+    <Property Type="Decimal" Name="PER_TMH" Precision="15" Scale="2" />
+    <Property Type="Decimal" Name="GAN_LEY" Precision="15" Scale="2" />
+    <Property Type="Decimal" Name="PER_LEY" Precision="15" Scale="2" />
+    <Property Type="String" Name="FECCRE" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="USRCRE" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="Decimal" Name="CERRADO" Precision="2" Scale="0" />
+    <Property Type="Decimal" Name="IND_TMH" Precision="15" Scale="2" />
+    <Property Type="Decimal" Name="IND_LEY" Precision="15" Scale="2" />
+    <Property Type="String" Name="SELECCION" MaxLength="400" FixedLength="false" Unicode="false" />
+    <Property Type="Decimal" Name="VISIBLE" Precision="2" Scale="0" />
+  </EntityType>
+  <EntityType Name="GE_PERIODOS">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+      <PropertyRef Name="PERIODO" />
+      <PropertyRef Name="MES" />
+    </Key>
+    <Property Type="String" Name="COMPANIA" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="UNIDAD" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="Decimal" Name="PERIODO" Nullable="false" Precision="4" Scale="0" />
+    <Property Type="Decimal" Name="MES" Nullable="false" Precision="2" Scale="0" />
+    <Property Type="DateTime" Name="DESDE" />
+    <Property Type="DateTime" Name="HASTA" />
+  </EntityType>
+  <EntityType Name="GE_POLIGONO_CAB">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+      <PropertyRef Name="POLIGONO" />
+    </Key>
+    <Property Type="String" Name="COMPANIA" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="UNIDAD" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="POLIGONO" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="REFERENCIA" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="Double" Name="NRO_MUESTRAS" />
+    <Property Type="Decimal" Name="MEDIA_LAB" Precision="38" Scale="3" />
+    <Property Type="Decimal" Name="MEDIA_GEO" Precision="38" Scale="3" />
+    <Property Type="Decimal" Name="DESVIACION_ESTANDAR" Precision="38" Scale="3" />
+    <Property Type="Decimal" Name="ALTO_ERRATICO" Precision="38" Scale="3" />
+    <Property Type="Double" Name="ALTOS_ERRATICOS" />
+    <Property Type="String" Name="LABOR" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="Double" Name="METODO" />
+    <Property Type="DateTime" Name="FECHACREA" />
+    <Property Type="String" Name="USUARIOCREA" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ESTADO" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="Decimal" Name="AREA" Precision="38" Scale="2" />
+    <Property Type="Decimal" Name="DENSIDAD" Precision="38" Scale="2" />
+    <Property Type="Decimal" Name="POTENCIA" Precision="38" Scale="2" />
+    <Property Type="Decimal" Name="TONELAJE" Precision="38" Scale="2" />
+    <Property Type="Decimal" Name="TONELAJE_PESADO" Precision="38" Scale="2" />
+    <Property Type="DateTime" Name="FECHACR" />
+    <Property Type="String" Name="USUARIOCR" MaxLength="30" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="GE_PROGRAMA_MUESTREO">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+      <PropertyRef Name="PROGRAMA" />
+      <PropertyRef Name="TURNO" />
+    </Key>
+    <Property Type="String" Name="COMPANIA" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="UNIDAD" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PROGRAMA" Nullable="false" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="OBSERVACION" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="FECHA" />
+    <Property Type="String" Name="MODIFICADOPOR" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="MODIFICADOEL" />
+    <Property Type="String" Name="TURNO" Nullable="false" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Type="Double" Name="MUESTRAS_OBJETIVO" />
+    <Property Type="Double" Name="MUESTRAS_REAL" />
+    <Property Type="String" Name="ESTADO" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="TIPO" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PROYECTO_CODIGO" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PROYECTO_DESCRIPCION" MaxLength="255" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="GE_PROGRAMA_MUESTREO_PERSONAL">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+      <PropertyRef Name="PROGRAMA" />
+      <PropertyRef Name="LABOR" />
+      <PropertyRef Name="PERSONAL" />
+    </Key>
+    <Property Type="String" Name="COMPANIA" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="UNIDAD" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PROGRAMA" Nullable="false" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="LABOR" Nullable="false" MaxLength="12" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PERSONAL" Nullable="false" MaxLength="30" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="GE_PROYECTO_PRF">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+      <PropertyRef Name="PROYECTO" />
+    </Key>
+    <Property Type="String" Name="COMPANIA" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="UNIDAD" Nullable="false" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PROYECTO" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="OBJETIVO" MaxLength="400" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="FECHA" />
+    <Property Type="String" Name="RESUMEN" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="FECHACREA" />
+    <Property Type="String" Name="USUARCREA" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="Decimal" Name="CORDENADAE" Precision="20" Scale="3" />
+    <Property Type="Decimal" Name="CORDENADAN" Precision="20" Scale="3" />
+    <Property Type="Decimal" Name="COTA" Precision="20" Scale="3" />
+    <Property Type="Decimal" Name="AZIMUT" Precision="20" Scale="3" />
+    <Property Type="Decimal" Name="INCLINACION" Precision="20" Scale="3" />
+  </EntityType>
+  <EntityType Name="GE_RECURSOS_AREA">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+      <PropertyRef Name="SECTOR" />
+      <PropertyRef Name="AREA" />
+      <PropertyRef Name="PERIODO" />
+    </Key>
+    <Property Type="String" Name="COMPANIA" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="UNIDAD" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="SECTOR" Nullable="false" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="AREA" Nullable="false" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="TIPO_AREA" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="SECTOR_PADRE" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="AREA_PADRE" MaxLength="7" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="TIPO_LEY" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="TIPO_MEDICION" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="DESTINO_BLENDING" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PERIODO" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="MODIFICADOEL" />
+    <Property Type="String" Name="MODIFICADOPOR" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="TIPO_BALANCE" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CATEGORIA" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="Decimal" Name="DENSIDAD" Precision="38" Scale="2" />
+    <Property Type="String" Name="TITULAR" MaxLength="2" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="GE_RECURSOS_AREA_MOVIMIENTOS">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+      <PropertyRef Name="SECTOR" />
+      <PropertyRef Name="AREA" />
+      <PropertyRef Name="PERIODO" />
+      <PropertyRef Name="MOVIMIENTO" />
+    </Key>
+    <Property Type="String" Name="COMPANIA" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="UNIDAD" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="SECTOR" Nullable="false" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="AREA" Nullable="false" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PERIODO" Nullable="false" MaxLength="8" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="FECHA_MOV" />
+    <Property Type="String" Name="TRANSACCION" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Type="Decimal" Name="TONELAJE" Precision="38" Scale="2" />
+    <Property Type="String" Name="SECTOR_ORIGEN" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="AREA_ORIGEN" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="Decimal" Name="LEY" Precision="38" Scale="2" />
+    <Property Type="Double" Name="MOVIMIENTO" Nullable="false" />
+    <Property Type="Double" Name="MEDICION_TOPOGRAFIA_ID" />
+    <Property Type="Double" Name="MEDICION_MODELO_ID" />
+    <Property Type="String" Name="MEDICION_PESAJE_ID" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="POLIGONO" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="LABOR" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="Double" Name="BLENDING" />
+    <Property Type="String" Name="MIGRACION" MaxLength="30" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="GE_RECURSOS_AREA_PERIODO">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+      <PropertyRef Name="SECTOR" />
+      <PropertyRef Name="AREA" />
+      <PropertyRef Name="PERIODO" />
+      <PropertyRef Name="CORTE" />
+    </Key>
+    <Property Type="String" Name="COMPANIA" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="UNIDAD" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="SECTOR" Nullable="false" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="AREA" Nullable="false" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PERIODO" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="FECHA" />
+    <Property Type="Decimal" Name="RECURSO_MEDIDIO" Precision="38" Scale="2" />
+    <Property Type="Decimal" Name="RECURSO_INDICADO" Precision="38" Scale="2" />
+    <Property Type="Decimal" Name="RECURSO_INFERIDO" Precision="38" Scale="2" />
+    <Property Type="String" Name="CORTE" Nullable="false" MaxLength="6" FixedLength="false" Unicode="true" />
+    <Property Type="Decimal" Name="LEY_MEDIDO" Precision="38" Scale="2" />
+    <Property Type="Decimal" Name="LEY_INDICADO" Precision="38" Scale="2" />
+    <Property Type="Decimal" Name="LEY_INFERIDO" Precision="38" Scale="2" />
+    <Property Type="Decimal" Name="CATOFF" Precision="38" Scale="2" />
+  </EntityType>
+  <EntityType Name="GE_RECURSOS_CATEGORIA_CAMBIO">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+      <PropertyRef Name="SECTOR" />
+      <PropertyRef Name="AREA" />
+      <PropertyRef Name="PERIODO" />
+      <PropertyRef Name="CORTE" />
+      <PropertyRef Name="MOVIMIENTO" />
+    </Key>
+    <Property Type="String" Name="COMPANIA" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="UNIDAD" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="SECTOR" Nullable="false" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="AREA" Nullable="false" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PERIODO" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CORTE" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="Double" Name="MOVIMIENTO" Nullable="false" />
+    <Property Type="String" Name="TRANSACCION" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="FECHA" />
+    <Property Type="Decimal" Name="TMH" Precision="38" Scale="2" />
+    <Property Type="Decimal" Name="LEY" Precision="38" Scale="2" />
+    <Property Type="String" Name="CREADOPOR" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="CREADOEL" />
+    <Property Type="String" Name="SUSTENTO" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="DETALLE_CAMBIO" MaxLength="2500" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="GE_RECURSOS_CLASIFICACION">
+    <Key>
+      <PropertyRef Name="CATEGORIA" />
+    </Key>
+    <Property Type="String" Name="CATEGORIA" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="DESCRIPCION" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="GE_RECURSOS_LEVANTAMIENTO_TOPO">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+      <PropertyRef Name="MEDICION" />
+    </Key>
+    <Property Type="String" Name="COMPANIA" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="UNIDAD" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="Double" Name="MEDICION" Nullable="false" />
+    <Property Type="String" Name="PERIODO" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="FECHA" />
+    <Property Type="String" Name="SECTOR" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="AREA" MaxLength="7" FixedLength="false" Unicode="false" />
+    <Property Type="Decimal" Name="LEY" Precision="38" Scale="2" />
+    <Property Type="Decimal" Name="METROS_CUBICOS" Precision="38" Scale="2" />
+    <Property Type="Decimal" Name="DENSIDAD" Precision="38" Scale="2" />
+    <Property Type="String" Name="CONTRATA" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="TOPOGRAFO" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="OBSERVACION" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="Decimal" Name="PESO_TMH" Precision="38" Scale="2" />
+    <Property Type="String" Name="GENERA_MOVIMIENTO" MaxLength="1" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="GE_RECURSOS_PILAS">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+      <PropertyRef Name="PILA" />
+    </Key>
+    <Property Type="String" Name="COMPANIA" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="UNIDAD" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PILA" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="SECTOR" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="AREA" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="POLIGONO" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Type="Decimal" Name="LEY" Precision="38" Scale="2" />
+    <Property Type="Decimal" Name="TONELAJE_SALDO" Precision="38" Scale="2" />
+    <Property Type="String" Name="ESTADO" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CUADRICULA" MaxLength="10" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="GE_RECURSOS_TRANSACCIONES">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+      <PropertyRef Name="TRANSACCION" />
+    </Key>
+    <Property Type="String" Name="COMPANIA" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="UNIDAD" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="TRANSACCION" Nullable="false" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="DESCRIPCION" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="SUSTENTO" MaxLength="1500" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="SECTOR_DESTINO" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="AREA_DESTINO" MaxLength="7" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="TIPO_OPERACION" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="TIPO_AREA" MaxLength="3" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="GE_REGISTRO_POLIGONO">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+      <PropertyRef Name="POLIGONO" />
+    </Key>
+    <Property Type="String" Name="COMPANIA" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="UNIDAD" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="POLIGONO" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="COMENTARIO" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="LABOR" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="Double" Name="METODO" />
+    <Property Type="Double" Name="NUMERO_MUESTRAS" />
+    <Property Type="Decimal" Name="MEDIA_PONDERADA_LAB" Precision="38" Scale="3" />
+    <Property Type="Decimal" Name="MEDIA_PONDERADA_GEO" Precision="38" Scale="3" />
+    <Property Type="Decimal" Name="DESVIACION_ESTANDAR" Precision="38" Scale="3" />
+    <Property Type="Decimal" Name="SALTO_ERRATICO_MAYOR_A" Precision="38" Scale="3" />
+    <Property Type="Decimal" Name="NUMERO_SALTOS_ERRATICOS" Precision="38" Scale="3" />
+    <Property Type="String" Name="USUARIOMODIFICO" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="FECHAMODIFICO" />
+  </EntityType>
+  <EntityType Name="GE_REP_BALANZA">
+    <Key>
+      <PropertyRef Name="CANO_ID" />
+      <PropertyRef Name="CMES_ID" />
+      <PropertyRef Name="CBALANZA_ITEM" />
+    </Key>
+    <Property Type="String" Name="CANO_ID" Nullable="false" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CMES_ID" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CBALANZA_ITEM" Nullable="false" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="DBALANZA_FECHA" />
+    <Property Type="String" Name="CACTIVOS_FIJOS_ID" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CACTIVOS_FIJOS_DESC" MaxLength="80" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CCARGA_ID" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="VCARGA_DESCRIPCION" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CTURNO_ID" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="VTURNO_NOMBRE" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CMINA_ID" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="VMINA_DESCRIPCION" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CVETA_ID" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="VVETA_DESCRIPCION" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="DFECHA_INICIAL" />
+    <Property Type="Decimal" Name="NTONELAJE_INICIAL" Precision="12" Scale="2" />
+    <Property Type="DateTime" Name="DFECHA_FINAL" />
+    <Property Type="Decimal" Name="NTONELAJE_FINAL" Precision="12" Scale="2" />
+    <Property Type="Decimal" Name="NPESO_NETO" Precision="12" Scale="2" />
+    <Property Type="String" Name="CTOLVA_ID" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="VTOLVA_DESCRIPCION" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="COPERADOR_ID" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CCHOFER" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CUSUARIOMODIFICA_ID" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="POLIGONO" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="LABOR_ORIGEN" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="LABOR_DESTINO" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="TIPO_MINERAL" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="APILAR_EN" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="UBICACION_PILA" MaxLength="1" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="GE_REPORTE_LABORATORIO">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+      <PropertyRef Name="PROGRAMA" />
+      <PropertyRef Name="REPORTE" />
+    </Key>
+    <Property Type="String" Name="COMPANIA" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="UNIDAD" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PROGRAMA" Nullable="false" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Type="Double" Name="REPORTE" Nullable="false" />
+    <Property Type="String" Name="CONTRATA" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="REPORTA" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="SUPERVISOR" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="FECHA_REPORTE" />
+    <Property Type="String" Name="OBSERVACIONES" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ORDEN_TRABAJO" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="FECHA_RECEPCION_OT" />
+  </EntityType>
+  <EntityType Name="GE_REPORTE_MUESTREO">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+      <PropertyRef Name="PROGRAMA" />
+      <PropertyRef Name="REPORTE" />
+    </Key>
+    <Property Type="String" Name="COMPANIA" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="UNIDAD" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PROGRAMA" Nullable="false" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Type="Decimal" Name="REPORTE" Nullable="false" Precision="20" Scale="0" />
+    <Property Type="String" Name="REPORTA" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="SUPERVISOR" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="FECHA_REPORTE" />
+    <Property Type="String" Name="LABOR" MaxLength="12" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="OBSERVACION" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ORDEN_LABORATORIO" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="FECHA_ENTREGA" />
+    <Property Type="String" Name="RESPONSABLE_ENTREGA" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="Decimal" Name="MUESTRAS_ENTREGADAS" Precision="10" Scale="0" />
+  </EntityType>
+  <EntityType Name="GE_REPORTE_MUESTREO_DETALLE">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+      <PropertyRef Name="PROGRAMA" />
+      <PropertyRef Name="REPORTE" />
+      <PropertyRef Name="MUESTRA" />
+    </Key>
+    <Property Type="String" Name="COMPANIA" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="UNIDAD" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PROGRAMA" Nullable="false" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Type="Double" Name="REPORTE" Nullable="false" />
+    <Property Type="String" Name="MUESTRA" Nullable="false" MaxLength="12" FixedLength="false" Unicode="false" />
+    <Property Type="Decimal" Name="LONGITUD" Precision="12" Scale="2" />
+    <Property Type="String" Name="SISTEMA_MUESTREO" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="RESPONSABLE" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="OBSERVACION" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="TIPO_MUESTREO" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="Decimal" Name="AZIMUT" Precision="12" Scale="2" />
+    <Property Type="Decimal" Name="INCLINACION" Precision="12" Scale="2" />
+    <Property Type="String" Name="QAQC" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="Decimal" Name="TOPOGRAFIA_X" Precision="38" Scale="3" />
+    <Property Type="Decimal" Name="TOPOGRAFIA_Y" Precision="38" Scale="3" />
+    <Property Type="Decimal" Name="TOPOGRAFIA_Z" Precision="38" Scale="3" />
+    <Property Type="Double" Name="REPORTE_TOPOGRAFIA" />
+    <Property Type="Double" Name="REPORTE_LABORATORIO" />
+    <Property Type="Decimal" Name="LABORATORIO_LOCAL_LEY" Precision="38" Scale="3" />
+    <Property Type="Decimal" Name="LABORATORIO_LOCAL_HUMEDAD" Precision="38" Scale="3" />
+    <Property Type="Decimal" Name="LABORATORIO_EXT01_LEY" Precision="38" Scale="3" />
+    <Property Type="Decimal" Name="LABORATORIO_EXT01_HUMEDAD" Precision="38" Scale="3" />
+    <Property Type="Decimal" Name="LABORATORIO_EXT02_LEY" Precision="38" Scale="3" />
+    <Property Type="Decimal" Name="LABORATORIO_EXT02_HUMEDAD" Precision="38" Scale="3" />
+    <Property Type="String" Name="LITOLOGIA" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="MINERALIZACION" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="POLIGONO" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ORDEN_LABORATORIO" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="FECHA_ENTREGA" />
+    <Property Type="String" Name="RESPONSABLE_ENTREGA" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="AYUDANTE" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PROYECTO" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="MUESTRA_QAQC" MaxLength="12" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="LABORATORIO_APROBACION_FEC" />
+    <Property Type="String" Name="LABORATORIO_APROBACION_USU" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Type="Decimal" Name="LEY_GEOLOGIA" Precision="38" Scale="3" />
+    <Property Type="Double" Name="PILA" />
+    <Property Type="String" Name="POLIGONO_REFERENCIA" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="LABORATORIO_LEY_ESTADO" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="LABORATORIO_LEY_OBS" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="TITULAR" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="LABOR" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="SONDAJE" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="Decimal" Name="METRAJE_FROM" Precision="38" Scale="2" />
+    <Property Type="Decimal" Name="METRAJE_TO" Precision="38" Scale="2" />
+    <Property Type="String" Name="TIPO_CANAL" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="MUESTREO_EN" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="Double" Name="MANTO" />
+    <Property Type="String" Name="CALICATA" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Type="Decimal" Name="CC_ANCHO" Precision="38" Scale="2" />
+    <Property Type="Decimal" Name="CC_LARGO" Precision="38" Scale="2" />
+    <Property Type="String" Name="ZMUESTRA" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="LOGUEO" MaxLength="400" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="REFERENCIAM" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="GEMMUESTRA" MaxLength="12" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="RECMUESTRA" MaxLength="12" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="DUPMUESTRA" MaxLength="12" FixedLength="false" Unicode="false" />
+    <Property Type="Decimal" Name="LEYGEMMUESTRA" Precision="38" Scale="3" />
+    <Property Type="Decimal" Name="LEYRECMUESTRA" Precision="38" Scale="3" />
+    <Property Type="Decimal" Name="LEYDUPMUESTRA" Precision="38" Scale="3" />
+    <Property Type="String" Name="PRIORIDAD" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CLITOLOGIA" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CDLITOLOGIA" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CALTERACION" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CDALTERACION" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CESTRUCTURAS" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CDESTRUCTURAS" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CMINERALIZACION" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CDMINERALIZACION" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PULMUESTRA" MaxLength="12" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="GE_REPORTE_MUESTREO_DETALLE1">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+      <PropertyRef Name="PROGRAMA" />
+      <PropertyRef Name="REPORTE" />
+      <PropertyRef Name="MUESTRA" />
+    </Key>
+    <Property Type="String" Name="COMPANIA" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="UNIDAD" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PROGRAMA" Nullable="false" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Type="Double" Name="REPORTE" Nullable="false" />
+    <Property Type="String" Name="MUESTRA" Nullable="false" MaxLength="12" FixedLength="false" Unicode="false" />
+    <Property Type="Decimal" Name="LONGITUD" Precision="12" Scale="2" />
+    <Property Type="String" Name="SISTEMA_MUESTREO" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="RESPONSABLE" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="OBSERVACION" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="TIPO_MUESTREO" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="Decimal" Name="AZIMUT" Precision="12" Scale="2" />
+    <Property Type="Decimal" Name="INCLINACION" Precision="12" Scale="2" />
+    <Property Type="String" Name="QAQC" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="Decimal" Name="TOPOGRAFIA_X" Precision="38" Scale="3" />
+    <Property Type="Decimal" Name="TOPOGRAFIA_Y" Precision="38" Scale="3" />
+    <Property Type="Decimal" Name="TOPOGRAFIA_Z" Precision="38" Scale="3" />
+    <Property Type="Double" Name="REPORTE_TOPOGRAFIA" />
+    <Property Type="Double" Name="REPORTE_LABORATORIO" />
+    <Property Type="Decimal" Name="LABORATORIO_LOCAL_LEY" Precision="38" Scale="3" />
+    <Property Type="Decimal" Name="LABORATORIO_LOCAL_HUMEDAD" Precision="38" Scale="3" />
+    <Property Type="Decimal" Name="LABORATORIO_EXT01_LEY" Precision="38" Scale="3" />
+    <Property Type="Decimal" Name="LABORATORIO_EXT01_HUMEDAD" Precision="38" Scale="3" />
+    <Property Type="Decimal" Name="LABORATORIO_EXT02_LEY" Precision="38" Scale="3" />
+    <Property Type="Decimal" Name="LABORATORIO_EXT02_HUMEDAD" Precision="38" Scale="3" />
+    <Property Type="String" Name="LITOLOGIA" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="MINERALIZACION" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="POLIGONO" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ORDEN_LABORATORIO" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="FECHA_ENTREGA" />
+    <Property Type="String" Name="RESPONSABLE_ENTREGA" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="AYUDANTE" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PROYECTO" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="MUESTRA_QAQC" MaxLength="12" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="LABORATORIO_APROBACION_FEC" />
+    <Property Type="String" Name="LABORATORIO_APROBACION_USU" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Type="Decimal" Name="LEY_GEOLOGIA" Precision="38" Scale="3" />
+    <Property Type="Double" Name="PILA" />
+    <Property Type="String" Name="POLIGONO_REFERENCIA" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="LABORATORIO_LEY_ESTADO" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="LABORATORIO_LEY_OBS" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="TITULAR" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="LABOR" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="SONDAJE" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="Decimal" Name="METRAJE_FROM" Precision="38" Scale="2" />
+    <Property Type="Decimal" Name="METRAJE_TO" Precision="38" Scale="2" />
+    <Property Type="String" Name="TIPO_CANAL" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="MUESTREO_EN" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="Double" Name="MANTO" />
+    <Property Type="String" Name="CALICATA" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Type="Decimal" Name="CC_ANCHO" Precision="38" Scale="2" />
+    <Property Type="Decimal" Name="CC_LARGO" Precision="38" Scale="2" />
+    <Property Type="String" Name="ZMUESTRA" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="LOGUEO" MaxLength="400" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="REFERENCIAM" MaxLength="500" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="GE_REPORTE_MUESTREO_LABORATO">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+      <PropertyRef Name="PROGRAMA" />
+      <PropertyRef Name="REPORTE" />
+      <PropertyRef Name="MUESTRA" />
+    </Key>
+    <Property Type="String" Name="COMPANIA" Nullable="false" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="UNIDAD" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PROGRAMA" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="Double" Name="REPORTE" Nullable="false" />
+    <Property Type="String" Name="MUESTRA" Nullable="false" MaxLength="12" FixedLength="false" Unicode="false" />
+    <Property Type="Decimal" Name="LEY" Precision="12" Scale="2" />
+    <Property Type="String" Name="OBSERVACION" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PERSONAL_LABORATORIO" MaxLength="30" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="GE_REPORTE_PRF">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+      <PropertyRef Name="PROYECTO" />
+      <PropertyRef Name="SONDAJE" />
+    </Key>
+    <Property Type="String" Name="COMPANIA" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="UNIDAD" Nullable="false" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PROYECTO" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="REPORTA" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="SUPERVISOR" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="LABOR" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="FECHA" />
+    <Property Type="Decimal" Name="COORDENADAE" Precision="30" Scale="3" />
+    <Property Type="Decimal" Name="COORDENADAN" Precision="30" Scale="3" />
+    <Property Type="Decimal" Name="COTA" Precision="30" Scale="3" />
+    <Property Type="Decimal" Name="AZIMUT" Precision="10" Scale="2" />
+    <Property Type="Decimal" Name="INCLINACION" Precision="10" Scale="2" />
+    <Property Type="String" Name="ARCHIVOPDF" MaxLength="400" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ESTADO" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CREADOPOR" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="FECHACREA" />
+    <Property Type="String" Name="MODIFIPOR" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="FECHAMOD" />
+    <Property Type="Decimal" Name="LONGTOTAL" Precision="10" Scale="3" />
+    <Property Type="String" Name="MAQUINA" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="SONDAJE" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="GE_REPORTE_PRF_DETALLE">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+      <PropertyRef Name="SONDAJE" />
+      <PropertyRef Name="METRAJE_FROM" />
+      <PropertyRef Name="METRAJE_TO" />
+    </Key>
+    <Property Type="String" Name="COMPANIA" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="UNIDAD" Nullable="false" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="SONDAJE" Nullable="false" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Type="Decimal" Name="METRAJE_FROM" Nullable="false" Precision="10" Scale="3" />
+    <Property Type="Decimal" Name="METRAJE_TO" Nullable="false" Precision="10" Scale="3" />
+    <Property Type="Decimal" Name="INTERVALO" Precision="10" Scale="3" />
+    <Property Type="String" Name="LOGUEO" MaxLength="2000" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="LITOLOGIA" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ALTERACION" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ESTRUCTURAS" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="MINERALIZACION" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PROYECTO" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ILITOLOGIA" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="IALTERACION" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="IESTRUCTURAS" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="IMINERALIZACION" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="Decimal" Name="CORR" Precision="10" Scale="0" />
+    <Property Type="Decimal" Name="RECUP" Precision="10" Scale="3" />
+    <Property Type="Decimal" Name="PRECUP" Precision="10" Scale="3" />
+    <Property Type="Decimal" Name="RQD" Precision="10" Scale="3" />
+    <Property Type="Decimal" Name="PRQD" Precision="10" Scale="3" />
+  </EntityType>
+  <EntityType Name="GE_REPORTE_PRF_DETALLE_MUESTRA">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+      <PropertyRef Name="SONDAJE" />
+    </Key>
+    <Property Type="String" Name="COMPANIA" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="UNIDAD" Nullable="false" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="SONDAJE" Nullable="false" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="MUESTRA" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="Decimal" Name="DESDE" Precision="10" Scale="3" />
+    <Property Type="Decimal" Name="HASTA" Precision="10" Scale="3" />
+    <Property Type="Decimal" Name="LEY" Precision="10" Scale="3" />
+    <Property Type="String" Name="LITOLOGIA" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ALTERACION" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ESTRUCTURAS" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="MINERALIZACION" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PROYECTO" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ILITOLOGIA" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="IALTERACION" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="IESTRUCTURAS" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="IMINERALZACION" MaxLength="20" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="GE_REPORTE_TOPOGRAFICO">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+      <PropertyRef Name="PROGRAMA" />
+      <PropertyRef Name="REPORTE" />
+    </Key>
+    <Property Type="String" Name="COMPANIA" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="UNIDAD" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PROGRAMA" Nullable="false" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Type="Double" Name="REPORTE" Nullable="false" />
+    <Property Type="String" Name="CONTRATA" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="REPORTA" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="SUPERVISOR" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="FECHA_REPORTE" />
+    <Property Type="String" Name="OBSERVACIONES" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="USUARIOMODIFICA" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="FECHAMODIFICA" />
+    <Property Type="String" Name="CODIGO_AUTORIZACION" MaxLength="11" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="GE_SEGURIDAD_USUARIOS">
+    <Key>
+      <PropertyRef Name="COMPANIA" />
+      <PropertyRef Name="UNIDAD" />
+      <PropertyRef Name="USUARIO" />
+      <PropertyRef Name="PROCESO" />
+      <PropertyRef Name="SUBPROCESO" />
+      <PropertyRef Name="ACTIVIDAD" />
+    </Key>
+    <Property Type="String" Name="COMPANIA" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="UNIDAD" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="USUARIO" Nullable="false" MaxLength="35" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PROCESO" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="SUBPROCESO" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ACTIVIDAD" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="GE_TMP_TRANSPORTE">
+    <Key>
+      <PropertyRef Name="CANO_ID" />
+      <PropertyRef Name="CMES_ID" />
+      <PropertyRef Name="CBALANZA_ITEM" />
+    </Key>
+    <Property Type="String" Name="CANO_ID" Nullable="false" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CMES_ID" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CBALANZA_ITEM" Nullable="false" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="DBALANZA_FECHA" />
+    <Property Type="String" Name="CACTIVOS_FIJOS_ID" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CACTIVOS_FIJOS_DESC" MaxLength="80" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CCARGA_ID" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="VCARGA_DESCRIPCION" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CTURNO_ID" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="VTURNO_NOMBRE" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CMINA_ID" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="VMINA_DESCRIPCION" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CVETA_ID" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="VVETA_DESCRIPCION" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="DFECHA_INICIAL" />
+    <Property Type="Decimal" Name="NTONELAJE_INICIAL" Precision="12" Scale="2" />
+    <Property Type="DateTime" Name="DFECHA_FINAL" />
+    <Property Type="Decimal" Name="NTONELAJE_FINAL" Precision="12" Scale="2" />
+    <Property Type="Decimal" Name="NPESO_NETO" Precision="12" Scale="2" />
+    <Property Type="String" Name="CTOLVA_ID" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="VTOLVA_DESCRIPCION" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="COPERADOR_ID" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CCHOFER" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CUSUARIOMODIFICA_ID" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="POLIGONO" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="LABOR_ORIGEN" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="LABOR_DESTINO" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="TIPO_MINERAL" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="APILAR_EN" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="UBICACION_PILA" MaxLength="1" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="GE_VALGRA_PRO">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Decimal" Name="ID" Nullable="false" Precision="6" Scale="0" />
+    <Property Type="DateTime" Name="FECHA" />
+    <Property Type="Decimal" Name="PROTMH" Precision="10" Scale="2" />
+    <Property Type="Decimal" Name="PROAUG" Precision="10" Scale="2" />
+    <Property Type="Decimal" Name="PROKGA" Precision="10" Scale="2" />
+    <Property Type="Decimal" Name="PRMTMH" Precision="10" Scale="2" />
+    <Property Type="Decimal" Name="PRMAUG" Precision="10" Scale="2" />
+    <Property Type="Decimal" Name="BLETMH" Precision="10" Scale="2" />
+    <Property Type="Decimal" Name="BLEAUG" Precision="10" Scale="2" />
+    <Property Type="Decimal" Name="PRPTMH" Precision="10" Scale="2" />
+    <Property Type="Decimal" Name="PRPAUG" Precision="10" Scale="2" />
+    <Property Type="Decimal" Name="PRPKAU" Precision="10" Scale="2" />
+    <Property Type="Decimal" Name="FPGTMH" Precision="10" Scale="2" />
+    <Property Type="Decimal" Name="FPGAUG" Precision="10" Scale="2" />
+  </EntityType>
+  <EntityType Name="GE_VALPRO">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Decimal" Name="ID" Nullable="false" Precision="20" Scale="0" />
+    <Property Type="DateTime" Name="FECHA" />
+    <Property Type="Decimal" Name="TMH_PROG" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="LCA_PROG" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="TMH_PROC" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="LCA_CALC" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="FPROG" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="FPROD" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="LEY_ANALIZADA" Precision="18" Scale="2" />
+  </EntityType>
+  <EntityType Name="MIN_MLABOR">
+    <Key>
+      <PropertyRef Name="VLABOR_ID" />
+    </Key>
+    <Property Type="String" Name="VLABOR_ID" Nullable="false" MaxLength="12" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CUNIDAD_ID" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CZONA_ID" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CMINA_ID" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CNIVEL_ID" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CVETA_ID" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="Decimal" Name="NLABOR_COORDENADAX" Precision="20" Scale="8" />
+    <Property Type="Decimal" Name="NLABOR_COORDENADAY" Precision="20" Scale="8" />
+    <Property Type="Decimal" Name="NLABOR_COORDENADAZ" Precision="20" Scale="8" />
+    <Property Type="String" Name="CFASE_ID" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CPROVEEDOR_ID" MaxLength="8" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CDIMENSION_ID" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="DLABOR_FECHAAPERTURA" />
+    <Property Type="String" Name="CTIPOROCA_ID" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CCR_ID" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CTIPOLABOR_ID" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="VLABOR_COMENTARIO" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CPISO_ID" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CESTADO_ID" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CSISTEMALABOR_ID" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CMETODOLABOR_ID" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CUSUARIOINGRESO_ID" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="DFECHAINGRESO" />
+    <Property Type="String" Name="VPCINGRESO" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CUSUARIOMODIFICA_ID" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="DFECHAMODIFICA" />
+    <Property Type="String" Name="VPCMODIFICA" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="Decimal" Name="NLABOR_ALTURA" Precision="10" Scale="2" />
+    <Property Type="Decimal" Name="NLABOR_ANCHO" Precision="10" Scale="2" />
+    <Property Type="String" Name="CTIPO_ID" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CESPECIAL_ID" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="BLABOR_PRIORIDAD" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="BLABOR_REHABILITACION" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="COBRAS_ID" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CESTATUS_ID" MaxLength="1" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="MIN_TMINA">
+    <Key>
+      <PropertyRef Name="CMINA_ID" />
+    </Key>
+    <Property Type="String" Name="CMINA_ID" Nullable="false" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CSISTEMA_ANTIGUO" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="VMINA_DESCRIPCION" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="DFECHAINGRESO" />
+    <Property Type="String" Name="CESTADO_ID" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CUSUARIOINGRESO_ID" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="VPCINGRESO" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CUSUARIOMODIFICA_ID" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="DFECHAMODIFICA" />
+    <Property Type="String" Name="VPCMODIFICA" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CESTATUS_ID" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CZONA_ID" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="Decimal" Name="NFACTOR_HUMEDAD" Precision="8" Scale="4" />
+    <Property Type="String" Name="BCLASIFICACION_PEC" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Type="Decimal" Name="NPORCENTAJE_PEC" Precision="6" Scale="2" />
+    <Property Type="String" Name="CCODIGO_PROVEEDOR" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CGRUPO_ID" MaxLength="3" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="MIN_TNIVEL">
+    <Key>
+      <PropertyRef Name="CNIVEL_ID" />
+    </Key>
+    <Property Type="String" Name="CNIVEL_ID" Nullable="false" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CSISTEMA_ANTIGUO" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="NNIVEL_DESCRIPCION" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CESTADO_ID" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CESTATUS_ID" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CUSUARIOINGRESO_ID" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="DFECHAINGRESO" />
+    <Property Type="String" Name="VPCINGRESO" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CUSUARIOMODIFICA_ID" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="DFECHAMODIFICA" />
+    <Property Type="String" Name="VPCMODIFICA" MaxLength="20" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="MIN_TVETA">
+    <Key>
+      <PropertyRef Name="CVETA_ID" />
+    </Key>
+    <Property Type="String" Name="CVETA_ID" Nullable="false" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CSISTEMA_ANTIGUO" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CESTRUCTURA_ID" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="VVETA_DESCRIPCION" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CESTADO_ID" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CUSUARIOINGRESO_ID" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="DFECHAINGRESO" />
+    <Property Type="String" Name="VPCINGRESO" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CUSUARIOMODIFICA_ID" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="DFECHAMODIFICA" />
+    <Property Type="String" Name="VPCMODIFICA" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CESTATUS_ID" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Type="Decimal" Name="NVETA_DENSIDAD" Precision="10" Scale="2" />
+    <Property Type="String" Name="CMINA_ID" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CZONA_ID" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CUNIDAD_ID" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CVETA_NUEVA" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CVETA_SIGTH" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="Decimal" Name="NVETA_DISTANCIAKM" Precision="10" Scale="2" />
+  </EntityType>
+  <EntityType Name="MIN_TZONA">
+    <Key>
+      <PropertyRef Name="CZONA_ID" />
+    </Key>
+    <Property Type="String" Name="CZONA_ID" Nullable="false" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CSISTEMA_ANTIGUO" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="VZONA_DESCRIPCION" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CESTADO_ID" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CESTATUS_ID" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CUSUARIOINGRESO_ID" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="DFECHAINGRESO" />
+    <Property Type="String" Name="VPCINGRESO" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CUSUARIOMODIFICA_ID" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="DFECHAMODIFICA" />
+    <Property Type="String" Name="VPCMODIFICA" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="Decimal" Name="NZONA_ORDEN" Precision="10" Scale="2" />
+    <Property Type="String" Name="CSARH_AREA" MaxLength="6" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <Association Name="FK_MT_COMPANIA_UNIDAD">
+    <End Type="SIGDATAModel.GE_MT_COMPANIA" Role="GE_MT_COMPANIA" Multiplicity="1" />
+    <End Type="SIGDATAModel.GE_MT_COMPANIA_UNIDAD" Role="GE_MT_COMPANIA_UNIDAD" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GE_MT_COMPANIA">
+        <PropertyRef Name="COMPANIA" />
+      </Principal>
+      <Dependent Role="GE_MT_COMPANIA_UNIDAD">
+        <PropertyRef Name="COMPANIA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

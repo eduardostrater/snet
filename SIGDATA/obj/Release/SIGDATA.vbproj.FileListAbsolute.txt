@@ -1,0 +1,9 @@
+C:\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGDATA\bin\Release\SIGDATA.dll.config
+C:\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGDATA\bin\Release\SIGDATA.dll
+C:\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGDATA\bin\Release\SIGDATA.pdb
+C:\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGDATA\bin\Release\SIGDATA.xml
+C:\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGDATA\obj\Release\SIGDATA.Resources.resources
+C:\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGDATA\obj\Release\SIGDATA.vbproj.GenerateResource.Cache
+C:\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGDATA\obj\Release\SIGDATA.dll
+C:\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGDATA\obj\Release\SIGDATA.xml
+C:\Users\CANDRE\Documents\Visual Studio 2010\Projects\SIG_NET\SIGDATA\obj\Release\SIGDATA.pdb

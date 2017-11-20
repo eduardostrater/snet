@@ -1,0 +1,657 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{136E161C-CF48-4560-A831-CD963FE7DE57}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>SIGVISTA.My.MyApplication</StartupObject>
+    <RootNamespace>SIGVISTA</RootNamespace>
+    <AssemblyName>SIGVISTA</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>SIGVISTA.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>SIGVISTA.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Charts.v11.2.Core, Version=11.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v11.2, Version=11.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.DemoReports.v11.2, Version=11.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Design.v11.2, Version=11.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.PivotGrid.v11.2.Core, Version=11.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v11.2.Core, Version=11.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v11.2.Core, Version=11.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.SpellChecker.v11.2.Core, Version=11.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v11.2, Version=11.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v11.2, Version=11.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v11.2, Version=11.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v11.2.UI, Version=11.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v11.2, Version=11.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v11.2.Design, Version=11.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v11.2, Version=11.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v11.2, Version=11.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraNavBar.v11.2, Version=11.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPivotGrid.v11.2, Version=11.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v11.2, Version=11.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v11.2.Design, Version=11.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v11.2, Version=11.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraScheduler.v11.2, Version=11.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraScheduler.v11.2.Core, Version=11.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraScheduler.v11.2.Extensions, Version=11.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraSpellChecker.v11.2, Version=11.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraTreeList.v11.2, Version=11.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="EnvDTE, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="EnvDTE80, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="dstqaqc.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dstqaqc.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dstqaqc1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dstqaqc1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Exploracion\frmadmmuestras.Designer.vb">
+      <DependentUpon>frmadmmuestras.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Exploracion\frmadmmuestras.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exploracion\frmpendienteOT.Designer.vb">
+      <DependentUpon>frmpendienteOT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Exploracion\frmpendienteOT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exploracion\frmperdia.Designer.vb">
+      <DependentUpon>frmperdia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Exploracion\frmperdia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exploracion\frmregdiaper.Designer.vb">
+      <DependentUpon>frmregdiaper.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Exploracion\frmregdiaper.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exploracion\frmregmuestreo.Designer.vb">
+      <DependentUpon>frmregmuestreo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Exploracion\frmregmuestreo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exploracion\frmrepmuestreo.Designer.vb">
+      <DependentUpon>frmrepmuestreo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Exploracion\frmrepmuestreo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frminicio.Designer.vb">
+      <DependentUpon>frminicio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frminicio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmlogin.Designer.vb">
+      <DependentUpon>frmlogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmlogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento\frmmtolab.Designer.vb">
+      <DependentUpon>frmmtolab.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento\frmmtolab.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento\frmmtouser.Designer.vb">
+      <DependentUpon>frmmtouser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento\frmmtouser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento\frmproyecto.Designer.vb">
+      <DependentUpon>frmproyecto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento\frmproyecto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modulo.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="userboton.Designer.vb">
+      <DependentUpon>userboton.vb</DependentUpon>
+    </Compile>
+    <Compile Include="userboton.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="useroperacion.Designer.vb">
+      <DependentUpon>useroperacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="useroperacion.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="usuarios.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Exploracion\frmadmmuestras.resx">
+      <DependentUpon>frmadmmuestras.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exploracion\frmpendienteOT.resx">
+      <DependentUpon>frmpendienteOT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exploracion\frmperdia.resx">
+      <DependentUpon>frmperdia.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exploracion\frmregdiaper.resx">
+      <DependentUpon>frmregdiaper.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exploracion\frmregmuestreo.resx">
+      <DependentUpon>frmregmuestreo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exploracion\frmrepmuestreo.resx">
+      <DependentUpon>frmrepmuestreo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frminicio.resx">
+      <DependentUpon>frminicio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmlogin.resx">
+      <DependentUpon>frmlogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimiento\frmmtolab.resx">
+      <DependentUpon>frmmtolab.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimiento\frmmtouser.resx">
+      <DependentUpon>frmmtouser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimiento\frmproyecto.resx">
+      <DependentUpon>frmproyecto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="userboton.resx">
+      <DependentUpon>userboton.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="useroperacion.resx">
+      <DependentUpon>useroperacion.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="dstqaqc.xsc">
+      <DependentUpon>dstqaqc.xsd</DependentUpon>
+    </None>
+    <None Include="dstqaqc.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dstqaqc.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dstqaqc.xss">
+      <DependentUpon>dstqaqc.xsd</DependentUpon>
+    </None>
+    <None Include="dstqaqc1.xsc">
+      <DependentUpon>dstqaqc1.xsd</DependentUpon>
+    </None>
+    <None Include="dstqaqc1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dstqaqc1.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dstqaqc1.xss">
+      <DependentUpon>dstqaqc1.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SIGLOGICA\SIGLOGICA.vbproj">
+      <Project>{A026642F-22EE-413A-9BE0-5558A1E8F003}</Project>
+      <Name>SIGLOGICA</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Iconos\iChat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\info.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\install.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\intel 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\intel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\iPhone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\keyboard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\library bookmarked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\lock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\minus white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\minus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\monitor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\moon 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\moon 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\movies alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\movies.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\music 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\music.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\new archive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\new doc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\new mail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\notebook.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\open alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\pause.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\Picture Cast.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\picture.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\play.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\Podcast.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\public.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\record.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\remove.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\rewind button white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\rewind button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\RSS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\RSS_alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\send.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\server.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\smiley sad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\smiley.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\splash green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\star.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\stop 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\stop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\stop_alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\sun 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\sun.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\terminal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\trash full.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\trash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\unarchive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\Universal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\unread mail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\up_alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\users.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\window.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\zoom in.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\zoom out.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\64 bit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\address books.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\advanced.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\applications.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\archive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\back_alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\burn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\calculator.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\cash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\color.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\Computer On.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\Computer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\copy doc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\Credit card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\delete archive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\Desktop 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\down_alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\Ekisho Deep Ocean HD1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\exclamation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\folder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\folder_smart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\forward all.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\forward button white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\forward button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\forward.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\forward_alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\GeneralPreferences.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\Globe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\Graphite Computer On.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\Graphite Desktop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\Graphite Globe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\heineken.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\help.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\au.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\xls-icono-7361-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\imga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\BANNER.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
